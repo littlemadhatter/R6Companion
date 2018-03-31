@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.zeuspalette.android.r6tab"
+        applicationId "com.jeevscode.android.r6companion"
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
