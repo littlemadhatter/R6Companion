@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Assault Rifle"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/assault"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_assault_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/assault_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Submachine Gun"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/submachine"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_submachine_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/submachine_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Machine Pistol"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/machine"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_machine_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/machine_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Shotgun"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/shotgun"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_shotgun_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/shotgun_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Light Machine Gun"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/lmg"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_lmg_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/lmg_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Pistol"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/pistol"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_pistol_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/pistol_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="DMR"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/dmr"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_dmr_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/dmr_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Sniper"
+                    android:textSize="@dimen/text_size_three" />
+
+                <ImageView
+                    android:id="@+id/sniper"
+                    android:layout_width="300dp"
+                    android:layout_height="111dp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/toggle_sniper_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="SHOW ALL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:id="@+id/sniper_list"
+                    android:padding="8dp"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

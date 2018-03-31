@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_attackers"
+            android:icon="@drawable/ic_attackers"
+            android:title="Attackers" />
+        <item
+            android:id="@+id/nav_drawer_defenders"
+            android:icon="@drawable/ic_defenders"
+            android:title="Defenders" />
+        <item
+            android:id="@+id/nav_drawer_units"
+            android:icon="@drawable/ic_units"
+            android:title="Operator Units" />
+        <item
+            android:id="@+id/nav_drawer_weapons"
+            android:icon="@drawable/ic_weapons"
+            android:title="Operator Weapons" />
+
+        <item
+            android:id="@+id/nav_drawer_speed"
+            android:icon="@drawable/ic_speed"
+            android:title="Operator Speed" />
+
+        <item
+            android:id="@+id/nav_drawer_cameras"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera Locations" />
+
+        <item
+            android:id="@+id/nav_drawer_maps"
+            android:icon="@drawable/ic_map"
+            android:title="Map Blueprints" />
+
+
+        <item
+            android:id="@+id/nav_drawer_random"
+            android:icon="@drawable/ic_random"
+            android:title="Random Operator" />
+
+        <item
+            android:id="@+id/nav_drawer_about"
+            android:icon="@drawable/ic_information"
+            android:title="About R6 Companion" />
+    </group>
+</menu>

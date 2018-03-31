@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/smoke"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Smoke"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mute"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mute"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/castle"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Castle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pulse"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Pulse"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/doc"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Doc"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/rook"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rook"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/kapkan"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kapkan"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/tachanka"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Tachanka"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jager"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jager"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bandit"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bandit"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/frost"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Frost"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/valkyrie"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Valkyrie"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/caveira"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Caveira"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/echo"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Echo"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mira"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mira"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lesion"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Lesion"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ela"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ela"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/vigil"
+                    android:layout_width="60dp"
+                    android:layout_height="57dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Vigil"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

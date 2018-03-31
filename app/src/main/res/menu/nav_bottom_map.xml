@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bottom_base"
+            android:icon="@drawable/ic_defenders"
+            android:title="B" />
+        <item
+            android:id="@+id/nav_bottom_one"
+            android:checked="true"
+            android:icon="@drawable/ic_defenders"
+            android:title="1" />
+
+        <item
+            android:id="@+id/nav_bottom_two"
+            android:icon="@drawable/ic_defenders"
+            android:title="2" />
+
+        <item
+            android:id="@+id/nav_bottom_three"
+            android:icon="@drawable/ic_defenders"
+            android:title="3" />
+
+        <item
+            android:id="@+id/nav_bottom_four"
+            android:icon="@drawable/ic_defenders"
+            android:title="4" />
+
+    </group>
+</menu>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/sledge"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sledge"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/thatcher"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thatcher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ash"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ash"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/thermite"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Thermite"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/twitch"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Twitch"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/montagne"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Montagne"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/glaz"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Glaz"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fuze"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Fuze"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/blitz"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blitz"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iq"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Iq"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/buck"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Buck"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/blackbeard"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Blackbeard"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/capitao"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Capitao"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hibana"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hibana"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jackal"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jackal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ying"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Ying"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/zofia"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Zofia"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/dokkaebi"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dokkaebi"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lion"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_marginRight="8dp"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Lion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/finka"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_five"
+                    android:layout_height="wrap_content"
+                    android:text="Finka"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

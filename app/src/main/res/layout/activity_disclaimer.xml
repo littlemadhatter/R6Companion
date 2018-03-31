@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_container_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Made with Love from India"
+                    android:textSize="@dimen/text_size_two" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Version"
+                    android:textSize="@dimen/text_size_two" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="1.0"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="60sp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="16dp"
+                    android:text="A Personal Note"
+                    android:textSize="@dimen/text_size_two" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="This app was developed by a player of Rainbow Six Siege and is in no way related to Ubisoft or their registered trademarks. The developer has no intend to infringe on any copyrights owned by Ubisoft. This project has been hosted open source in Github and can accessed from below link. Any and all contributions to improve the application are appreciated.\n\nThis app is meant to help newcomers and existing players to better understand the game and its core mechanics. This app is also meant to serve as personal companion for players and is not officially associated with Rainbow Six Siege or Ubisoft."
+                    android:textSize="@dimen/text_size_three" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Visit Ubisoft"
+                    android:textSize="@dimen/text_size_two" />
+
+                <ImageView
+                    android:id="@+id/ubisoft_link"
+                    android:layout_width="250dp"
+                    android:layout_height="99dp"
+                    android:layout_marginBottom="32dp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Access Github"
+                    android:textSize="@dimen/text_size_two" />
+
+                <ImageView
+                    android:id="@+id/github_link"
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_two"
+                    android:text="Credits"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:id="@+id/ubilink"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:text="Ubisoft"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_two" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanks to Ubisoft ,Without them this app would not be possible. Most images and data used here are from their website and in-game content."
+                    android:padding="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="@dimen/text_size_three"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:id="@+id/maplink"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:text="r6maps"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_two" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanks to www.r6maps.com for the detailed maps available there. Click above link to visit r6maps and see all the maps in higher details."
+                    android:padding="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:textSize="@dimen/text_size_three"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

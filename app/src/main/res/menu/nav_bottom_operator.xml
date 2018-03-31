@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bottom_info"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/nav_bottom_info" />
+        <item
+            android:id="@+id/nav_bottom_primary"
+            android:icon="@drawable/ic_primary"
+            android:title="@string/nav_bottom_primary" />
+        <item
+            android:id="@+id/nav_bottom_secondary"
+            android:icon="@drawable/ic_secondary"
+            android:title="@string/nav_bottom_secondary" />
+        <item
+            android:id="@+id/nav_bottom_gadget"
+            android:icon="@drawable/ic_gadget"
+            android:title="@string/nav_bottom_gadget" />
+    </group>
+</menu>
