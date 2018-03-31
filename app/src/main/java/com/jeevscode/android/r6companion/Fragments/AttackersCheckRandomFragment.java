@@ -17,9 +17,7 @@ import com.squareup.picasso.Picasso;
 import com.jeevscode.android.r6companion.Helpers.ZUtils;
 import com.jeevscode.android.r6companion.R;
 
-/**
- * Created by Jeeva on 27-02-2018.
- */
+
 
 public class AttackersCheckRandomFragment extends Fragment {
 
