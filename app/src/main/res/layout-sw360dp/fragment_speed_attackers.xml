@@ -13,11 +13,11 @@
         android:padding="8dp">
 
         <ImageView
+            android:id="@+id/three_speed"
             android:layout_width="200dp"
             android:layout_height="61dp"
             android:gravity="center"
             android:paddingBottom="0dp"
-            android:id="@+id/three_speed"
             android:textSize="@dimen/text_size_one" />
 
         <LinearLayout
@@ -125,11 +125,11 @@
 
 
         <ImageView
+            android:id="@+id/two_speed"
             android:layout_width="200dp"
             android:layout_height="61dp"
             android:layout_marginTop="32dp"
             android:gravity="center"
-            android:id="@+id/two_speed"
             android:paddingBottom="0dp"
             android:textSize="@dimen/text_size_one" />
 
@@ -190,14 +190,14 @@
                 <ImageView
                     android:id="@+id/thermite"
                     android:layout_width="70dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="66dp" />
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_marginRight="8dp"
+                    android:gravity="center"
                     android:text="Thermite"
                     android:textSize="@dimen/text_size_five" />
 
@@ -233,6 +233,28 @@
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/glaz"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Glaz"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -253,6 +275,17 @@
                     android:textSize="@dimen/text_size_five" />
 
             </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -276,17 +309,6 @@
             </LinearLayout>
 
 
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -295,14 +317,14 @@
                 <ImageView
                     android:id="@+id/blackbeard"
                     android:layout_width="70dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="66dp" />
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_marginRight="8dp"
+                    android:gravity="center"
                     android:text="Blackbeard"
                     android:textSize="@dimen/text_size_five" />
 
@@ -329,27 +351,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/ying"
-                    android:layout_marginRight="8dp"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_marginRight="8dp"
-                    android:text="Ying"
-                    android:textSize="@dimen/text_size_five" />
-
-            </LinearLayout>
-
 
         </LinearLayout>
 
@@ -359,6 +360,27 @@
             android:layout_marginTop="8dp"
             android:gravity="center"
             android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ying"
+                    android:layout_width="70dp"
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Ying"
+                    android:textSize="@dimen/text_size_five" />
+
+            </LinearLayout>
 
 
             <LinearLayout
@@ -403,6 +425,16 @@
 
             </LinearLayout>
 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -424,16 +456,6 @@
 
             </LinearLayout>
 
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -442,15 +464,15 @@
                 <ImageView
                     android:id="@+id/finka"
                     android:layout_width="70dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="66dp" />
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
                     android:gravity="center"
                     android:text="Finka"
-                    android:layout_marginRight="8dp"
                     android:textSize="@dimen/text_size_five" />
 
             </LinearLayout>
@@ -459,11 +481,11 @@
 
 
         <ImageView
+            android:id="@+id/one_speed"
             android:layout_width="200dp"
             android:layout_height="61dp"
             android:layout_marginTop="32dp"
             android:gravity="center"
-            android:id="@+id/one_speed"
             android:paddingBottom="0dp"
             android:textSize="@dimen/text_size_one" />
 
@@ -471,9 +493,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:layout_marginBottom="32dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -489,34 +511,14 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:gravity="center"
-                    android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
                     android:layout_height="wrap_content"
-                    android:text="Montagne"/>
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Montagne"
+                    android:textSize="@dimen/text_size_five" />
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/glaz"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
-                    android:layout_marginRight="8dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:gravity="center"
-                    android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="wrap_content"
-                    android:text="Glaz"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -526,16 +528,16 @@
                 <ImageView
                     android:id="@+id/fuze"
                     android:layout_width="70dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="66dp" />
+                    android:layout_height="66dp"
+                    android:layout_marginRight="8dp" />
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:gravity="center"
-                    android:layout_marginRight="8dp"
-                    android:textSize="@dimen/text_size_five"
                     android:layout_height="wrap_content"
-                    android:text="Fuze"/>
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Fuze"
+                    android:textSize="@dimen/text_size_five" />
 
             </LinearLayout>
 

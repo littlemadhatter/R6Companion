@@ -40,13 +40,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
-                    android:text="Made with Love from India"
-                    android:textSize="@dimen/text_size_two" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
                     android:text="Version"
                     android:textSize="@dimen/text_size_two" />
 
@@ -54,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingBottom="16dp"
-                    android:text="1.0"
+                    android:text="1.02"
                     android:textColor="@color/colorAccent"
                     android:textSize="60sp" />
 

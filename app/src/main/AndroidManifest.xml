@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jeevscode.android.r6companion">
+    package="com.zeuspalette.android.r6tab">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.jeevscode.android.r6companion.MainActivity"
+            android:name="com.zeuspalette.android.r6tab.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,55 +21,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.OperatorActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.OperatorActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.UnitOperatorActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.UnitOperatorActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.WeaponsListActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.WeaponsListActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.WeaponItemActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.WeaponItemActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.RandomActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.RandomActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.SpeedActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.SpeedActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.DisclaimerActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.DisclaimerActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.CameraActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.CameraActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.CameraLocationsActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.CameraLocationsActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.CameraZoomActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.CameraZoomActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.MapsActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.MapsActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.MapsLocationsActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.MapsLocationsActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.jeevscode.android.r6companion.Activities.RandomCheckActivity"
+            android:name="com.zeuspalette.android.r6tab.Activities.RandomCheckActivity"
             android:screenOrientation="portrait"></activity>
 
     </application>
