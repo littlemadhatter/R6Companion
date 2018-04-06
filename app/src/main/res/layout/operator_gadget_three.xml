@@ -312,6 +312,7 @@
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:layout_gravity="center_horizontal"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
@@ -329,7 +330,7 @@
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:paddingTop="16dp"
-                    android:text="Gadget Tips"
+                    android:text="Operator Tips"
                     android:textColor="@color/colorAccent"
                     android:textSize="@dimen/text_size_three" />
 
@@ -344,6 +345,127 @@
                     android:text="Placeholder text"
                     android:textColor="@color/colorWhiteTwo"
                     android:textSize="@dimen/text_size_three" />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Operator Combination"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_size_three" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gadget_combine"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Placeholder text"
+                    android:textColor="@color/colorWhiteTwo"
+                    android:textSize="@dimen/text_size_three" />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Operator Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_size_three" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gadget_counter"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Placeholder text"
+                    android:textColor="@color/colorWhiteTwo"
+                    android:textSize="@dimen/text_size_three" />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@color/colorDarkFour">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/gadget_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@color/colorAccent"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:text="Submit Tips"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_four" />
 
 
 

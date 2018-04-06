@@ -20,6 +20,7 @@ public class OperatorInfoFragment extends Fragment {
     //Helper to get values
     ZUtils zUtils;
     OperatorHelper o;
+    View view;
 
     public OperatorInfoFragment() {
 
@@ -27,6 +28,13 @@ public class OperatorInfoFragment extends Fragment {
     }
 
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        zUtils = null;
+        view = null;
+        o = null;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,7 +46,7 @@ public class OperatorInfoFragment extends Fragment {
         ((OperatorActivity) getActivity())
                 .setActionBarTitle("Operator Info");
 
-        View view = inflater.inflate(getOperatorLayout(), container, false);
+        view = inflater.inflate(getOperatorLayout(), container, false);
 
         //Setup all Operators with their information method
 

@@ -36,11 +36,25 @@ public class DefendersSpeedFragment extends Fragment {
             R.id.ela, R.id.vigil
     };
 
+    ImageView oneSpeed ;
+    ImageView twoSpeed ;
+    ImageView threeSpeed ;
+    ImageView imageView[];
 
     public DefendersSpeedFragment() {
 
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mDefenderIcons = null;
+        mDefenderIconImageViews = null;
+        oneSpeed = null;
+        twoSpeed = null;
+        threeSpeed = null;
+        imageView = null;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -60,20 +74,22 @@ public class DefendersSpeedFragment extends Fragment {
 
     private void setupDefenderIcons(View view) {
 
-        ImageView oneSpeed = view.findViewById(R.id.one_speed);
-        ImageView twoSpeed = view.findViewById(R.id.two_speed);
-        ImageView threeSpeed = view.findViewById(R.id.three_speed);
+        oneSpeed = view.findViewById(R.id.one_speed);
+        twoSpeed = view.findViewById(R.id.two_speed);
+        threeSpeed = view.findViewById(R.id.three_speed);
         Picasso.with(getActivity()).load(R.drawable.operatorinfo1speed).resize(zUtils.getPixelfromDP(getActivity(),210),zUtils.getPixelfromDP(getActivity(),61)).into(oneSpeed);
         Picasso.with(getActivity()).load(R.drawable.operatorinfo2speed).resize(zUtils.getPixelfromDP(getActivity(),210),zUtils.getPixelfromDP(getActivity(),61)).into(twoSpeed);
         Picasso.with(getActivity()).load(R.drawable.operatorinfo3speed).resize(zUtils.getPixelfromDP(getActivity(),210),zUtils.getPixelfromDP(getActivity(),61)).into(threeSpeed);
 
+        imageView = new ImageView[18];
+
         for (int i = 0; i < 18; i++) {
 
 
-            ImageView imageView = view.findViewById(mDefenderIconImageViews[i]);
-            Picasso.with(getActivity()).load(mDefenderIcons[i]).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(),60),zUtils.getPixelfromDP(getActivity(),57)).into(imageView);
+            imageView[i] = view.findViewById(mDefenderIconImageViews[i]);
+            Picasso.with(getActivity()).load(mDefenderIcons[i]).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(),60),zUtils.getPixelfromDP(getActivity(),57)).into(imageView[i]);
 
-            imageView.setOnClickListener(new View.OnClickListener() {
+            imageView[i].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 

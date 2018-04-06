@@ -32,23 +32,51 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingBottom="16dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/compensator" />
+                android:orientation="vertical">
 
-            <ImageView
+                <ImageView
 
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:paddingBottom="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/compensator" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/check_comp"
+                    android:layout_gravity="center_horizontal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingBottom="16dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/suppresser" />
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:paddingBottom="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/suppresser" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/check_supp"
+                    android:layout_gravity="center_horizontal" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
@@ -59,15 +87,28 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-
-            <ImageView
-
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingBottom="16dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/muzzle" />
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:paddingBottom="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/muzzle" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/check_muzzle"
+                    android:layout_gravity="center_horizontal" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>

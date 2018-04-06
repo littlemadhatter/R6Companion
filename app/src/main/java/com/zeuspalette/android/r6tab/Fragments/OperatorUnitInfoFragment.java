@@ -24,6 +24,8 @@ public class OperatorUnitInfoFragment extends Fragment {
     //Helper to get values
     ZUtils zUtils;
     OperatorHelper o;
+    ImageView unitImage;
+    ImageView unitCountryImage;
 
     private int[] unitAttackerIcons = {};
 
@@ -32,6 +34,15 @@ public class OperatorUnitInfoFragment extends Fragment {
 
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        unitImage = null;
+        unitCountryImage = null;
+        o = null;
+        zUtils = null;
+
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -140,9 +151,9 @@ public class OperatorUnitInfoFragment extends Fragment {
 
 
         TextView unitName = view.findViewById(R.id.unit_info);
-        ImageView unitImage = view.findViewById(R.id.unit_image);
+        unitImage = view.findViewById(R.id.unit_image);
         TextView unitCountryName = view.findViewById(R.id.unit_country_name);
-        ImageView unitCountryImage = view.findViewById(R.id.unit_country);
+        unitCountryImage = view.findViewById(R.id.unit_country);
 
         Picasso.with(getActivity()).load(imageID).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(unitImage);
         Picasso.with(getActivity()).load(imageCountryId).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 102), zUtils.getPixelfromDP(getActivity(), 60)).into(unitCountryImage);

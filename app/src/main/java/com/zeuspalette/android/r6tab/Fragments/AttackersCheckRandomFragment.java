@@ -17,12 +17,57 @@ import com.zeuspalette.android.r6tab.Helpers.ZUtils;
 import com.zeuspalette.android.r6tab.R;
 
 
-
 public class AttackersCheckRandomFragment extends Fragment {
 
     private ZUtils zUtils;
     int prev = 0;
 
+    ImageView sledgeI;
+    ImageView thatcherI;
+    ImageView ashI;
+    ImageView thermiteI;
+    ImageView twitchI;
+    ImageView montagneI;
+    ImageView glazI;
+    ImageView fuzeI;
+    ImageView blitzI;
+    ImageView iqI;
+    ImageView buckI;
+    ImageView blackbeardI;
+    ImageView capitaoI;
+    ImageView hibanaI;
+    ImageView jackalI;
+    ImageView yingI;
+    ImageView zofiaI;
+    ImageView dokkaebiI;
+    ImageView lionI;
+    ImageView finkaI;
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        sledgeI = null;
+        thatcherI = null;
+        ashI = null;
+        thermiteI = null;
+        twitchI = null;
+        montagneI = null;
+        glazI = null;
+        fuzeI = null;
+        blitzI = null;
+        iqI = null;
+        buckI = null;
+        blackbeardI = null;
+        capitaoI = null;
+        hibanaI = null;
+        jackalI = null;
+        yingI = null;
+        zofiaI = null;
+        dokkaebiI = null;
+        lionI = null;
+        finkaI = null;
+
+    }
 
     public AttackersCheckRandomFragment() {
 
@@ -49,7 +94,7 @@ public class AttackersCheckRandomFragment extends Fragment {
                 getActivity().getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
 
         CheckBox sledgeC = v.findViewById(R.id.sledge_check);
-        ImageView sledgeI = v.findViewById(R.id.sledge);
+        sledgeI = v.findViewById(R.id.sledge);
         Picasso.with(getActivity()).load(R.drawable.sledge).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(sledgeI);
 
         sledgeC.setChecked(sharedPref.getBoolean("sledge", true));
@@ -63,7 +108,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox thatcherC = v.findViewById(R.id.thatcher_check);
-        ImageView thatcherI = v.findViewById(R.id.thatcher);
+        thatcherI = v.findViewById(R.id.thatcher);
         Picasso.with(getActivity()).load(R.drawable.thatcher).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(thatcherI);
 
         thatcherC.setChecked(sharedPref.getBoolean("thatcher", true));
@@ -77,7 +122,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox ashC = v.findViewById(R.id.ash_check);
-        ImageView ashI = v.findViewById(R.id.ash);
+        ashI = v.findViewById(R.id.ash);
         Picasso.with(getActivity()).load(R.drawable.ash).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(ashI);
 
         ashC.setChecked(sharedPref.getBoolean("ash", true));
@@ -91,7 +136,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox thermiteC = v.findViewById(R.id.thermite_check);
-        ImageView thermiteI = v.findViewById(R.id.thermite);
+        thermiteI = v.findViewById(R.id.thermite);
         Picasso.with(getActivity()).load(R.drawable.thermite).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(thermiteI);
 
         thermiteC.setChecked(sharedPref.getBoolean("thermite", true));
@@ -105,7 +150,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox twitchC = v.findViewById(R.id.twitch_check);
-        ImageView twitchI = v.findViewById(R.id.twitch);
+        twitchI = v.findViewById(R.id.twitch);
         Picasso.with(getActivity()).load(R.drawable.twitch).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(twitchI);
 
         twitchC.setChecked(sharedPref.getBoolean("twitch", true));
@@ -119,7 +164,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox montagneC = v.findViewById(R.id.montagne_check);
-        ImageView montagneI = v.findViewById(R.id.montagne);
+        montagneI = v.findViewById(R.id.montagne);
         Picasso.with(getActivity()).load(R.drawable.montagne).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(montagneI);
 
         montagneC.setChecked(sharedPref.getBoolean("montagne", true));
@@ -133,7 +178,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox glazC = v.findViewById(R.id.glaz_check);
-        ImageView glazI = v.findViewById(R.id.glaz);
+        glazI = v.findViewById(R.id.glaz);
         Picasso.with(getActivity()).load(R.drawable.glaz).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(glazI);
 
         glazC.setChecked(sharedPref.getBoolean("glaz", true));
@@ -147,7 +192,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox fuzeC = v.findViewById(R.id.fuze_check);
-        ImageView fuzeI = v.findViewById(R.id.fuze);
+        fuzeI = v.findViewById(R.id.fuze);
         Picasso.with(getActivity()).load(R.drawable.fuze).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(fuzeI);
 
         fuzeC.setChecked(sharedPref.getBoolean("fuze", true));
@@ -161,7 +206,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox blitzC = v.findViewById(R.id.blitz_check);
-        ImageView blitzI = v.findViewById(R.id.blitz);
+        blitzI = v.findViewById(R.id.blitz);
         Picasso.with(getActivity()).load(R.drawable.blitz).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(blitzI);
 
         blitzC.setChecked(sharedPref.getBoolean("blitz", true));
@@ -175,7 +220,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox iqC = v.findViewById(R.id.iq_check);
-        ImageView iqI = v.findViewById(R.id.iq);
+        iqI = v.findViewById(R.id.iq);
         Picasso.with(getActivity()).load(R.drawable.iq).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(iqI);
 
         iqC.setChecked(sharedPref.getBoolean("iq", true));
@@ -189,7 +234,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox buckC = v.findViewById(R.id.buck_check);
-        ImageView buckI = v.findViewById(R.id.buck);
+        buckI = v.findViewById(R.id.buck);
         Picasso.with(getActivity()).load(R.drawable.buck).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(buckI);
 
         buckC.setChecked(sharedPref.getBoolean("buck", true));
@@ -203,7 +248,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox blackbeardC = v.findViewById(R.id.blackbeard_check);
-        ImageView blackbeardI = v.findViewById(R.id.blackbeard);
+        blackbeardI = v.findViewById(R.id.blackbeard);
         Picasso.with(getActivity()).load(R.drawable.blackbeard).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(blackbeardI);
 
         blackbeardC.setChecked(sharedPref.getBoolean("blackbeard", true));
@@ -217,7 +262,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox capitaoC = v.findViewById(R.id.capitao_check);
-        ImageView capitaoI = v.findViewById(R.id.capitao);
+        capitaoI = v.findViewById(R.id.capitao);
         Picasso.with(getActivity()).load(R.drawable.capitao).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(capitaoI);
 
         capitaoC.setChecked(sharedPref.getBoolean("capitao", true));
@@ -231,7 +276,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox hibanaC = v.findViewById(R.id.hibana_check);
-        ImageView hibanaI = v.findViewById(R.id.hibana);
+        hibanaI = v.findViewById(R.id.hibana);
         Picasso.with(getActivity()).load(R.drawable.hibana).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(hibanaI);
 
         hibanaC.setChecked(sharedPref.getBoolean("hibana", true));
@@ -245,7 +290,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox jackalC = v.findViewById(R.id.jackal_check);
-        ImageView jackalI = v.findViewById(R.id.jackal);
+        jackalI = v.findViewById(R.id.jackal);
         Picasso.with(getActivity()).load(R.drawable.jackal).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(jackalI);
 
         jackalC.setChecked(sharedPref.getBoolean("jackal", true));
@@ -259,7 +304,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox yingC = v.findViewById(R.id.ying_check);
-        ImageView yingI = v.findViewById(R.id.ying);
+        yingI = v.findViewById(R.id.ying);
         Picasso.with(getActivity()).load(R.drawable.ying).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(yingI);
 
         yingC.setChecked(sharedPref.getBoolean("ying", true));
@@ -273,7 +318,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox zofiaC = v.findViewById(R.id.zofia_check);
-        ImageView zofiaI = v.findViewById(R.id.zofia);
+        zofiaI = v.findViewById(R.id.zofia);
         Picasso.with(getActivity()).load(R.drawable.zofia).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(zofiaI);
 
         zofiaC.setChecked(sharedPref.getBoolean("zofia", true));
@@ -287,7 +332,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox dokkaebiC = v.findViewById(R.id.dokkaebi_check);
-        ImageView dokkaebiI = v.findViewById(R.id.dokkaebi);
+        dokkaebiI = v.findViewById(R.id.dokkaebi);
         Picasso.with(getActivity()).load(R.drawable.dokkaebi).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(dokkaebiI);
 
         dokkaebiC.setChecked(sharedPref.getBoolean("dokkaebi", true));
@@ -301,7 +346,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox lionC = v.findViewById(R.id.lion_check);
-        ImageView lionI = v.findViewById(R.id.lion);
+        lionI = v.findViewById(R.id.lion);
         Picasso.with(getActivity()).load(R.drawable.lion).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(lionI);
 
         lionC.setChecked(sharedPref.getBoolean("lion", true));
@@ -315,7 +360,7 @@ public class AttackersCheckRandomFragment extends Fragment {
 
 
         CheckBox finkaC = v.findViewById(R.id.finka_check);
-        ImageView finkaI = v.findViewById(R.id.finka);
+        finkaI = v.findViewById(R.id.finka);
         Picasso.with(getActivity()).load(R.drawable.finka).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 50), zUtils.getPixelfromDP(getActivity(), 48)).into(finkaI);
 
         finkaC.setChecked(sharedPref.getBoolean("finka", true));

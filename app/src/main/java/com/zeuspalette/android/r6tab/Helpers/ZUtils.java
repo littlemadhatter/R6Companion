@@ -12,6 +12,7 @@ import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
 import android.view.Display;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -175,7 +176,6 @@ public class ZUtils {
 
         SharedPreferences sharedPref = activity.getSharedPreferences(
                 activity.getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
-        final SharedPreferences.Editor editor = sharedPref.edit();
 
         return sharedPref.getString(tag, defaultV);
     }
@@ -184,7 +184,6 @@ public class ZUtils {
 
         SharedPreferences sharedPref = activity.getSharedPreferences(
                 activity.getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
-        final SharedPreferences.Editor editor = sharedPref.edit();
 
         return sharedPref.getInt(tag, defaultV);
     }
@@ -193,18 +192,440 @@ public class ZUtils {
 
         SharedPreferences sharedPref = activity.getSharedPreferences(
                 activity.getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
-        final SharedPreferences.Editor editor = sharedPref.edit();
 
         return sharedPref.getFloat(tag, defaultV);
     }
+
 
     public boolean getSharedPreferenceBoolean(Activity activity, String tag, boolean defaultV) {
 
         SharedPreferences sharedPref = activity.getSharedPreferences(
                 activity.getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
-        final SharedPreferences.Editor editor = sharedPref.edit();
 
         return sharedPref.getBoolean(tag, defaultV);
+    }
+
+
+
+    /* -- CHECKBOX HELPERS FOR WEAPONS. Detect Weapon Attachment which is preferred -- */
+
+    //  BARREL CHECKBOX
+
+    public void barrelFCMS(CheckBox flash, CheckBox comp, CheckBox muzzle, CheckBox supp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            comp.setChecked(true);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 3) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+        }
+
+    }
+
+    public void barrelS(CheckBox supp, int code) {
+
+        if (code == 0) {
+            supp.setChecked(true);
+        }
+
+    }
+
+    public void barrelFC(CheckBox flash, CheckBox comp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            comp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            comp.setChecked(true);
+        }
+
+
+    }
+
+    public void barrelFS(CheckBox flash, CheckBox supp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            supp.setChecked(true);
+        }
+
+    }
+
+    public void barrelCMS(CheckBox comp, CheckBox muzzle, CheckBox supp, int code) {
+
+        if (code == 0) {
+            comp.setChecked(true);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            comp.setChecked(false);
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 2) {
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+        }
+
+
+    }
+
+    public void barrelFCS(CheckBox flash, CheckBox comp, CheckBox supp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            comp.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            comp.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            supp.setChecked(true);
+        }
+
+
+    }
+
+    public void barrelFMS(CheckBox flash, CheckBox muzzle, CheckBox supp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+        }
+
+
+    }
+
+
+
+
+    public void barrelFCMSL(CheckBox flash, CheckBox comp, CheckBox muzzle, CheckBox supp, CheckBox longB, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+            longB.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            comp.setChecked(true);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+            longB.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+            longB.setChecked(false);
+        }
+
+        if (code == 3) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+            longB.setChecked(false);
+        }
+
+        if (code == 4) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+            longB.setChecked(true);
+        }
+
+    }
+
+    public void barrelFMSL(CheckBox flash, CheckBox muzzle, CheckBox supp, CheckBox longB, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+            longB.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+            longB.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+            longB.setChecked(false);
+        }
+
+        if (code == 3) {
+            flash.setChecked(false);
+            muzzle.setChecked(false);
+            supp.setChecked(false);
+            longB.setChecked(true);
+        }
+
+    }
+
+    public void barrelSL(CheckBox supp, CheckBox longB, int code) {
+
+        if (code == 0) {
+            supp.setChecked(true);
+            longB.setChecked(false);
+        }
+
+        if (code == 1) {
+            supp.setChecked(false);
+            longB.setChecked(true);
+        }
+
+    }
+
+    public void barrelFCLS(CheckBox flash, CheckBox comp, CheckBox longB, CheckBox supp, int code) {
+
+        if (code == 0) {
+            flash.setChecked(true);
+            comp.setChecked(false);
+            longB.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            flash.setChecked(false);
+            comp.setChecked(true);
+            longB.setChecked(false);
+            supp.setChecked(false);
+        }
+
+        if (code == 2) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            longB.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 3) {
+            flash.setChecked(false);
+            comp.setChecked(false);
+            longB.setChecked(false);
+            supp.setChecked(true);
+        }
+
+    }
+
+    public void barrelMS(CheckBox muzzle, CheckBox supp, int code) {
+
+        if (code == 0) {
+            muzzle.setChecked(true);
+            supp.setChecked(false);
+        }
+
+        if (code == 1) {
+            muzzle.setChecked(false);
+            supp.setChecked(true);
+        }
+
+
+    }
+
+    //  SIGHT CHECKBOX
+
+    public void sightHRRA(CheckBox holo, CheckBox red, CheckBox reflex, CheckBox acog, int code) {
+
+        if (code == 0) {
+            holo.setChecked(true);
+            red.setChecked(false);
+            reflex.setChecked(false);
+            acog.setChecked(false);
+        }
+
+        if (code == 1) {
+            holo.setChecked(false);
+            red.setChecked(true);
+            reflex.setChecked(false);
+            acog.setChecked(false);
+        }
+
+        if (code == 2) {
+            holo.setChecked(false);
+            red.setChecked(false);
+            reflex.setChecked(true);
+            acog.setChecked(false);
+        }
+
+        if (code == 3) {
+            holo.setChecked(false);
+            red.setChecked(false);
+            reflex.setChecked(false);
+            acog.setChecked(true);
+        }
+
+    }
+
+    public void sightHRA(CheckBox holo, CheckBox red, CheckBox acog, int code) {
+
+        if (code == 0) {
+            holo.setChecked(true);
+            red.setChecked(false);
+            acog.setChecked(false);
+        }
+
+        if (code == 1) {
+            holo.setChecked(false);
+            red.setChecked(true);
+            acog.setChecked(false);
+        }
+
+        if (code == 2) {
+            holo.setChecked(false);
+            red.setChecked(false);
+            acog.setChecked(true);
+        }
+
+
+    }
+
+
+    public void sightHRR(CheckBox holo, CheckBox red, CheckBox reflex, int code) {
+
+        if (code == 0) {
+            holo.setChecked(true);
+            red.setChecked(false);
+            reflex.setChecked(false);
+        }
+
+        if (code == 1) {
+            holo.setChecked(false);
+            red.setChecked(true);
+            reflex.setChecked(false);
+        }
+
+        if (code == 2) {
+            holo.setChecked(false);
+            red.setChecked(false);
+            reflex.setChecked(true);
+        }
+
+    }
+
+    public void sightRR(CheckBox red, CheckBox reflex, int code) {
+
+        if (code == 0) {
+            red.setChecked(true);
+            reflex.setChecked(false);
+        }
+
+        if (code == 1) {
+            red.setChecked(false);
+            reflex.setChecked(true);
+        }
+
+    }
+
+    //  GRIP CHECKBOX
+
+    public void gripVA(CheckBox vert, CheckBox angle, int code) {
+
+        if (code == 0) {
+            vert.setChecked(true);
+            angle.setChecked(false);
+        }
+
+        if (code == 1) {
+            vert.setChecked(false);
+            angle.setChecked(true);
+        }
+
+
+    }
+
+    public void gripV(CheckBox vert, int code) {
+
+        if (code == 0) {
+            vert.setChecked(true);
+        }
+
+
+    }
+
+    public void gripA(CheckBox angle, int code) {
+
+        if (code == 0) {
+            angle.setChecked(true);
+        }
+
+
+    }
+
+    //  LASER CHECKBOX
+
+    public void underL(CheckBox laser, int code) {
+
+        if (code == 0) {
+            laser.setChecked(true);
+        }
+
     }
 
 

@@ -54,6 +54,19 @@ public class MainActivity extends AppCompatActivity {
     private ZUtils zUtils;
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mFragmentManager = null;
+        mDrawerLayout = null;
+        mBottomNavigationView = null;
+        mNavigationView = null;
+        zUtils = null;
+        mFragment = null;
+        mFragmentTransaction = null;
+
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

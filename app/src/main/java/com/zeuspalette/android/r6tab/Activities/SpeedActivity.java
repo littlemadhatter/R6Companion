@@ -35,6 +35,17 @@ public class SpeedActivity extends AppCompatActivity {
     public ZUtils zUtils;
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragmentTransaction = null;
+        mFragment = null;
+        zUtils = null;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_speed);

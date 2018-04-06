@@ -42,6 +42,16 @@ public class AttackersRandomFragment extends Fragment {
     ArrayList<String> attackers;
     Button randomize;
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        attackerIcons = null;
+        attackerProfileIcons = null;
+        attackers = null;
+        randomize = null;
+        zUtils = null;
+    }
 
     public AttackersRandomFragment() {
 

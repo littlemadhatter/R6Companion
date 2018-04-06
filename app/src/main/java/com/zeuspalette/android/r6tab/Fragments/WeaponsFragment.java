@@ -28,6 +28,7 @@ public class WeaponsFragment extends Fragment {
     };
 
     private ZUtils zUtils;
+    View view;
 
     private int[] mWeaponIconImageViews = {
             R.id.assault, R.id.submachine, R.id.machine, R.id.shotgun, R.id.lmg, R.id.pistol, R.id.dmr, R.id.sniper
@@ -38,7 +39,7 @@ public class WeaponsFragment extends Fragment {
     boolean isAssault;
 
 
-    public WeaponsFragment(){
+    public WeaponsFragment() {
 
     }
 
@@ -53,6 +54,8 @@ public class WeaponsFragment extends Fragment {
 
         }
 
+        view = null;
+
 
     }
 
@@ -60,7 +63,7 @@ public class WeaponsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_main_weapons, container, false);
+        view = inflater.inflate(R.layout.fragment_main_weapons, container, false);
 
         ((MainActivity) getActivity())
                 .setActionBarTitle("Weapon Categories");
@@ -96,7 +99,6 @@ public class WeaponsFragment extends Fragment {
         sniperList.setText("OTS03");
 
 
-
         //Setup Toggles to small list weapons in categories
 
         toggleAssault.setOnClickListener(new View.OnClickListener() {
@@ -105,10 +107,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     assaultList.setVisibility(View.VISIBLE);
                     toggleAssault.setText("HIDE ALL");
-                }else{
+                } else {
                     assaultList.setVisibility(View.GONE);
                     toggleAssault.setText("SHOW ALL");
                 }
@@ -121,10 +123,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     submachineList.setVisibility(View.VISIBLE);
                     toggleSubmachine.setText("HIDE ALL");
-                }else{
+                } else {
                     submachineList.setVisibility(View.GONE);
                     toggleSubmachine.setText("SHOW ALL");
                 }
@@ -137,10 +139,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     machineList.setVisibility(View.VISIBLE);
                     toggleMachine.setText("HIDE ALL");
-                }else{
+                } else {
                     machineList.setVisibility(View.GONE);
                     toggleMachine.setText("SHOW ALL");
                 }
@@ -153,10 +155,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     shotgunList.setVisibility(View.VISIBLE);
                     toggleShotgun.setText("HIDE ALL");
-                }else{
+                } else {
                     shotgunList.setVisibility(View.GONE);
                     toggleShotgun.setText("SHOW ALL");
                 }
@@ -169,10 +171,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     lmgList.setVisibility(View.VISIBLE);
                     toggleLMG.setText("HIDE ALL");
-                }else{
+                } else {
                     lmgList.setVisibility(View.GONE);
                     toggleLMG.setText("SHOW ALL");
                 }
@@ -185,10 +187,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     pistolList.setVisibility(View.VISIBLE);
                     togglePistol.setText("HIDE ALL");
-                }else{
+                } else {
                     pistolList.setVisibility(View.GONE);
                     togglePistol.setText("SHOW ALL");
                 }
@@ -201,10 +203,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     dmrList.setVisibility(View.VISIBLE);
                     toggleDMR.setText("HIDE ALL");
-                }else{
+                } else {
                     dmrList.setVisibility(View.GONE);
                     toggleDMR.setText("SHOW ALL");
                 }
@@ -217,10 +219,10 @@ public class WeaponsFragment extends Fragment {
 
                 isAssault = !isAssault;
 
-                if (isAssault){
+                if (isAssault) {
                     sniperList.setVisibility(View.VISIBLE);
                     toggleSniper.setText("HIDE ALL");
-                }else{
+                } else {
                     sniperList.setVisibility(View.GONE);
                     toggleSniper.setText("SHOW ALL");
                 }
@@ -238,7 +240,6 @@ public class WeaponsFragment extends Fragment {
         sniperList.setVisibility(View.GONE);
 
 
-
         zUtils = new ZUtils();
 
         setupWeaponIcons(view);
@@ -254,7 +255,7 @@ public class WeaponsFragment extends Fragment {
 
             imageView[i] = view.findViewById(mWeaponIconImageViews[i]);
 
-            Picasso.with(getActivity()).load(mWeaponIcons[i]).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(),300),zUtils.getPixelfromDP(getActivity(),111)).into(imageView[i]);
+            Picasso.with(getActivity()).load(mWeaponIcons[i]).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 300), zUtils.getPixelfromDP(getActivity(), 111)).into(imageView[i]);
 
             imageView[i].setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -266,43 +267,43 @@ public class WeaponsFragment extends Fragment {
                     switch (v.getId()) {
 
                         case R.id.assault:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","assault");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "assault");
                             startActivity(intent);
                             break;
                         case R.id.submachine:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","submachine");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "submachine");
                             startActivity(intent);
                             break;
                         case R.id.machine:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","machine");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "machine");
                             startActivity(intent);
                             break;
                         case R.id.shotgun:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","shotgun");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "shotgun");
                             startActivity(intent);
                             break;
                         case R.id.lmg:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","lmg");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "lmg");
                             startActivity(intent);
                             break;
                         case R.id.pistol:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","pistol");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "pistol");
                             startActivity(intent);
                             break;
                         case R.id.dmr:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","dmr");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "dmr");
                             startActivity(intent);
                             break;
                         case R.id.sniper:
-                            intent = new Intent(getActivity(),WeaponsListActivity.class);
-                            intent.putExtra("weapon","sniper");
+                            intent = new Intent(getActivity(), WeaponsListActivity.class);
+                            intent.putExtra("weapon", "sniper");
                             startActivity(intent);
 
 
@@ -311,9 +312,7 @@ public class WeaponsFragment extends Fragment {
             });
 
 
-
         }
-
 
 
     }

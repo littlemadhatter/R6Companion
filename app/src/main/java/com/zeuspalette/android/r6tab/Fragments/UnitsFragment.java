@@ -45,6 +45,8 @@ public class UnitsFragment extends Fragment {
             R.id.f_bope, R.id.f_sat, R.id.f_geo, R.id.f_sdu, R.id.f_grom, R.id.f_x707thsmb
     };
 
+    View view;
+
 
     public UnitsFragment() {
 
@@ -67,13 +69,15 @@ public class UnitsFragment extends Fragment {
 
         }
 
+        view = null;
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_main_units, container, false);
+        view = inflater.inflate(R.layout.fragment_main_units, container, false);
 
         ((MainActivity) getActivity())
                 .setActionBarTitle("Units");

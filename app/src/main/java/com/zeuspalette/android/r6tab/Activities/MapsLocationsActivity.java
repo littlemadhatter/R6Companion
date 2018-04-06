@@ -36,6 +36,22 @@ public class MapsLocationsActivity extends AppCompatActivity {
     ZUtils zUtils;
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        zUtils.insertSharedPreferenceFloat(this, "customX", 0);
+        zUtils.insertSharedPreferenceFloat(this, "customY", 0);
+        zUtils.insertSharedPreferenceFloat(this, "customS", 0);
+
+        zUtils = null;
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragment = null;
+        mFragmentTransaction = null;
+    }
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_location);
@@ -115,7 +131,6 @@ public class MapsLocationsActivity extends AppCompatActivity {
         mFragmentTransaction.replace(R.id.fragment_container_maps, mFragment).commit();
 
 
-
     }
 
     @Override
@@ -166,13 +181,5 @@ public class MapsLocationsActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(title);
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-
-        zUtils.insertSharedPreferenceFloat(this, "customX", 0);
-        zUtils.insertSharedPreferenceFloat(this, "customY", 0);
-        zUtils.insertSharedPreferenceFloat(this, "customS", 0);
-    }
 
 }

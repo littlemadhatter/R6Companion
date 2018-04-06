@@ -39,6 +39,26 @@ public class DisclaimerActivity extends AppCompatActivity {
     private FragmentTransaction mFragmentTransaction;
     private ZUtils zUtils;
 
+    ImageView ubisoftLink;
+    ImageView githubLink;
+    Button ubiLink;
+    Button mapLink;
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        zUtils = null;
+
+        ubisoftLink = null;
+        githubLink = null;
+        ubiLink = null;
+        mapLink = null;
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +79,7 @@ public class DisclaimerActivity extends AppCompatActivity {
 
         //Setup links for Ubisoft and Github
 
-        ImageView ubisoftLink = findViewById(R.id.ubisoft_link);
+        ubisoftLink = findViewById(R.id.ubisoft_link);
         Picasso.with(this).load(R.drawable.ubisoft).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(this,250),zUtils.getPixelfromDP(this,100)).into(ubisoftLink);
         ubisoftLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +90,7 @@ public class DisclaimerActivity extends AppCompatActivity {
             }
         });
 
-        ImageView githubLink = findViewById(R.id.github_link);
+        githubLink = findViewById(R.id.github_link);
         Picasso.with(this).load(R.drawable.github).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(this,250),zUtils.getPixelfromDP(this,100)).into(githubLink);
         githubLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +102,7 @@ public class DisclaimerActivity extends AppCompatActivity {
         });
 
 
-        Button ubiLink = findViewById(R.id.ubilink);
+        ubiLink = findViewById(R.id.ubilink);
         ubiLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +112,7 @@ public class DisclaimerActivity extends AppCompatActivity {
             }
         });
 
-        Button mapLink = findViewById(R.id.maplink);
+        mapLink = findViewById(R.id.maplink);
         mapLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

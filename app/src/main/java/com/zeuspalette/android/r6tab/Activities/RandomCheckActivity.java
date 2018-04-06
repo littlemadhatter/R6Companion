@@ -35,6 +35,18 @@ public class RandomCheckActivity extends AppCompatActivity {
     public int TAG;
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragmentTransaction = null;
+        mFragment = null;
+
+
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_random_check);

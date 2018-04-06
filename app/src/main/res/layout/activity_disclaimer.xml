@@ -33,21 +33,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:padding="8dp"
                     android:text="Version"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="16dp"
-                    android:text="1.02"
+                    android:paddingBottom="8dp"
+                    android:text="1.20"
                     android:textColor="@color/colorAccent"
                     android:textSize="60sp" />
 

@@ -39,6 +39,17 @@ public class WeaponItemActivity extends AppCompatActivity {
 
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragmentTransaction = null;
+        mFragment = null;
+        zUtils = null;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

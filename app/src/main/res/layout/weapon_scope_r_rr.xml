@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:layout_marginBottom="8dp"
+    android:padding="8dp"
     card_view:cardBackgroundColor="@color/colorDarkFour">
 
 
@@ -22,7 +23,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingTop="16dp"
-            android:text="@string/title_barrel"
+            android:text="@string/title_scope"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_three" />
 
@@ -44,12 +45,12 @@
                     android:layout_height="100dp"
                     android:paddingBottom="4dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/flashhider" />
+                    android:src="@drawable/rreddot" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/check_flash"
+                    android:id="@+id/check_red"
                     android:layout_gravity="center_horizontal" />
 
 
@@ -67,67 +68,12 @@
                     android:layout_height="100dp"
                     android:paddingBottom="4dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/muzzle" />
+                    android:src="@drawable/rreflex" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/check_muzzle"
-                    android:layout_gravity="center_horizontal" />
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/longbarrel" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/check_long"
-                    android:layout_gravity="center_horizontal" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/suppresser" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/check_supp"
+                    android:id="@+id/check_reflex"
                     android:layout_gravity="center_horizontal" />
 
 

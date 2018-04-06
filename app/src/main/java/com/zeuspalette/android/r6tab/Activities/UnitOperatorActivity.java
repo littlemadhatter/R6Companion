@@ -34,6 +34,16 @@ public class UnitOperatorActivity extends AppCompatActivity {
     public static String mUnitTAG = "";
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragmentTransaction = null;
+        mFragment = null;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

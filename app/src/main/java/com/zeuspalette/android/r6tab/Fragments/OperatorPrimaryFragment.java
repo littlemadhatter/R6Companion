@@ -21,6 +21,10 @@ public class OperatorPrimaryFragment extends Fragment {
     private ZUtils zUtils;
     WeaponHelper wH;
     LayoutInflater layoutInflater;
+    ViewGroup weaponOne;
+    ViewGroup weaponTwo;
+    ViewGroup weaponThree;
+    View view;
 
 
     public OperatorPrimaryFragment() {
@@ -31,12 +35,23 @@ public class OperatorPrimaryFragment extends Fragment {
         wH = new WeaponHelper(getActivity());
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        view = null;
+        weaponOne = null;
+        weaponTwo = null;
+        weaponThree = null;
+        layoutInflater = null;
+        wH = null;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(getOperatorPrimary(), container, false);
+        view = inflater.inflate(getOperatorPrimary(), container, false);
 
         ((OperatorActivity) getActivity())
                 .setActionBarTitle("Primary Weapon");
@@ -47,9 +62,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("sledge")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setL785A2View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM590A1View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -57,54 +72,54 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("thatcher")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setL785A2View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setAR33View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setM590A1View(weaponThree, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("ash")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setR4CView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setG36CView(weaponTwo, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("thermite")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.set556XIView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM1014View(weaponTwo, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("twitch")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setF2View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.set417View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setSGCQBView(weaponThree, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("montagne")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMONTAGNEShieldView(weaponOne, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("glaz")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setOTS03View(weaponOne, layoutInflater, getActivity());
 
         }
@@ -112,11 +127,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("fuze")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setAK12View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.set6P41View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setFUZEShieldView(weaponThree, layoutInflater, getActivity());
 
         }
@@ -124,7 +139,7 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("blitz")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setBLITZShieldView(weaponOne, layoutInflater, getActivity());
 
         }
@@ -132,11 +147,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("iq")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setAUGA2View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.set556XIView(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.set68A1View(weaponThree, layoutInflater, getActivity());
 
         }
@@ -144,36 +159,36 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("buck")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setC8SFWView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setCAMRSView(weaponTwo, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("blackbeard")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMK17CQBView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSR25View(weaponTwo, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("capitao")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setPARA308View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM249View(weaponTwo, layoutInflater, getActivity());
         }
 
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("hibana")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setTYPE89View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSUPERNOVAView(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -181,11 +196,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("jackal")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setC7EView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setPDW9View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setITA12LView(weaponThree, layoutInflater, getActivity());
 
         }
@@ -194,9 +209,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("ying")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setT95LSWView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSIX12View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -204,9 +219,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("zofia")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setM762View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setLMGEView(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -214,9 +229,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("dokkaebi")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMK14EBRView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setBOSG122View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -224,11 +239,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("lion")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setV308View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.set417View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setSGCQBView(weaponThree, layoutInflater, getActivity());
 
         }
@@ -236,11 +251,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("finka")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setSpear308View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.set6P41View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setSASG12View(weaponThree, layoutInflater, getActivity());
 
         }
@@ -251,9 +266,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("smoke")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setFMG9View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM590A1View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -261,9 +276,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("mute")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMP5KView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM590A1View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -271,9 +286,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("castle")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setUMP45View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM1014View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -281,9 +296,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("pulse")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setUMP45View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM1014View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -291,11 +306,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("doc")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMP5View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setP90View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setSGCQBView(weaponThree, layoutInflater, getActivity());
 
         }
@@ -303,11 +318,11 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("rook")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMP5View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setP90View(weaponTwo, layoutInflater, getActivity());
-            ViewGroup weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
+            weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.setSGCQBView(weaponThree, layoutInflater, getActivity());
 
         }
@@ -316,9 +331,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("kapkan")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.set9X19VSNView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSASG12View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -326,9 +341,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("tachanka")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.set9X19VSNView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSASG12View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -336,9 +351,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("jager")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.set416CCARBINEView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM870View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -346,9 +361,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("bandit")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMP7View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setM870View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -356,9 +371,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("frost")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.set9MMC1View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSUPER90View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -367,9 +382,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("valkyrie")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMPXView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSPAS12View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -377,9 +392,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("caveira")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setM12View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSPAS15View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -387,9 +402,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("echo")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setMP5SDView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSUPERNOVAView(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -397,9 +412,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("mira")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setVECTOR45ACPView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setITA12LView(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -407,9 +422,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("lesion")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setT5SMGView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setSIX12View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -417,9 +432,9 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("ela")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setSCORPIONEVO3A1View(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setF012View(weaponTwo, layoutInflater, getActivity());
 
         }
@@ -427,13 +442,12 @@ public class OperatorPrimaryFragment extends Fragment {
         if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("vigil")) {
 
             layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            ViewGroup weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setK1AView(weaponOne, layoutInflater, getActivity());
-            ViewGroup weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
             wH.setBOSG122View(weaponTwo, layoutInflater, getActivity());
 
         }
-
 
 
         return view;
@@ -640,7 +654,6 @@ public class OperatorPrimaryFragment extends Fragment {
 
         return R.layout.weapon_one;
     }
-
 
 
 }

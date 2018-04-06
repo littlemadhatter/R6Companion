@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.squareup.picasso.MemoryPolicy;
+import com.squareup.picasso.Picasso;
 import com.zeuspalette.android.r6tab.Activities.OperatorActivity;
 import com.zeuspalette.android.r6tab.Activities.WeaponItemActivity;
 import com.zeuspalette.android.r6tab.Helpers.OperatorHelper;
@@ -26,10 +28,22 @@ public class OperatorWeaponAttackerFragment extends Fragment {
     OperatorHelper o;
 
     private int[] unitAttackerIcons = {};
+    ImageView attackerOne;
+    ImageView attackerTwo;
 
     public OperatorWeaponAttackerFragment() {
 
 
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        attackerOne = null;
+        attackerTwo = null;
+        zUtils = null;
+        o = null;
     }
 
 
@@ -515,14 +529,13 @@ public class OperatorWeaponAttackerFragment extends Fragment {
 
     public void setupAttackers(View view, int id1, int id2, final String op1Name, final String op2Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
-        Drawable two = zUtils.resizeImage(id2, getActivity());
+        attackerOne = view.findViewById(R.id.unit_operator_one);
+        attackerTwo = view.findViewById(R.id.unit_operator_two);
 
-        ImageView attackerOne = view.findViewById(R.id.unit_operator_one);
-        ImageView attackerTwo = view.findViewById(R.id.unit_operator_two);
 
-        attackerOne.setImageDrawable(one);
-        attackerTwo.setImageDrawable(two);
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerOne);
+
+        Picasso.with(getActivity()).load(id2).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerTwo);
 
 
         attackerOne.setOnClickListener(new View.OnClickListener() {
@@ -547,12 +560,9 @@ public class OperatorWeaponAttackerFragment extends Fragment {
 
     public void setupAttackers(View view, int id1, final String op1Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
+        attackerOne = view.findViewById(R.id.unit_operator_one);
 
-        ImageView attackerOne = view.findViewById(R.id.unit_operator_one);
-
-        attackerOne.setImageDrawable(one);
-
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerOne);
 
         attackerOne.setOnClickListener(new View.OnClickListener() {
             @Override

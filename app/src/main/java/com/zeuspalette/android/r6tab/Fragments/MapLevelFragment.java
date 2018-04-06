@@ -3,6 +3,7 @@ package com.zeuspalette.android.r6tab.Fragments;
 import android.graphics.PointF;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -176,15 +177,12 @@ public class MapLevelFragment extends Fragment {
         ((MapsLocationsActivity) getActivity()).setActionBarTitle(name);
 
         if (MapsLocationsActivity.mapLevel == 0) {
-            final SubsamplingScaleImageView photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
+            photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
             photoView.setImage(ImageSource.resource(id1));
 
-            if (zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0) != 0) {
 
+            photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
 
-                photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
-
-            }
 
             photoView.setOnTouchListener(new View.OnTouchListener() {
                 public boolean onTouch(View view, MotionEvent event) {
@@ -211,14 +209,12 @@ public class MapLevelFragment extends Fragment {
         }
 
         if (MapsLocationsActivity.mapLevel == 1) {
-            final SubsamplingScaleImageView photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
+            photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
             photoView.setImage(ImageSource.resource(id2));
 
-            if (zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0) != 0) {
 
-                photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
+            photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 1.2f), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 100), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 200)));
 
-            }
 
             photoView.setOnTouchListener(new View.OnTouchListener() {
                 public boolean onTouch(View view, MotionEvent event) {
@@ -245,14 +241,12 @@ public class MapLevelFragment extends Fragment {
         }
 
         if (MapsLocationsActivity.mapLevel == 2) {
-            final SubsamplingScaleImageView photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
+            photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
             photoView.setImage(ImageSource.resource(id3));
 
-            if (zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0) != 0) {
 
-                photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
+            photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 1.2f), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 100), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 200)));
 
-            }
 
             photoView.setOnTouchListener(new View.OnTouchListener() {
                 public boolean onTouch(View view, MotionEvent event) {
@@ -279,14 +273,12 @@ public class MapLevelFragment extends Fragment {
         }
 
         if (MapsLocationsActivity.mapLevel == 3) {
-            final SubsamplingScaleImageView photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
+            photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
             photoView.setImage(ImageSource.resource(id4));
 
-            if (zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0) != 0) {
 
-                photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
+            photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
 
-            }
 
             photoView.setOnTouchListener(new View.OnTouchListener() {
                 public boolean onTouch(View view, MotionEvent event) {
@@ -313,14 +305,12 @@ public class MapLevelFragment extends Fragment {
         }
 
         if (MapsLocationsActivity.mapLevel == 4) {
-            final SubsamplingScaleImageView photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
+            photoView = (SubsamplingScaleImageView) view.findViewById(R.id.photo_view);
             photoView.setImage(ImageSource.resource(id5));
 
-            if (zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0) != 0) {
 
-                photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
+            photoView.setScaleAndCenter(zUtils.getSharedPreferenceFloat(getActivity(), "customS", 0), new PointF(zUtils.getSharedPreferenceFloat(getActivity(), "customX", 0), zUtils.getSharedPreferenceFloat(getActivity(), "customY", 0)));
 
-            }
 
             photoView.setOnTouchListener(new View.OnTouchListener() {
                 public boolean onTouch(View view, final MotionEvent event) {
@@ -348,190 +338,6 @@ public class MapLevelFragment extends Fragment {
                 }
             });
         }
-    }
-
-    public int getW(int id) {
-
-        return getActivity().getResources().getDrawable(id).getIntrinsicWidth();
-    }
-
-    public int getH(int id) {
-
-        return getActivity().getResources().getDrawable(id).getIntrinsicHeight();
-
-    }
-
-    //Getters and Setter for Map Plan Bitmap Properties
-
-    public int getW(String name) {
-
-        if (name.equalsIgnoreCase("house")) {
-
-            return 1300;
-        }
-
-        if (name.equalsIgnoreCase("bank")) {
-
-            return 1392;
-        }
-
-        if (name.equalsIgnoreCase("border")) {
-
-            return 1695;
-        }
-
-        if (name.equalsIgnoreCase("chalet")) {
-
-            return 1445;
-        }
-
-        if (name.equalsIgnoreCase("club")) {
-
-            return 1300;
-        }
-
-        if (name.equalsIgnoreCase("coastline")) {
-
-            return 1589;
-        }
-
-        if (name.equalsIgnoreCase("consulate")) {
-
-            return 1577;
-        }
-
-        if (name.equalsIgnoreCase("favela")) {
-
-            return 1479;
-        }
-
-        if (name.equalsIgnoreCase("hereford")) {
-
-            return 1533;
-        }
-
-        if (name.equalsIgnoreCase("kafe")) {
-
-            return 1747;
-        }
-
-        if (name.equalsIgnoreCase("kanal")) {
-
-            return 1818;
-        }
-
-        if (name.equalsIgnoreCase("plane")) {
-
-            return 1363;
-        }
-
-        if (name.equalsIgnoreCase("sky")) {
-
-            return 1587;
-        }
-
-        if (name.equalsIgnoreCase("theme")) {
-
-            return 1702;
-        }
-
-        if (name.equalsIgnoreCase("tower")) {
-
-            return 1858;
-        }
-
-        if (name.equalsIgnoreCase("yacht")) {
-
-            return 1610;
-        }
-
-        return 1300;
-    }
-
-
-    public int getH(String name) {
-
-        if (name.equalsIgnoreCase("House")) {
-
-            return 1487;
-        }
-
-        if (name.equalsIgnoreCase("bank")) {
-
-            return 1182;
-        }
-
-        if (name.equalsIgnoreCase("border")) {
-
-            return 1189;
-        }
-
-        if (name.equalsIgnoreCase("chalet")) {
-
-            return 1083;
-        }
-
-        if (name.equalsIgnoreCase("club")) {
-
-            return 1300;
-        }
-
-        if (name.equalsIgnoreCase("coastline")) {
-
-            return 1321;
-        }
-
-        if (name.equalsIgnoreCase("consulate")) {
-
-            return 1336;
-        }
-
-        if (name.equalsIgnoreCase("favela")) {
-
-            return 1331;
-        }
-
-        if (name.equalsIgnoreCase("hereford")) {
-
-            return 1227;
-        }
-
-        if (name.equalsIgnoreCase("kafe")) {
-
-            return 1157;
-        }
-
-        if (name.equalsIgnoreCase("kanal")) {
-
-            return 1003;
-        }
-
-        if (name.equalsIgnoreCase("plane")) {
-
-            return 1114;
-        }
-
-        if (name.equalsIgnoreCase("sky")) {
-
-            return 995;
-        }
-
-        if (name.equalsIgnoreCase("theme")) {
-
-            return 1221;
-        }
-
-        if (name.equalsIgnoreCase("tower")) {
-
-            return 1423;
-        }
-
-        if (name.equalsIgnoreCase("yacht")) {
-
-            return 1151;
-        }
-
-        return 1487;
     }
 
 

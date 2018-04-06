@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.squareup.picasso.MemoryPolicy;
+import com.squareup.picasso.Picasso;
 import com.zeuspalette.android.r6tab.Activities.OperatorActivity;
 import com.zeuspalette.android.r6tab.Activities.WeaponItemActivity;
 import com.zeuspalette.android.r6tab.Helpers.OperatorHelper;
@@ -26,10 +28,22 @@ public class OperatorWeaponDefenderFragment extends Fragment {
     OperatorHelper o;
 
     private int[] unitAttackerIcons = {};
+    ImageView defenderOne;
+    ImageView defenderTwo;
 
     public OperatorWeaponDefenderFragment() {
 
 
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        defenderOne = null;
+        defenderTwo = null;
+        zUtils = null;
+        o = null;
     }
 
 
@@ -108,59 +122,59 @@ public class OperatorWeaponDefenderFragment extends Fragment {
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("416ccarbine")) {
-            setupAttackers(view, R.drawable.ijager, "jager");
+            setupDefenders(view, R.drawable.ijager, "jager");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("m590a1")) {
-            setupAttackers(view, R.drawable.isledge, R.drawable.ithatcher, "sledge", "thatcher");
+            setupDefenders(view, R.drawable.isledge, R.drawable.ithatcher, "sledge", "thatcher");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("m1014")) {
-            setupAttackers(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
+            setupDefenders(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("sgcqb")) {
-            setupAttackers(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
+            setupDefenders(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("supernova")) {
-            setupAttackers(view, R.drawable.iecho, "echo");
+            setupDefenders(view, R.drawable.iecho, "echo");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("ita12l")) {
-            setupAttackers(view, R.drawable.imira, "mira");
+            setupDefenders(view, R.drawable.imira, "mira");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("ita12s")) {
-            setupAttackers(view, R.drawable.imira, "mira");
+            setupDefenders(view, R.drawable.imira, "mira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("six12")) {
 
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("bosg122")) {
-            setupAttackers(view, R.drawable.ivigil, "vigil");
+            setupDefenders(view, R.drawable.ivigil, "vigil");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("sasg12")) {
-            setupAttackers(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
+            setupDefenders(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("m870")) {
-            setupAttackers(view, R.drawable.ijager, R.drawable.ibandit, "jager", "bandit");
+            setupDefenders(view, R.drawable.ijager, R.drawable.ibandit, "jager", "bandit");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("super90")) {
-            setupAttackers(view, R.drawable.ifrost, "frost");
+            setupDefenders(view, R.drawable.ifrost, "frost");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("spas12")) {
-            setupAttackers(view, R.drawable.ivalkyrie, "valkyrie");
+            setupDefenders(view, R.drawable.ivalkyrie, "valkyrie");
         }
 
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("spas15")) {
-            setupAttackers(view, R.drawable.icaveira, "caveira");
+            setupDefenders(view, R.drawable.icaveira, "caveira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("six12sd")) {
-            setupAttackers(view, R.drawable.ilesion, "lesion");
+            setupDefenders(view, R.drawable.ilesion, "lesion");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("f012")) {
-            setupAttackers(view, R.drawable.iela, "ela");
+            setupDefenders(view, R.drawable.iela, "ela");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("6p41")) {
 
@@ -178,112 +192,112 @@ public class OperatorWeaponDefenderFragment extends Fragment {
 
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("p226mk25")) {
-            setupAttackers(view, R.drawable.ismoke, R.drawable.imute, "smoke", "mute");
+            setupDefenders(view, R.drawable.ismoke, R.drawable.imute, "smoke", "mute");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("m45meusoc")) {
-            setupAttackers(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
+            setupDefenders(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("57usg")) {
-            setupAttackers(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
+            setupDefenders(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("p9")) {
-            setupAttackers(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
+            setupDefenders(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("lfp586")) {
-            setupAttackers(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
+            setupDefenders(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("gsh18")) {
-            setupAttackers(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
+            setupDefenders(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("pmm")) {
-            setupAttackers(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
+            setupDefenders(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("p12")) {
-            setupAttackers(view, R.drawable.ijager, R.drawable.ibandit, "jager", "bandit");
+            setupDefenders(view, R.drawable.ijager, R.drawable.ibandit, "jager", "bandit");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mk19mm")) {
-            setupAttackers(view, R.drawable.ifrost, "frost");
+            setupDefenders(view, R.drawable.ifrost, "frost");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("d50")) {
-            setupAttackers(view, R.drawable.ivalkyrie, "valkyrie");
+            setupDefenders(view, R.drawable.ivalkyrie, "valkyrie");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("prb92")) {
 
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("p229")) {
-            setupAttackers(view, R.drawable.iecho, "echo");
+            setupDefenders(view, R.drawable.iecho, "echo");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("usp40")) {
-            setupAttackers(view, R.drawable.imira, "mira");
+            setupDefenders(view, R.drawable.imira, "mira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("q929")) {
-            setupAttackers(view, R.drawable.ilesion, "lesion");
+            setupDefenders(view, R.drawable.ilesion, "lesion");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("rg15")) {
-            setupAttackers(view, R.drawable.iela, "ela");
+            setupDefenders(view, R.drawable.iela, "ela");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("luison")) {
-            setupAttackers(view, R.drawable.icaveira, "caveira");
+            setupDefenders(view, R.drawable.icaveira, "caveira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("smg11")) {
-            setupAttackers(view, R.drawable.ismoke, "smoke");
+            setupDefenders(view, R.drawable.ismoke, "smoke");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("bearing9")) {
-            setupAttackers(view, R.drawable.iecho, "echo");
+            setupDefenders(view, R.drawable.iecho, "echo");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("c75auto")) {
-            setupAttackers(view, R.drawable.ivigil, "ivigil");
+            setupDefenders(view, R.drawable.ivigil, "ivigil");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("smg12")) {
-            setupAttackers(view, R.drawable.ivigil, "ivigil");
+            setupDefenders(view, R.drawable.ivigil, "ivigil");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("pdw9")) {
 
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("fmg9")) {
-            setupAttackers(view, R.drawable.ismoke, "smoke");
+            setupDefenders(view, R.drawable.ismoke, "smoke");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mp5k")) {
-            setupAttackers(view, R.drawable.imute, "mute");
+            setupDefenders(view, R.drawable.imute, "mute");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("ump45")) {
-            setupAttackers(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
+            setupDefenders(view, R.drawable.icastle, R.drawable.ipulse, "castle", "pulse");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mp5")) {
-            setupAttackers(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
+            setupDefenders(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("p90")) {
-            setupAttackers(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
+            setupDefenders(view, R.drawable.idoc, R.drawable.irook, "doc", "rook");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("9x19vsn")) {
-            setupAttackers(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
+            setupDefenders(view, R.drawable.ikapkan, R.drawable.itachanka, "kapkan", "tachanka");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mp7")) {
-            setupAttackers(view, R.drawable.ibandit, "bandit");
+            setupDefenders(view, R.drawable.ibandit, "bandit");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("9mmc1")) {
-            setupAttackers(view, R.drawable.ifrost, "frost");
+            setupDefenders(view, R.drawable.ifrost, "frost");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mpx")) {
-            setupAttackers(view, R.drawable.ivalkyrie, "valkyrie");
+            setupDefenders(view, R.drawable.ivalkyrie, "valkyrie");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("m12")) {
-            setupAttackers(view, R.drawable.icaveira, "caveira");
+            setupDefenders(view, R.drawable.icaveira, "caveira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("mp5sd")) {
-            setupAttackers(view, R.drawable.iecho, "echo");
+            setupDefenders(view, R.drawable.iecho, "echo");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("vector45acp")) {
-            setupAttackers(view, R.drawable.imira, "mira");
+            setupDefenders(view, R.drawable.imira, "mira");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("t5smg")) {
-            setupAttackers(view, R.drawable.ilesion, "lesion");
+            setupDefenders(view, R.drawable.ilesion, "lesion");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("scorpionevo3a1")) {
-            setupAttackers(view, R.drawable.iela, "ela");
+            setupDefenders(view, R.drawable.iela, "ela");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("k1a")) {
-            setupAttackers(view, R.drawable.ivigil, "ivigil");
+            setupDefenders(view, R.drawable.ivigil, "ivigil");
         }
         if (WeaponItemActivity.mWeaponTAG.equalsIgnoreCase("417")) {
 
@@ -473,19 +487,17 @@ public class OperatorWeaponDefenderFragment extends Fragment {
     }
 
 
-    public void setupAttackers(View view, int id1, int id2, final String op1Name, final String op2Name) {
+    public void setupDefenders(View view, int id1, int id2, final String op1Name, final String op2Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
-        Drawable two = zUtils.resizeImage(id2, getActivity());
+        defenderOne = view.findViewById(R.id.unit_operator_one);
+        defenderTwo = view.findViewById(R.id.unit_operator_two);
 
-        ImageView attackerOne = view.findViewById(R.id.unit_operator_one);
-        ImageView attackerTwo = view.findViewById(R.id.unit_operator_two);
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderOne);
 
-        attackerOne.setImageDrawable(one);
-        attackerTwo.setImageDrawable(two);
+        Picasso.with(getActivity()).load(id2).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderTwo);
 
 
-        attackerOne.setOnClickListener(new View.OnClickListener() {
+        defenderOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), OperatorActivity.class);
@@ -494,7 +506,7 @@ public class OperatorWeaponDefenderFragment extends Fragment {
             }
         });
 
-        attackerTwo.setOnClickListener(new View.OnClickListener() {
+        defenderTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), OperatorActivity.class);
@@ -505,16 +517,14 @@ public class OperatorWeaponDefenderFragment extends Fragment {
 
     }
 
-    public void setupAttackers(View view, int id1, final String op1Name) {
+    public void setupDefenders(View view, int id1, final String op1Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
+        defenderOne = view.findViewById(R.id.unit_operator_one);
 
-        ImageView attackerOne = view.findViewById(R.id.unit_operator_one);
-
-        attackerOne.setImageDrawable(one);
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderOne);
 
 
-        attackerOne.setOnClickListener(new View.OnClickListener() {
+        defenderOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), OperatorActivity.class);

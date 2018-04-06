@@ -43,6 +43,8 @@ public class AttackersFragment extends Fragment {
 
     }
 
+    //Release Memory
+
     @Override
     public void onDestroy() {
         super.onDestroy();

@@ -60,7 +60,6 @@
     <string name="dialog_10">This section shows the Defenders sorted by Speed and Armor</string>
 
 
-
     <string name="dialog_n"></string>
 
     <!-- SLEDGE -->
@@ -108,7 +107,7 @@
     <string name="ash_experience">Second Lebanon War \n\nOperation Orchard \n\nAustere Challenge</string>
     <string name="ash_notes">None</string>
     <string name="ash_gadget_name">M120 CREM</string>
-    <string name="ash_gadget_name_byline">Breaching Round (COMPACT RIFLE ENTRY MUNITION)</string>
+    <string name="ash_gadget_name_byline">Compact Rifle Entry Munition</string>
     <string name="ash_gadget">Ash fires an explosive Breach Round that burrows into a surface and automatically detonates.</string>
     <string name="ash_gadget_one">Modified grenade launcher.</string>
     <string name="ash_gadget_two">40mm breaching round.</string>
@@ -731,7 +730,7 @@ and SAS to blows.
     <string name="finka_dob">June 7th, 1989</string>
     <string name="finka_weight">1.71 M</string>
     <string name="finka_height">68 KG</string>
-    <string name="finka_background">Lera was nine when she was diagnosed with a neuropathy that included the slow degeneration of muscles and the loss of sensation in the limbs and extremities.Born three years after the Chernobyl disaster in the irradiated city Gomel, Belarus, she grew up around children already suffering from birth defects. Her diagnosis was the realization of her fears, so when her parents encouraged her and her younger siblings to be physically active, she pushed herself even harder, determined to keep her body in peak condition to weather the neuropathy. She could not be sick if she stayed healthy, her young mind reasoned. \n\nAll three Melnikova children grew up playing sports, with Lera excelling at those requiring agility and finesse but there was always the knowledge that the neuropathy would worsen unless someone found a more permanent solution. She decided that someone was herself.\n\nLera moved to Novosibirsky State University and graduated with a PhD. in Microbiology and Immunology. She remained at NSU in the Biotechnology and Virology Laboratory, her research uncovering treatments for a variety of pathogens and neuropathies including her own through drugs and self-dissolving nanites. While she hadn't found a cure, she had found remission.\n\nLera might have stayed in Academia had she not received a visit from the Federal Security Service of the Russian Federation (FSB).. Russian Spetsnaz  operators and special agents faced the ever-growing danger of exposure to hazardous materials including organophosphorus agents like VX gas. For the first me in her life, Lera began thinking outside of her own concerns. Her research ad saved the lives of perfect strangers, and now they were reaching out to her, sending grateful postcards and photos and letters. She could have a greater impact still. Lera jumped at the chance to work with Spetsnaz volunteers in a variety of conditions as she adapted the nanobots to their high-performance physiologies. Quickly, she came to enjoy the sense of competition, camaraderie, and the mental toughness of the Russian Special Forces members. She joined the Army with an eye on becoming a Red Beret herself, on the front lines of saving lives as a Chemical Biological Radiological Nuclear (CBRN) specialist.  \n\n Serving in the Russian Army, Lera rapidly proved herself physically and mentally tough enough to try out for the Spetsnaz. It was a brutal course, culminating in Close quarter Battle (CQB) knife training with Kapkan. A misstep and a flourish from Kapkan, however, opened her face from brow to cheek, but Lera went for a series of bone breaking punches to his nose and ribs before the pain overwhelmed her. They spent the night in the med tent, neither of them speaking, but enjoying a new, unspoken respect between them. From that day forward, she'd earned her moniker, Finka or \"Knife\". Lera became the Spetsnz CBRN Specialist, joining the Vympel UNit under the FSB and using her nanobots to help her unit survice hot zones; she was one of the only people capable of tailoring the nanobots to specific operators.\n\nHer work in restructuring Russian battlefield protocols in the handling and neutralization of dangerous payloads earned her notice, and she became the go-to expert when it came to joint exercises with the other CTUs. Six invited Lera to help Rainbow Six put together a CRBN unit of their own with Olivier \"Lion\" Flament as her first pick.</string>
+    <string name="finka_background">Lera was nine when she was diagnosed with a neuropathy that included the slow degeneration of muscles and the loss of sensation in the limbs and extremities.Born three years after the Chernobyl disaster in the irradiated city Gomel, Belarus, she grew up around children already suffering from birth defects. Her diagnosis was the realization of her fears, so when her parents encouraged her and her younger siblings to be physically active, she pushed herself even harder, determined to keep her body in peak condition to weather the neuropathy. She could not be sick if she stayed healthy, her young mind reasoned. \n\nAll three Melnikova children grew up playing sports, with Lera excelling at those requiring agility and finesse but there was always the knowledge that the neuropathy would worsen unless someone found a more permanent solution. She decided that someone was herself.\n\nLera moved to Novosibirsky State University and graduated with a PhD. in Microbiology and Immunology. She remained at NSU in the Biotechnology and Virology Laboratory, her research uncovering treatments for a variety of pathogens and neuropathies including her own through drugs and self-dissolving nanites. While she hadn\'t found a cure, she had found remission.\n\nLera might have stayed in Academia had she not received a visit from the Federal Security Service of the Russian Federation (FSB).. Russian Spetsnaz  operators and special agents faced the ever-growing danger of exposure to hazardous materials including organophosphorus agents like VX gas. For the first me in her life, Lera began thinking outside of her own concerns. Her research ad saved the lives of perfect strangers, and now they were reaching out to her, sending grateful postcards and photos and letters. She could have a greater impact still. Lera jumped at the chance to work with Spetsnaz volunteers in a variety of conditions as she adapted the nanobots to their high-performance physiologies. Quickly, she came to enjoy the sense of competition, camaraderie, and the mental toughness of the Russian Special Forces members. She joined the Army with an eye on becoming a Red Beret herself, on the front lines of saving lives as a Chemical Biological Radiological Nuclear (CBRN) specialist.  \n\n Serving in the Russian Army, Lera rapidly proved herself physically and mentally tough enough to try out for the Spetsnaz. It was a brutal course, culminating in Close quarter Battle (CQB) knife training with Kapkan. A misstep and a flourish from Kapkan, however, opened her face from brow to cheek, but Lera went for a series of bone breaking punches to his nose and ribs before the pain overwhelmed her. They spent the night in the med tent, neither of them speaking, but enjoying a new, unspoken respect between them. From that day forward, she'd earned her moniker, Finka or \"Knife\". Lera became the Spetsnz CBRN Specialist, joining the Vympel UNit under the FSB and using her nanobots to help her unit survice hot zones; she was one of the only people capable of tailoring the nanobots to specific operators.\n\nHer work in restructuring Russian battlefield protocols in the handling and neutralization of dangerous payloads earned her notice, and she became the go-to expert when it came to joint exercises with the other CTUs. Six invited Lera to help Rainbow Six put together a CRBN unit of their own with Olivier \"Lion\" Flament as her first pick.</string>
     <string name="finka_profile">Lera discovered that her neuropathy was slowly growing resistant to treatment. The old fears returned, every ache and pain analysed and scrutinized as she
 pushed herself even harder to peak performance.\n\nShe constantly tweaks and modifies her formula to stave off twinges and numbness that she imagines might be the onset of decline. She pushes herself to the point of throwing up after workouts with Iq and Valkyrie, though only Valkyrie understood that punishing limit of physical fitness. Lera is unable to distinguish between the disease and normal fatigue and is driven by he? fears and made excellent by them in the same maddening moment. She is not young anymore, though, but more desperate than ever to hold on to her life. She is trying to find anew treatment while keeping it a secret, but Doc knows and is closely monitoring her condition in case it begins to affect her performance. She has not shared this with anyone else, not Kapkan who is her no-nonsense mentor, and not Tachanka with whom she drinks and flirts.</string>
     <string name="finka_training">Russian Army\n\nSpetsnaz CBRN Specialist , Vympel Unit</string>
@@ -762,44 +761,777 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 
     <!-- OPERATOR TIPS -->
 
-    <string name="sledge_tip">Sledgehammer can destroy unreinforced walls, unreinforced hatches, destructible floor and barricades.\n\nSledge can create new lines of sight by using the Sledgehammer to destroy surrounding.\n\nSledgehammer can be used to create new entry and rotation holes for attackers.\n\nSledgehammer can destroy Barbed wire and Castle Armors with one hit. \n\nThe usage of Sledgehammer on surfaces will reduce its durability.\n\nSledgehammer contains 25 charges.\n\nDestroying a wall takes two charge while others take one charge.Swinging without any contact does not count as a charge.\n\nThere is a delay trying to reuse the Sledgehammer right after when Sledge uses it, in which he is vulnerable.\n\nSledgehammer is also capable of killing enemies with one hit. It counts as two charges.\n\nWhen used close to a wall, Sledgehammer will destroy the wall layer completely. When used a bit away from the wall, it destroys only one layer of the wall.\n\nCombine Sledge with Glaz to create new lines of sight for him to provide support from long range.\n\nCombine Sledge with Jackal to track any enemies below and create holes through floor to kill them from above.\n\nCombine Sledge with Thatcher to help him throw EMPs at critical location by creating new lines of sight.\n\nSledge works well with Thermite,Buck and Hibana. They can create havoc by destroying everything (walls,barricades,floor,hatches). They are the defenders nightmare.\n\nPulse can detect movements above from below. Careful to not remain in one spot for long time or be prepared for the nitro cell death.\n\nDefenders can reinforce walls to prevent Sledge from breaking it.\n\nUnwary Sledge when breaking stuff is prone to getting killed from Roamers especially Caviera.</string>
-    <string name="thatcher_tip">EMP grenades thrown will destroy or deactivate defender gadgets.\n\nEMP will destroy Smoke Gas Grenades , Mute Signal Disruptor, Kapkan Entry Denial Devices, Jager Active Defense Systems, Bandit Shock Wire, Valkyrie Black Eyes, Lesion Gu Mines, Ela Grizmot Mines, Nitro Cells and Cameras.\n\nEMP will deactivate Vigil ERC-7, Pulse Heartbeat Sensor and Echo Yokai Drone for while if caught in radius.\n\nEMP will disable all defender weapon sights for 10 seconds if in radius affected.\n\nEMP will not affect any attacker gadgets.\n\nEMP will disable lights in building for a while.\n\nEMP will disable Laser sights of defenders with reduction in hipfire accuracy if in radius.\n\nEMP radius pass through walls and surfaces, You can destroy gadgets other side to the wall if they are in radius of the blast from opposite side.\n\nEMP grenades cannot be cooked and will activate seconds later after being thrown.\n\nCombine with Hibana and Thermite to help open walls if they are jammed with Mute Signal Disruptors or Bandit Shock Wires.\n\nCombine with Iq to detect defender gadgets and eliminate them.\n\nTwitch can help Thatcher save his EMPs by destroying gadgets with her drone.\n\nThatcher can combine with flashbang operators to prevent EMP being destroyed by Jager Active Defense Systems.\n\nJager Active Defense Systems can destroy EMPs when caught in its line of sight while throwing.\n\nEcho drone most times will be very high in ceiling and will not be affected by EMP as their range is short.\n\nEMP do not affect mechanical devices like Mira Black Mirror or Frost Welcome Mat.</string>
-    <string name="ash_tip">Ash can fire CREM breaching charges away from long distance to safely destroy surfaces from behind cover.\n\nCREM breaches are not remotely activates, they detonate on impact even if there is a Jammer around.\n\nCREM breaches electrify and are destroyed if they come in contact with Bandit Shock Wire  Shield or Barbed Wire.\n\nCREM deals a mere 85 damage to 1 Armor Operator.\n\nCREM on contact with defender will deal 50 damage irrespective of Armor of Defender\n\nWhen walls are not completely covered by reinforcements, CREM can make line of sight around them.\n\nJager Active Defense System will destroy the CREM breaches if in line of sight.\n\nCREM breach can remove Mira Black Mirror if deployed on unreinforced wall.\n\nCREM breaches can create new larger line of sight in floor with high range of explosion radius.\n\nUsing Ash in a very aggressive manner makes her very hard to be killed.\n\nAsh can destroy very hard to reach places like higher windows or ceilings. </string>
-    <string name="thermite_tip">Thermite Exothermic Charge can destroy reinforced walls and hatches.\n\nUse Thermite with Hibana to destroy most of walls and hatches\n\nThermite has claymore to protect him from behind.\n\nExothermic Charges can be jammed by Mute Signal Disruptor\n\nExothermic Charges can be destroyed by Bandit Shock Wires. This counter by Bandit is called the "Bandit Trick" while he actively places a Shock Wire to the wall while Thermite sets an Exothermic Charge thereby destroying it.\n\nUsing Exothermic Charges on unreinforced walls is waste of utility.\n\nExothermic Charges release visible sparks on other side of wall to denote its activation and detonation. This warns the Defenders about the breach.\n\nSetting Exothermic Charge takes 3 seconds.\n\nExplosion radius from Exothermic Charge is large compared to other means.\n\nDetonating Exothermic Charge in floor next to a wall will destroy both the floor and the hatch.\n\nDetonating Exothermic Charge will destroy areas adjacent to it. This can be used to bypass certain Mute Signal Disruptor placements and destroy areas even if disrupted.\n\nThatcher can help Thermite with his EMP if the area to be destroyed is jammed by Mute Signal Disruptor or Bandit Shock Wired.\n\nTwitch can help Thermite to remove the Mute Signal Disruptor or Bandit Shock Wires.\n\nZofia can help Thermite and  disorient Bandit and prevent him from doing the Bandit trick.\n\nIq can help Thermite to see if Bandit is active tricking.\n\nThermite can open walls for Glaz to cover from long distance.\n\nSledge,Buck,Iq can help Thermite in certain places to kill Bandit via drone hole with Grenades if he is in close proximity to the drone hole and is active Bandit tricking.\n\nThermite can encounter Bandit trick by using Advanced Gadget Deployment model in game. Switch areas and confuse Bandit as to where you are placing your Exothermic Charges.\n\nWhen placing Exothermic Charges, be sure to get hit from battery shock and place the charge when Thatcher EMP goes off. This will help you deny Bandit trick.</string>
-    <string name="twitch_tip">Twitch has her Twitch Drones as her primary Drones. One Drone is activated during preparation phase.\n\nTwitch Drones can shock enemies by reducing 10 hp.\n\nTwitch Drones can destroy defender gadgets and cameras.\n\nTwitch drones have a limit in how higher they can reach.\n\nBoth Twitch Drones have 5 darts each.\n\nTwitch drones should be used to remove Ela Grizmot Mines as they make Attackers very vulnerable.\n\nTwitch drones can destroy Mira Black Mirrors.\n\nVigil Video Disruptor will turn off temporarily if shot by a Twitch Drone.\n\nTwitch Drones cannot jump. They can only travel on ground.\n\nTwitch Drones are quieter and smoother that other drones.\n\nTwitch works best with Thatcher and Iq at taking out Defender gadgets as a whole.\n\nDefender Shields blocking entrances eliminate the movement of Twitch Drone into the room. This is a reliable method to protect Mira Black Mirrors.\n\nTwitch Drones get destroyed if it comes in contact with Bandit Shock Wires.\n\nTwitch Drones are jammed when in contact with Mute Signal Disruptor.\n\nFrost Welcome Mat cannot be damaged by Twitch Drones.\n\nTwitch Drones can be used to kill downed Defenders.\n\nTwitch Drones can be used to distract Defenders while other Attackers are pushing aggressive.\n\nTwitch has claymore to protect her back from Defenders.</string>
-    <string name="montagne_tip">The Extended Shield protects the entire front body from Defenders.\n\nThe Extended Shield also protects his sides to an extent.His Smokes can be used to cut off multiple line of sights while pushing a single direction.\n\nHis smoke can help in implementation of a Smoked Defuser Plant.\n\nNitro Cells will deal him little damage.\n\nThe Ballistic Shield will be knocked aside when melee attacked by Defender. In such situation he should turn to adjust with the knocked shield to get cover from it.\n\nMontagne is vulnerable from behind very much. Be on the lookout for roamers.\n\nHe is comparatively slower than heavy operators.\n\nThe Extendable Shield can be used to block doorways when fully extended thereby denying passage for Defenders\n\nMontagne works with Ash,Thermite and Hibana who can create entry for him.\n\nMontagne is only covered 80 degrees and not 90 degress at both sides and is vulnerable a little bit at the sides.\n\nEla Grizmot mines can lower his fully extended shield when in contact.\n\nMontagne is louder like usual shield operators.\n\nFrost Mats will injure Montagne even when his shield is fully extended.\n\nBandit shock wires damage  him when he walks though it.\n\nMontagne,Blitz, Glaz and Ying can be combined to perform a methodical Smoke plant, where all use their smokes and ying uses her candelas to perform the plant in the confusion.Blitz cover the Defuser at short range while Glaz covers it at long range.\n\nMontagne can use laser with his handgun to perform hip-fire shots which can be quite deadly if aimed perfect.\n\nMontagne is well suited to perform a quick recon and provide information to other Attackers</string>
-    <string name="glaz_tip">Glaz uses his sniper to support team from long distance.\n\nGlaz sniper highlights Defenders even through smoke.\n\nGlaz can destroy Castle Armor Panel by shooting at them 12 times.\n\nGlaz can open unreinforced hatches by shooting 2 or 3 times.\n\nGlaz sniper can penetrate two surfaces at once.\n\nThermite, Hibana, Sledge and Buck can create new lines of sight to help Glaz take a peek.\n\nGlaz can penetrate the windows in Plane maps.\n\nGlaz can help in protecting defuser if planted from very long distance.\n\nGlaz, Ying , Blitz and Montagne can be combined to perform a methodical Smoke plant. It is very hard to deny. Blitz cover the Defuser at short range while Glaz covers it at long range.\n\nGlaz has claymore to cover his back if at all he needs to enter the building.\n\nGlaz can provide long range covers from Defender runouts.</string>
-    <string name="fuze_tip">Fuze is most destructive operator. He is often known for his disregards for civilian life.\n\nFuze charges can help effectively clear out rooms without engaging in close range combat.\n\nFuze Cluster charges injects small explosive pellets through he surface in which it is being placed be it floor or wall.\n\nThe charge pellets are deployed in other side of placement angle. They are deployed in count of 5 from right to left. They detonate in order they are deployed first.\n\nEach pellet have range of 4.2m. They deal lethal damage.\n\nMute Signal Disruptor can jam the charge from being exploded.\n\nThere is a distinct sound made when placing those Cluster Charges.\n\nCluster Charge pellets can bounce back surfaces too, Be wary how you place them.\n\nFuze Cluster Charges can be used tactically to create confusion and chaos among Defenders.\n\nFuze Charges can pierce through Castle Armored Panels and create a hole when doing so. This hole can be used for line of sight into the room.\n\nJager Active Defense systems can destroy pellets as they come in line of sight to them.\n\nInstead of using Fuze Cluster Charges anywhere and everywhere to get kills based on luck, placing them in conventional spots based on map knowledge will yield you confirmed kills.</string>
-    <string name="blitz_tip">Blitz Shield can blind enemies when flashed. Defenders are very vulnerable when in line of sight of the flash as they are blinded completely.\n\nBlitz has total of 5 flashes.\n\nBlitz is vulnerable when melee attacked leaving him vulnerable to the front, He must quickly move to bring the shield in front of him to prevent any frontal damage.\n\nBlitz can still use the Flash when aiming down the sights.\n\nBlitz can surprise and target roamers to get rid of them.\n\nBlitz can run with his shield up and flash at sametime making him very hard to deal with.\n\nBlitz cause full temporary blindness at range of 4m.\n\nBlitz can be used to smoke plant the defuser and cover it in short range. When combined with Glaz, Montagne and Ying, They are a deadly force.\n\nMute Signal Disruptor can jam Blitz Flash Shield.</string>
-    <string name="iq_tip">Iq can detect Defender gadgets and destroy them through floors and walls.\n\nIq can detect bombs from a distance.\n\nIq can help Thatcher in detecting if Bandit is tricking for Thermite.\n\nIq is very effective in hunting Pulse as his Gadget will be detected by Iq Spectre.\n\nIq can be very effective in finding Kapkan Entry Denial Devices, Nitro cells, Jager Active Defense Systems, Bandit Shock Wires, Blitz Shield, Smoke Gas Canisters, Valkyries Black Eyes, Echo Yokai Drone, Ela Grizmot Mines and more.\n\nIq is very effective in preventing Defenders from using Valkyrie Black Eyes for runouts kills.\n\nIq with Thermite can help kill Bandit through drone holes if Bandit is tricking in the vicinity of the drone hole.\n\nIq can help Thatcher identify areas to throw EMP at.\n\nIq is very effective in identifying Lesion GU mines which are invisible to naked eye.</string>
-    <string name="buck_tip">Buck can destroy surfaces very quick be it floors, walls or hatches.\n\nBuck can create new lines of sight from above, from below and to adjacent rooms.\n\nBuck can create holes that can be used to vault into.\n\nThe Skeleton Key contains 16 shells in reserve.\n\nBuck is very useful in all map but requires a bit of map knowledge to use him to his full potential.\n\nBuck can combine with Thermite to kill Bandit via drone holes using Grenades if he is tricking for Thermite.\n\nBuck can create new lines of sight for Glaz to cover from a distance.\n\nBuck can create chaos and drive Defenders below into sense of fear by destroying floor.\n\nBuck can combine with Thatcher and create new holes to help him throw his EMP at better angles.\n\nBuck can also be used to destroy Mira Black Mirror by shooting from below or above. It requires good map knowledge.\n\nBuck will be very vulnerable to Roamers if not careful especially Caveira.</string>
-    <string name="blackbeard_tip">The Rifle Shield protect shots to his head. This give him a great advantage to be aggressive when peeking.\n\nBlackbeard has two rifle shields to deploy.\n\nHe can switch between the two anytime if its not broken.\n\nRifle shields withstand upto 60 hp.\n\nWhen Rifle Shield is equipped, he moves very slow.\n\nBlackbeard works well with Shield operators like Fuze, Blitz and Montagne. That is a lot of shields to deal with.\n\nBlackbeard can recover his full movement speed by switching from Rifle Shield equipped primary to D50.\n\nVigil shotgun will break the shield on any level when dealt with.\n\nEla is an aggressive Defender to deal Blackbeard. Avoid her.\n\nSmoke SMG and Mira Vector are effective weapons to deal Blackbeard. Be on the lookout for them.\n\nBlackbeard DMR is very deadly if used on a precise level.</string>
-    <string name="capitao_tip">Capitao has claymore to protect his back from Defenders.\n\nCapitao Tactical Crossbow has two different bolts: Asphyxiating Bolts and Micro Smoke Grenades. You can switch to any of them.\n\nAsphyxiating Bolts can be used to block passage and create bottlenecks.\n\nAsphyxiating Bolts can be used to kill downed Defenders.\n\nAsphyxiating Bolts can be used to kill Defenders camped in a corner.\n\nSmoke mode can be used to help plant Defuser and is best combined with Blitz, Glaz, Ying and Montagne.\n\nA direct impact of bolt deals 5 damage and it will not headshot.\n\nCapitao can be used aggressively with Ash, Hibana, Twitch and Sledge.</string>
-    <string name="hibana_tip">X-KAIROS will help you open at maximum three reinforced hatches.\n\nX-KAIROS need to be detonated after impact manually.\n\nX-KAIROS can also be used to create a entry passage in walls.\n\nX-KAIROS can be used to open up floor down to create new lines of sight.\n\nA single pellet from X-KAIROS can destroy open a hatch. X-KAIROS when shot shoots out 6 pellets at same time.\n\nX-KAIROS used once helps you crawl into walls.\n\nX-KAIROS used twice helps you crouch into walls.\n\nX-KAIROS used thrice helps you walk into walls.\n\nX-KAIROS can also be used to burn out Jager Active Defense System. When X-KAIROS is shot once, six pellets emerge which uses up all three Jager ADS.\n\nThermite along with Hibana can open holes in walls being tricked by Bandit.\n\nX-KAIROS help you open Mira Black Mirrors.\n\nMute Signal Disruptor prevent you from detonating X-KAIROS pellets.\n\nX-KAIROS pellets will be destroyed if surface is Bandit Wired.\n\nX-KAIROS takes 5 secs to blow open while Thermite Exothermic Charge only takes 3 secs.\n\nX-KAIROS pellets can be destroyed by gunfire or explosives.\n\nX-KAIROS can be aimed to precisely fire pellets.</string>
-    <string name="jackal_tip">Jackal is very effective in hunting roamers.\n\nJackal Eyenox can see footprints and scan them to locate respective Roamer and pings their location 5 times in 20 seconds.\n\nDefender footprints are colored based on the time it was made, red mean 0 sec ago,yellow means 20s ago, green means 45s ago, blue means 65s ago and the tracks disappears at 90s mark.\n\nFootprint tracks will not be made if Defender was crawling.\n\nCaveira is a direct counter to Jackal, Even though she can be tracked by him, When she enters Silent Step, Her location will not be ping like other Defenders. \n\nCaveira, When she times the ping made by Eyenox by moving into Silent Step cannot be detected by Jackal in any manner.\n\nEyenox cannot be turned ON or OFF while holding a hostage.\n\nAll Attackers will see the live ping update of Defenders if tracked by Jackal.\n\nMute Signal Disruptor will interfere with his Eyenox causing static effect, which almost makes him blind.\n\nThatcher or Twitch can help Jackal by removing the Mute Signal Disruptor.\n\nJackal is very effective in detecting any movement of Defenders in any vicinity.\n\nJackal shotgun can be used to make rotation holes quickly.</string>
-    <string name="ying_tip">Her Candela works lika Flash grenades. They blind the Defenders and leave them vulnerable.\n\nCandelas can be fixed and placed on surfaces to fire flashes onto the other side.\n\nCandelas are very effective in getting the Defuser Planted.\n\nJager Active Defense Systems are capable of desrtoying it when thrown as a whole.\n\nCandelas can be used to waste Jager Active Defense System by placing them on barricades to fire flashes in line of sight of those ADS\n\nCandelas can be cooked before release, Doing so delays the detonation and rolls them on the ground for a while. The roll time depends how long you wait to release initially.\n\nCandelas can be punched through Castle Armor too, but the hole it makes it small.\n\nYing wears special goggles that allows her to see through the flashes.\n\nYing can blind teammates too if not communicated well.\n\nBarbed wires will slow down Candela rolling speed.\n\nBandit Shock Wires are capable of destroying Candelas when in contact with.\n\nYing works best with Glaz, Blitz and Montagne to do a Defuser Plant that is hard to deny.\n\nYing works with Fuze, When Ying blinds Defenders, Fuze can detonate the Cluster Charges to wreak havoc.</string>
-    <string name="zofia_tip">She can fire Impact Grenades and Proximity Concussion Grenades. She can switch them both on the fly.\n\nShe has 2 Impact Grenades and 4 Concussion Grenades. \n\nConcussion Grenades cause Visual and Mobility disruption.\n\nConcussion Grenades when hit on a surface they rebound. When they come in proximity to a Defender they detonate.\n\nZofia is resistant to Ela proximity mine and can recover in half the time than other Operators.\n\nZofia has a ability to withstand when in down state to recover herself up 5 percent of baseline health.\n\nEla is resistant to Zofia Concussion effects, allowing her to recover twice as fast.\n\nJager Active Defense System can take our Zofia grenades if they are not detonated yet.\n\nThere is a arc present to the grenade trajectory.</string>
-    <string name="dokkaebi_tip">The Logic Bomb hacks Defender system and calls them. It makes a buzzing sound for all Defenders helping to Attackers to locate them.\n\nWhen Defender phones are called, they will have no access to Defender camera network.\n\nLogic Bomb call can be made only twice.\n\nLogic Bomb can hack the phone dropped by any Defender who is killed. This hacks their Defender camera network including Valkyrie Black Eyes and provides the feed to the Attackers.\n\nLogic Bomb calls are very helpful to locate Roamers.\n\nWhen Logic Bomb calls are activated, Defenders can try to hide and  switch it off to prevent it from ringing.\n\nDoekkabi takes time to do calls or camera hacks, during this time she is very vulnerable and cannot move.\n\nThe Defender phones are destroyable, which must be destroyed by another Defender if one  dies to prevent Dokkaebi from hacking into the Defender Cams.\n\nWhen Defender cameras are hacked it displays a logo to show it is hacked for the Defenders, Defenders should shoot the hacked cameras to prevent giving away their location.\n\nHacked cameras are accessible to both Attackers and Defenders.\n\nExplosives will not destroy phones from Defenders, they must be destroyed manually.\n\nDokkaebi cannot call Echo and cannot hack into Echo Drone.\n\nWhen Defenders are placed in range of Mute Signal Disruptor, their phones will not ring when called.\n\nIq can detect phones when Defenders are trying to switch them off.\n\nBandit Shock Wires will destroy Defender phones when in contact.\n\nVigil cannot be seen in hacked cameras.</string>
-    <string name="finka_tip">Finka uses her ability Adrenal shot to provide temporary set of abilities lasting for 20 seconds which increases the performance of Attackers in various scenarios.\n\nFinka has three Adrenal surge shots.\n\nFinka Adrenal shot also provide a health boost of 20hp for 20 seconds after which it is reduced to normal.\n\nFinka can use her ability Adrenal shot to revive team mates when down.\n\nFinka Adrenal shot will reduce the recoil of Attacker weapons to a huge amount in that duration.\n\nFinka is very useful when played aggresive, or when a team rushes into the site aggresively.\n\nWhen Finka ability is active, Attackers will move easily through Barbed Wire, recover faster from Flashbangs and Concussion Mines.\n\nFinka ability has some downfalls like taking more damage from Smoke toxic gas grenades, being detectable at a longer distance in Pusle cardiac sensor, the ability being cancelled when hit by Echo Yokai drone or Lesion Gu mines.\n\nFinka abililty is very powerful when combined with Attackers having Light Machine Guns and Machine Pistols as their recoils are reduced to large extent.\n\nFinka can prevent Caveira interrogation by reviving the downed Attacker instantly.\n\nFinka can help Attackers recover from Ela Mines by using her ability.</string>
-    <string name="lion_tip">Lion EE-One-D drone will detect enemy movement and provide their realtime outline in the 4 second duration when its active.\n\nLion scan revealing enemy position can be seen by all the Attackers.\n\nDefenders are given a warning of 3 seconds before the scan takes place to position themselves in a safe place.\n\nDefenders can do all actions except position movement and not be detected by the EE-One-D drone.\n\nDefenders can move about freely and do all actions when they are in close proximity to a Mute Jammer.\n\nLion can call three scans per round.\n\nLion ability works well when the Defuser has been planted. Using his ability will detect Defenders approaching the Defuser.\n\nLion is also very userful to prevent Defenders from spawn peeking.\n\nLion ability is perfect to kill moving Defenders from above or below the floor in which they are in.\n\nLion is a good counter to prevent Defenders from shooting Attackers by prefire with the help of Black Mirror.</string>
-    <string name="smoke_tip">Smoke Gas grenades stick to surfaces and can be detonated remotely.\n\nSmoke Gas grenades deals 15 points every second regardless of armor.\n\nSmoke Gas grenades release toxic content dealing critical damage.\n\nSmoke Gas grenades can be used to kill downed enemies.\n\nSmoke Gas grenades can be detonated on impact as nitro cells.\n\nSmoke Gas grenades are thick to deny vision through it. It can be used for rotation or escaping from Attackers if caught.\n\nUsing Smoke Gas grenades when Attackers are walking through Barbed Wire will surely down them and kill them as they take more damage the longer they are in the gas.\n\nThatcher can destroy the grenades using EMP.\n\nIq can detect smoke grenades and shoot them.\n\nTwitch can destroy it with her drones.\n\nHigh speed Attackers are more likely to escape through the smoke taking less damage than Low speed Attackers. They die quick.\n\nSmoke shotgun and impact grenades can be used to create rotation holes between sites.</string>
-    <string name="mute_tip">Mute Jammers are portable devices and has a range of 2.25 m.\n\nThey disrupt all Attacker gadget that are used remotely.\n\nMute jammers can disrupt Jackal Eyenox making him blind.\n\nMute jammers can prevent Defenders from being called by Dokkaebi Logic Bomb.\n\nMute can prevent movement of Attacker drones and their recon.\n\nWhen placed between two reinforced walls, they prevent breach by Thermite and Hibana over those two walls.\n\nThatcher can destroy Mute Disruptors when in Range.\n\nIq can detect them and shoot them through floors, windows and doors.\n\nTwitch can destroy them using her drone. But if the drone is too close, it is disrupted too.\n\nWhen drones are jammed by Mute Disruptors, Attackers can destroy the jammer and recover their drones.\n\nWhen in preparation phase if a drone is under Mute jammer and if not shot, the Attacker cannot see feed from other Attacker drones.\n\nMechanical devices are not affected by Signal Disruptors.\n\nMute Signal Disruptor are placed in doorways to prevent drones from entering the room. Place them in a way Attackers wont shoot them.</string>
-    <string name="castle_tip">Castle has 3 Armor Panels which he can barricades in doors and windows. They are bulletproof and are very much tougher.\n\nEffective ways to destroy them are using Breach charges and Grenades.\n\nArmor Panel once barricaded,can be pulled down by any defender. They will return back to Castle.\n\nCastle helps slowing down Attackers and deny line of sights that are more vulnerable.\n\nSledge Breaching Hammer and Ash CREM charge can take down Armor Panels easily.\n\nWhen these panels are combined with Mute, they can prevent Attacker from opening it with Breach Charges.\n\nGlaz can 12 shot Armor Panel with his sniper to destroy them.\n\nFuze Cluster Charges, Ying Candela and Doekkabi shotgun create holes in Armor Panels for new line of sight.\n\nDefenders cannot make hole in Armor Panels except with Vigil shotgun.\n\nArmor Panel can be destroyed by melee attack 12 times.\n\nArmor Panel when pre-hit 11 times, can be used to make surprise run-outs by hitting once and using element of surprise on Attackers.\n\nImpact Grenades can destroy Armor Panels on impact.\n\nWhen Attacker tries to melee attack Panels, Defenders can use nitro cell to kill them,or shoot Attackers in legs exposed under the Panel to prevent them from opening.\n\nPulse can be used with Castle to detect enemy movements beyond the Armor Panel and take necessary action.\n\n\n\nMira strats can be backed with Castle to protect Mira while she uses her Black Mirror to advantage of Defenders.</string>
-    <string name="pulse_tip">Pulse can detect Attacker in proximity using the Heartbeat Sensor.\n\nPulse is useful when communicating with the team.\n\nPulse can detect and use nitro cells to blow up Attacker from below.\n\nPulse can detect Attackers and shoot through surfaces from above or walls to side.\n\nThatchers EMP grenade will disable Heartbeat Sensor for a while before it can be reused.\n\nThe sound Heartbeat Sensor emits will get louder as Attackers get close to it, Be wary that Attackers can hear the sound and detect a Pulse presence.\n\nIq can detect Pulse when he is using the Heartbeat Sensor. Iq can effectively try to locate him shoot through surfaces.\n\nPulse can be combines with other nitro cell operators to pre-place them and detonate by communicating with team mates.\n\nPulse is a effective roamer who can detect enemies and outsmart them in creative plays.</string>
-    <string name="doc_tip">Stim Pistol heals Defenders for 40 hp when hit with it.\n\nDoc can pick himself when down using his Stim Pistol.\n\nStim Pistol revives a person who is down with 75 hp. When used on a downed Defender it gets back them up without any help from other Defenders.\n\nStim Pistol has pinpoint  hipfire accuracy. It can be shot without aiming down.\n\nPistol has ability to overheal Defenders. It is useful when trying to face a group of Attackers or when trying to take back Defuser.\n\nThe overheal if done, decays at rate of 1 hp per second until baseline 100 is achieved.\n\nDoc has 3 shots in Multiplayer and 5 in Terrorist Hunt mode.\n\nDoc works better with Rook to greatly improve the armor characteristics of Defenders.\n\nInstead of using Stim Pistol to revive downed Defenders, if Doc tries to revive them manually and later provide them a Stim shot he can provide 50 hp plus 40 hp.</string>
-    <string name="rook_tip">Rook Armor Plates come in a Satchel. It has five armors in it.\n\nRook Armor reduces 20 percent damage for all Operators.\n\nRook Armor does not affect headshot kills. \n\nRook cannot pick up Satchel once dropped\n\nArmor Plates when worn always put you in a downed state instead of being killed. But when shot after being downed kills you.\n\nOperator can only be downed once per round.\n\nWhen downed wearing a armor doubles bleedout time for 120 secs.\n\nRook Satchel can be destroyed by team mates or Attackers. \n\nAttackers can also wear Rook Armor Plates if found.\n\nRook works best with Doc who can revive Defenders when they are down.\n\nOperators will die usual from melee even when Armor Plates are worn\n\nTwitch Shock drone can be used to kill Defenders who are downed.\n\nCapitao can use his asphyxiating bolts to kill downed Defenders too.\n\nAny Attacker who can do any Damage with gadget can kill downed Defenders. Even throwing a flashbang can kill you.</string>
-    <string name="kapkan_tip">Kapkan uses Entry Denial Device to damage unwary Attackers.\n\nEDD deal a damage of base damage of 60hp.\n\nThey can be attached to frames of doors and windows.\n\nThe laser of EDD cannot be seen.\n\nWhen placed wisely they can deal great damage to Attackers all round.\n\nCombining EDD with barricaded doors and Defender Shield will yield certain success in Attacker tripping them.\n\nKapkan can help in securing pathways for Roamers by placing EDDs which when detonated implies Attacker nearby.</string>
-    <string name="tachanka_tip">The LMG gives a high level of protection.\n\nWhen used wisely with a Defender Shield in front, it can be used for a great suppressive fire.\n\nTachanka can deploy LMG and pick it up later.\n\nWhen unmanned LMG can be used by any Defender or even Attacker for that matter.\n\nThe Mounted LMG has a protective shield on the top that protects head from direct  gunfire.\n\nThe Mount has a 60 degrees limitation in all directions.\n\nThe LMG has above normal destruction power, it can destroy surfaces to create new lines of sights and provide support to Defenders in that area.\n\nMontagne can also  deal bullets from LMG.\n\nAsh is capable to shoot her CREM at LMG to destroy the front shield making the Defender who uses it vulnerable.\n\n\n\nCapitao asphyxiating bolts are very effective to kill Defender who is using the mounted LMG.</string>
-    <string name="jager_tip">Jager is a powerful Defense Operator\n\nJager provide antigrenade support using his Magpies - Active Defense System.\n\nADS detects and destroys any projectile coming in its line of sight.\n\nEach ADS can destroy two such projectile incoming.\n\nJager have 3 Magpies. They are placed right next to windows or doors to prevent Attackers from using remote detonated devices.\n\nADS can simultaneously destroy two projectiles.\n\nADS can destroy Frag grenades, Stun Grenades, Smoke Grenades, Ash CREM, Thatcher EMPs, Grenades from Fuze Cluster Charge, Hibana XKAIROS, Ying Candela,Zofia Impact and Concussion grenades.\n\nMost times Stun Grenade, Hibana XKAIROS pellets and Ying Candela will be used to burn out the ADS to further use Frag grenades to throw at Defenders.</string>
-    <string name="bandit_tip">Bandit can place Shock Wire on all metallic gadgets, Barbed wires, Shields, Reinforced walls.\n\nShock can be identifies with sparks coming out of metal objects.\n\nShock Wires destroy Attacker gadgets when in contact with.\n\nBandit can be a effective roamer given his high agility.\n\nBandit shotgun is very effective at close range.\n\nBandit can active switch the batteries to prevent Thermite from using his Exothermic Charge.\n\nBandit can prevent Mira Black Mirrors being open by Hibana by shocking the walls.\n\nDefender gadgets can also be destroyed by Bandit Shock Wires.\n\nAttacker in contact with shock sparks will deal 10 damage per second. They also cause great disorientations.\n\nOne Shock Wire can electrify one Barbed Wire or One Shield or One Reinforced wall.\n\nBandit Shock wires can be used with Castle Armor Panels with Barbed wire underneath to deal damage to Attackers who come for breaching the Panels.\n\n\n\nIt is possible for your Bandit Shock Wire to get you kills even after you are dead.</string>
-    <string name="mira_tip">Mira uses Black Mirrors that are deployed on walls that help Defenders create a one way view to the other side.\n\nThey can be tactically used to defend a location. When needed the gas canister in Black Mirror can be destroyed creating a murder hole Defenders can use.\n\nMira is suitable to hold Bomb Defuser plants. Combine Mira with Smoke and you can deny plant at all levels. \n\nMira Black Mirrors can be places at head or crouch level.\n\nCommon strategy is to reinforce one of two adjacent walls and place a Mira Black Mirror in the reinforced wall, Leaving the other wall soft to prefire when Attackers are in line of sight front.\n\nOnce deployed Mira Black Mirrors cannot be removed.\n\nTwitch drones can destroy Black Mirrors leaving a hole in middle of the wall. Nothing can be done to remove the hole in wall.\n\nBuck, Slege or Ash will try to open Mira from below and above the Black Mirrors, Be careful in their placements.\n\nNon-reinforced walls cannot be reinforced if a Black Mirror was placed in wall.\n\nMira can place Black Mirror at elevated height if she can reach so.\n\nMira Black Mirror can be opened by Defenders by melee, bullet , nitro, impacting the gas canister in it.\n\nMira placed walls can be best covered from hot breachers like Thermite and Hibana by using Bandit Shock Wire or Mute Signal Disruptor on those walls.\n\nYing will flash people in Mira Black Mirror  even when it is not open.\n\nIf Black Mirror is placed on unreinforced wall, destruction on the wall will destroy the Black Mirror too.\n\nThermite and Hibana can destroy Mira Black Mirrors. Be on the lookout for them.\n\nDouble Mira Black Mirros with one open and one closed is a common strategy to intimidate Attackers with prefire.\n\nUsing shotgun to shoot on sides on Mira Black Mirror create deep angles on the sides to the other side of the gas canister.</string>
-    <string name="valkyrie_tip">Valkyrie can throw upto three Black Eye cameras which extend three more camera feed to Defenders.\n\nBlack Eyes can be thrown almost anywhere. They create new recon intel for Defenders.\n\nBlack Eyes are gyroscopic and have 360 degree viewing angle if thrown to appropriate surfaces at correct angles.\n\nBlack Eyes transmit full color (Blue tint) video footage as opposed to black and white footage of Defender cameras. \n\nBlack Eyes are denoted by blue dots in Defenders camera UI.\n\nBlack Eyes can be great source for information for Roamers especially Caveira.\n\nUsing nitro cells from below to kill Attackers is very easy with Black Eyes to track their locations realtime.\n\nThatcher EMP grenades will destroy Black Eyes.\n\nTwitch can destroy Black Eyes with her darts.\n\nIq is a direct counter to Valkyrie, She can detect any cameras thrown outside and prevent the advantage it has for Defenders.\n\nDokkaebi can hack into Defender camera network including Black Eyes when she hacks a dead Defender phone.\n\n\n\nBlack Eyes help you plan your runouts on Attackers when they are not expecting.</string>
-    <string name="caveira_tip">Caveira is a powerful stealth operator. She is a powerful Roamer.\n\nHer handgun Luison is a specially modified version that does a 99 hp damage at close range.It is guaranteed to put Attackers in a downed state when used. Any shot when Attackers are downed will kill them.\n\nCaveira Silent Step will enable her to walk,sprint in a stealth approach, making very less noise compared to others.\n\nWhen Jackal is tracking Caveira, She can activate her Stealth Step ability during his ping times to completely be untrackable by Jackal.\n\nWhen she uses he Silent Step, she will make no foot tracks that Jackal Eyenox can find.\n\nCaveira is best used for flanks and surprise users with roam game.\n\nCaveira, when she finds an Attacker down, can interrogate them to track the other Attackers in real time. It shows their name and icons for 10 secs.\n\nCaveira, when using Silent Step melee, an Attacker will always be put in downed state so that she can interrogate them.\n\nBe sure no Attackers are nearby when you perform a interrogation, or it will end lethal for you.\n\nCaveira works best with Valyrie who can help her providing intel about Attackers with help of her Black Eye Cameras.\n\nDokkaebi can call and locate Caveira. Have a rotation route planned if you are pinned down by Attackers.\n\n\n\nCaveira is well known to use her Impact Grenades to rotate around quickly and surprise Attackers in multiple angles.</string>
-    <string name="echo_tip">Echo uses his remotely controlled Yokai Drone to do recon on Attackers.\n\nEcho can deploy the drone to high locations by targetting.\n\nYokai cannot jump and can be moved vertically up to the ceiling and sticks to it.\n\nYokai Drone has a 2 sec jump cooldown and is limited to jump distance of 5 m.\n\nYokai drone when in contact with Thatcher will be disabled temporarily for a while before being active again.\n\nYokai drone when in ceiling will render it invisible yet a little bit visible. It is very difficult to see.\n\nYokai drone will blast an Attacker with sonic bursts which will disorient them and make their movements dizzy. This disorientation is very effective if Attacker tries to run away after being attacked by the drone. \n\nYokai blast need to be targeted to the Attackers to cause disorientation effect.\n\nCamera feed from Yokai can only be seen by Echo, Even if Echo is dead, he will be able to access the camera feed from the drone.\n\nBlast range is 14m for Echo drone, The blast has no travel time and is instantaneous.\n\nYokai dron blast can have interesting effect on Attackers, it will cancel a Themite placing a Exothermic Charge, it will disble full shield mode of Montagne.\n\nYokai drone cannot scan Attackers.\n\nYokai will lose signal if it goes out of Defenders area, You will have 3 secs before you lose signal. Once Yokai drone loses signal outside, It can only be picked up Echo himself.\n\nEcho is immune to Dokkaebi Logic Bomb Call. \n\nYokai drone can touch Bandit Shock Wire and not be destroyed by it.\n\nBe careful while placing Defender Shiels in doors. I will prevent Yokai Drone from moving outside the room and vice versa.\n\nIq can scan the Yokai drone and destroy it.\n\nTwitch Shock Drone can destroy it with its dart if it is within reach.</string>
-    <string name="frost_tip">Frost uses Welcome Mats, which when in contact with will down the Attackers. Welcome Mats have no effect on Defenders.\n\nIf Attacker was already in a downed state and was revived earlier, stepping on a Welcome Mat will kill them instantly.\n\nWelcome Mat, when it catches Attackers will make a very distinct sound of "clank" to notify about it to the Defenders.\n\nWhen Attackers are caught in a Welcome Mat, any Attacker who is nearby can revive them by helping them get up on their feet. But downed Attacker will only have 50hp once up.\n\nWelcome Mats are best placed in dark places where Attackers will not see them.\n\nWelcome Mats combine best with Defenders who have Shield because, Shields can be placed in the doorway with Welcome Mat behind it. When Attackers vault the Shield, they will be trapped in the Mat.\n\nAttackers cannot move when downed in a Welcome Mat.\n\nFrost Welcome Mats can destroyed by a melee hit but must be done carefully or it may down you. Hit the part that does not activate the trap.\n\n\n\nWelcome Mats are best placed on top of stairs as Attackers will not see the trap as they move up the step and will be trapped.</string>
-    <string name="lesion_tip">Lesion uses Gu Mines to cause damage to Attackers. It causes initial damage of 10 hp and 8 per 2 seconds until removed.\n\nWhen Attackers are removing Gu Mines, they dont have their Weapons in hand and are vulnerable.\n\nGu Mines have radius of 1 m when deployed to be triggered by Attackers.\n\nGu Mines are best suited to prevent rush from Attackers especially Ash, Hibana, Iq and Capitao.\n\nWhen poisoned by Gu Mines, the Attacker cannot sprint.\n\nLesion is only Defender who can see the Gu Mines where they are placed. When Attacker comes in contact with the mines, the icon dissappear thus providing valuable intel to Lesion. This can be effective in shooting Attackers through walls when Gu Mines are placed at certain locations.\n\nGu Mines are cloaked, but can be seen if one notice closely.\n\nLesion start with 1 Gu Mine at start of round and acquires one every 30 seconds.\n\nGu Mines can be destroyed by Thatcher EMP when in range.\n\nLesion works well with Frost, When Gu Mines are placed close to Welcome Mat, it can kill and Attacker instantly. Be careful not to place the Gu Mines very close to Welcome Mat which will disable the effect of Gu Mines. \n\nGu Mines work well with Kapktan EDD. When placed in near proximity to it, it will cause a total damage of 70hp and more.\n\nGu mines can be destroyed by Gunfire and any explosion near to it, like Frag grenades, Ash CRE and more.\n\nIq can detect Gu Mines though her Scanner and can take them out.\n\nGu Mines work with Ela traps, This allows the Attacker to be disoriented and poisoned at the same time.\n\nGu Mines can down Attackers if they are not careful which provides opportunity for Caveira to interrogate them.\n\nLesion Gu Mines can be used to detect Attacker Movement above and with little coordination with Nitro cell operators, It can used to blow up Attackers from below.</string>
-    <string name="ela_tip">Ela Grizmot Mines can stick to any surface at any height.\n\nGrizmot Mines detonate when a Attacker is close by. It cancels their current action, disorients them, limit visual and disrupt their hearing.\n\nUnlink disoriented by Echo Yokai, moving around with Grizmot Mines triggered will not worsen the effect.\n\nEla is a powerful defender with her powerful Sub Machine Gun. It is almost impossible to win gunfights against Ela.\n\nDisoriented with Ela or Echo one after other will cancel the previous effect. Only one disorientation can be in place at a time.\n\nEla mines cannot cancel Attacker action when they pull out needle from Lesion Gu Mines.\n\nEla when downed has another Concussion Mines which she can detonate to disorient nearby enemies to give other Defenders a chance to save her.\n\nEla recovers at a pace two times the speed of other Defenders when in contact with Zofia Concussion grenades. They work in both ways.\n\nRook can increase the time of bleeding when Ela is down so she can detonate the last Concussion a bit later selectively targeted at Attacked who come nearby.\n\nEcho when working with Ela can cause a set of Orientation to group of Attackers who are pusing in same area.\n\nIq can detect Ela Grizmot Mines and destroy them through surfaces. \n\nTwitch can destroy Grizmot Mines and she makes this as her main priority.\n\nThatcher can destroy any Grizmot Mines in radious of his EMP.\n\nGrizmot Mines blast radius is 6m while its proximity detonation radius is 4m.\n\nGrizmot Mines detonate only if Attackers are in line of sight of the mine.\n\nAny number of Attackers caught in the Grizmot Mines detonation proximity will be disoriented.\n\nEla uses her Grizmot Mines to defend her close vicinity. When someone triggers the mine, She pushed hard and gets the kill.\n\nGrizmot Mines can also be used to collect intel about Attackers if they have entered any particular room in which the mine was placed.\n\nGrizmot Mines are destroyed by destruction nearby like Frag grenades, Ash CREM and more.\n\nEla is well known to make quick rotations with her impact and suprise Attackers in all angles.</string>
-    <string name="vigil_tip">Vigil uses his ERC7 video disruptor to erase  himeself from showing up in cameras and drones. \n\nERC7 takes a second to make Vigil fully visible to the cameras and drones.\n\nERC7 has a time duration in which it can be active, It need to be recharged to be used again.\n\nWhen Vigil fires a gun or affects the environment, The ERC7 will stop the mechanism and make him visible.\n\nWhen Vigil is in a area under cloak, the camera feed will have a unique interference border to denote his presence in the room.\n\nJackal is very effective in tracking Vigil and counter him.\n\nEven when Vigil in cloak, he can be heard in drones are cameras.\n\nVideo Disruptor ERC7 has a range of 12m.\n\nIq can detect Vigil when the ERC7 is active.\n\nThatcher can temporarily disable the ERC7\n\nTwitch can temporarily disable the ERC7 when she shoots the dart into Vigil.\n\nVigil can be very effective in roaming and can waste a lot of time for Attackers.</string>
+    <string name="sledge_tip">Sledgehammer can destroy unreinforced walls, unreinforced hatches , destructible floors and barricades.
+	\n\nSledgehammer can create new lines of sight by using it to create holes in walls or floors.
+	\n\nSledgehammer can be used to create new entry and rotation holes for Attackers.
+	\n\nSledgehammer can destroy Barbed wire ,Castle Armors and most Defender gadgets with one hit.
+	\n\nThe usage of Sledgehammer on anything will reduce its durability.
+	\n\nThe Sledgehammer contains 25 charges to break stuff.
+	\n\nDestroying a wall will Sledgehammer takes two charges while all others take one charge. Swinging the hammer without any contact does not count as a charge.
+	\n\nThere is a slight delay when trying to unequip the Sledgehammer, during which Sledge is vulnerable to gunfire and cannot defend himself.
+	\n\nSledgehammer is also capable of killing enemies with one hit. It counts as two charges.
+	\n\nWhen being close to the wall while hitting it with the hammer,it will destroy the double layer of the wall completely. When used a bit away from the wall,  it only destroys one layer of the wall leaving the second layer intact.\n\n</string>
+
+    <string name="thatcher_tip">Thatcher has EMP grenades that will destroy or deactivate the Defender gadgets.
+	\n\nEMP will destroy Smoke Gas Grenades , Mute Signal Disruptor, Kapkan Entry Denial Devices, Jager Active Defense Systems, Bandit Shock Wire, Valkyrie Black Eyes, Lesion Gu Mines, Ela Grizmot Mines, Nitro Cells ,Defender Cameras and more.
+	\n\nEMP will deactivate Vigil ERC-7, Pulse Heartbeat Sensor and Echo Yokai Drone for while if caught in the radius.
+	\n\nEMP will disable all Defender Weapon sights for 10 seconds if in the affected radius. ACOGs will also be disabled but only when Defenders are not aiming down the sights.
+	\n\nEMP will not affect any Attacker gadgets.
+	\n\nEMP will disable the lights in the room it was thrown into for a while.
+	\n\nEMP will disable Laser sights of Defenders which reduce their hip fire accuracy.
+	\n\nEMP will pass through walls and surfaces, You can destroy gadgets on other side of the wall or floor if they are in the radius of the blast.
+	\n\nEMP grenades cannot be cooked and will activate seconds after being thrown.
+	\n\nWhen you hear the buzzing sound of a Mute Jammer,  throwing an EMP at your feet will destroy the Mute Jammer in proximity.
+	\n\nEMP will make a loud noise when activated, Use that to mask the sound from your footsteps.
+	\n\nAfter throwing an EMP in a room, Do not try to push aggressively inside because EMP will disable the lights in the room and will make it  harder to you to spot the Defenders. Also note that it will also be difficult for the Defenders to spot you in dark.\n\n</string>
+
+    <string name="ash_tip">Ash can fire CREM breaching charges from long distances to safely destroy surfaces from behind cover.
+	\n\nAsh CREM breaches are not remotely activated, so they detonate on impact even if there is a Mute Jammer around.
+	\n\nAsh CREM deals a mere 85 damage to 1 Armor Operator.\n\nAsh CREM breach on contact with defender will deal 50 damage irrespective of the Armor of Defender.
+	\n\nWhen walls are not completely covered by reinforcements, CREM can make new line around them.
+	\n\nAsh CREM breach can remove Mira Black Mirror if it is deployed on unreinforced walls.
+	\n\nAsh CREM breaches can open up floors with high range of explosion radius.
+	\n\nAsh CREM can be used to destroy very hard to reach places like higher windows or ceilings.
+	\n\nAsh CREM can be used to clear Barbed wires and Shield in the way of the Attackers.
+	\n\nAsh CREM can be used to destroy Castle barricades.\n\nAsh CREM can be used to open unreinforced hatches and walls.
+	\n\nAsh CREM breach will destroy Defender gadgets if they are in radius of the explosion.\n\n</string>
+
+    <string name="thermite_tip">Thermite Exothermic Charge can destroy reinforced walls and hatches.
+	\n\nUsing Exothermic Charges on unreinforced walls is waste of utility.
+	\n\nDetonation of an Exothermic Charge takes 3 seconds.
+	\n\nExplosion radius from Exothermic Charge is large compared to other methods.
+	\n\nDetonating an Exothermic Charge in the junction of the wall and floor will destroy them both partially. If there is a hatch near the junction, it will be destroyed along with the wall.
+	\n\nDetonating Exothermic Charge will destroy areas adjacent to it. This can be used to bypass certain Mute Signal Disruptor and destroy hatches and walls even if they are jammed.
+	\n\nThermite can encounter Bandit trick by using Advanced Gadget Deployment model in game options. Switch areas and confuse Bandit as to where you are placing your Exothermic Charges.
+	\n\nWhen placing Exothermic Charges, be sure to get hit from battery shock and place the Exothermic charge as soon as Thatcher EMP goes off. This will help you counter Bandit trick.\n\n</string>
+
+    <string name="twitch_tip">Twitch has her Twitch Drones as her primary Drone. One Drone is activated during preparation phase.
+	\n\nTwitch Drones can shock enemies and reduce 10 hp.\n\nTwitch Drones can destroy defender gadgets and cameras.
+	\n\nTwitch drones have a limit in how higher their shots can reach.
+	\n\nBoth Twitch Drones have 5 darts each.
+	\n\nTwitch drones can destroy Mira Black Mirrors.\n\nVigil Video Disruptor will turn off temporarily if shot by a Twitch Drone.
+	\n\nTwitch Drones cannot jump. They can only travel on ground.
+	\n\nTwitch Drones are quieter and smoother that other drones.
+	\n\nFrost Welcome Mat cannot be damaged by Twitch Drones.
+	\n\nTwitch Drones can be used to kill downed Defenders.\n\n</string>
+
+    <string name="montagne_tip">The Extended Shield protects the entire front body from Defenders.
+	\n\nThe Extended Shield also protects his sides to an extent.
+	\n\nHis Smokes can be used to cut off multiple line of sights while pushing a single direction.
+	\n\nHis Smokes can help in a Smoked Defuser Plant.
+	\n\nNitro Cells will deal him little damage.
+	\n\nThe Ballistic Shield will be knocked left when melee attacked by Defender. In such situation he should turn right to adjust with the knocked shield to get cover from it.
+	\n\nThe Extendable Shield can be used to block doorways when fully extended thereby denying passage for Defenders.
+	\n\nMontagne can use laser with his handgun to perform hip-fire shots which can be quite deadly if aimed perfect.
+	\n\nMontagne is well suited to perform a quick recon and provide information to other Attackers.
+	\n\nMontagne deals less damage from Kapkan traps if his Shield is extended.
+	\n\nMontagne when crouch walks with shield is less vulnerable to bullets than walking with no extended shield.\n\n</string>
+
+    <string name="glaz_tip">Glaz uses his sniper to support Attackers from long distance.
+	\n\nGlaz sniper can see Defenders through smoke with the help of his Thermal sights.
+	\n\nGlaz can destroy Castle Armor Panel by shooting at them 12 times.
+	\n\nGlaz can open unreinforced hatches by shooting 3 times with his sniper.
+	\n\nGlaz sniper can penetrate two surfaces at once.
+	\n\nGlaz can use smoke grenades from other Attackers to help him with his thermal sight.
+	\n\nGlaz can penetrate the windows in Plane maps.
+	\n\nGlaz is very helpful in protecting defuser after plant as he can cover for it from a very long distance.
+	\n\nGlaz can provide covers for Attackers from Defender run outs from a long distance.\n\n</string>
+
+    <string name="fuze_tip">Fuze is a very destructive operator. He is often known for his disregard for civilian life.
+	\n\nFuze Cluster charges are effective in clearing out rooms without engaging in close range combat.
+	\n\nFuze Cluster charges injects small explosive pellets through the surface in which it is being deployed, be it floor or wall.
+	\n\nThe charge pellets are deployed in other side of the wall or floor upon detonation.
+	\n\Cluster Frag Grenades are deployed in count of 5 from right to left. They detonate in the order they are deployed.
+	\n\nEach pellet have a range of 42m and deal lethal damage.
+	\n\nCluster Charge pellets can bounce back surfaces too, Be wary how you place them.
+	\n\nFuze Charges can pierce through Castle Armored Panels and create a hole when doing so. This hole can be used for line of sight into the room.
+	\n\nFuze Cluster Charges can be used tactically to create confusion and chaos among Defenders.
+	\n\nInstead of using Fuze Cluster Charges random to get kills, placing them in conventional spots based on map knowledge will yield you confirmed kills.\n\n</string>
+
+    <string name="blitz_tip">Blitz Shield can blind enemies when flashed.
+	\n\nDefenders are very vulnerable when in line of sight of the flash as they are blinded completely.
+	\n\nBlitz has total of 5 flashes.
+	\n\nBlitz can still use the Flash when aiming down the sights.
+	\n\nBlitz is effective for targeting roamers and get rid of them early.
+	\n\nDealing a Blitz alone is very difficult for any Defender.
+	\n\nBlitz can run with his shield up and flash at the same time making him very hard to deal with.
+	\n\nBlitz flash will cause full temporary blindness at range of 4m.\n\n</string>
+
+    <string name="iq_tip">Iq can detect Defender gadgets and destroy them through floors and walls.
+	\n\nIq can detect bombs and Defender gadgets from a distance.
+	\n\nIq is very effective in hunting Pulse as his Gadget will be detected by Iq Spectre.
+	\n\nIq is very effective in hunting Vigil as his Gadget will be detected by Iq Spectre.
+	\n\nIq can find Kapkan Entry Denial Devices, Nitro cells, Jager Active Defense Systems, Bandit Shock Wires, Smoke Gas Canisters, Valkyries Black Eyes, Echo Yokai Drone, Ela Grizmot Mines and more.
+	\n\nIq is very effective in preventing Defenders from using Valkyrie Black Eyes for run out kills.
+	\n\nIq is very effective in identifying Lesion GU mines which are invisible to naked eye.
+	\n\nIq can detect phones when Defenders are using them to check their cameras.
+	\n\nIq can detect phones when Defenders are using them to prevent call from Dokkaebi.\n\n</string>
+
+    <string name="buck_tip">Buck uses a Shotgun attached to his primary to destroy surfaces very fast.
+	\n\nBuck can destroy surfaces very quickly be it floors, walls or hatches. They must not be reinforced.
+	\n\nBuck can create new lines of sight from above, from below and to adjacent rooms.
+	\n\nBuck can create holes that can be used for vaulting into.
+	\n\nThe Skeleton Key contains 16 shells in reserve.
+	\n\nBuck is very useful in all map but you must have good map knowledge to use him to his full potential.
+	\n\nBuck can create chaos by destroying floors and driving Defenders below the floor into sense of fear.\n\n</string>
+
+    <string name="blackbeard_tip">Blackbeard uses a Rifle Mounted Shield to protect him from bullet fire.
+	\n\nThe Rifle Shield protect shots to his. head This give him a great advantage to be aggressive when peeking.
+	\n\nBlackbeard has two rifle shields to deploy.
+	\n\nBlackbeard can switch between the two anytime if its not broken.
+	\n\nRifle shields withstand upto 60 hp.
+	\n\nWhen Rifle Shield is equipped, he moves very slow.
+	\n\nBlackbeard can recover his normal speed by switching from Rifle Shield Primary to Secondary handgun D50.
+	\n\nBlackbeard DMR is very deadly if used on a precise level.
+	\n\nBlackbeard is very effective in holding flanks.
+	\n\nBlackbeard is very effective in rappelling, He can peek windows and doors with the help of his shield protecting his head from bullet fire.
+	\n\nBlackbeard is very effective in holding angles from windows or doors of buildings.\n\n</string>
+
+    <string name="capitao_tip">Capitao Tactical Crossbow has two different bolts: Asphyxiating Bolts and Micro Smoke Grenades. You can switch either at any time.
+	\n\nAsphyxiating Bolts can be used to block passage of doors and windows.\n\nAsphyxiating Bolts can be used to kill downed Defenders.
+	\n\nAsphyxiating Bolts can be used to kill Bandit if he is trying to active Bandit trick.
+	\n\nThe radius of Asphyxiating Bolts are very small. If any Defender tried to pass it, they will die.
+	\n\nAsphyxiating Bolts can be used to trap and kill Defenders camped in a corner.
+	\n\n Defenders behind the cover of a shield can be killed easily by using it.
+	\n\nA direct impact of the bolt deals 5 damage.
+	\n\nWhen arrows are shot to the head of Defenders, It will do normal damage and not instant kill them.
+	\n\nCapitao bolts will not be destroyed by Jager ADS.
+	\n\nUnlike normal smoke, Capitao Micro smoke grenades release smoke which are blue in color.\n\n</string>
+
+    <string name="hibana_tip">X-KAIROS pellets are useful in opening reinforced walls and hatches.
+	\n\nX-KAIROS will help you open three reinforced hatches at most.
+	\n\nX-KAIROS need to be detonated after impact manually.
+	\n\nX-KAIROS can also be used to create entry passages in walls.
+	\n\nX-KAIROS can be used to open up floor down to create new lines of sight.
+	\n\nA single pellet from X-KAIROS can destroy open a hatch.
+	\n\nX-KAIROS will shoot 6 pellets at a time.
+	\n\nX-KAIROS pellets detonated once will create a hole that helps you crawl into walls.
+	\n\nX-KAIROS pellets detonated twice will create a hole that helps you crouch walk into walls.
+	\n\nX-KAIROS pellets detonated thrice will create a hole that helps you walk or sprint into walls.
+	\n\nX-KAIROS can also be used to burn out Jager Active Defense System. When X-KAIROS is shot, each pellet will be destroyed by ADS seperately.
+	\n\nX-KAIROS help you open Mira Black Mirrors.
+	\n\nX-KAIROS takes 5 secs to detonate while Thermite Exothermic Charge only takes 3 secs.
+	\n\nX-KAIROS can be aimed to precisely fire pellets to a surface.
+	\n\nX-KAIROS When used at junction of walls and floors, It opens both the wall and floor partially.
+	\n\nX-KAIROS can be used to destroy Castle barricades</string>
+
+    <string name="jackal_tip">Jackal is very effective in hunting roamers by tracking their footprints.
+	\n\nJackal Eyenox can see footprints of Defenders and scan them to locate their position. The Eyenox pings the location of the Defender 5 times in 20 seconds.
+	\n\nDefender footprints are colored based on the time it was made, red mean 0 sec ago, yellow means 20s ago, green means 45s ago, blue means 65s ago and the tracks disappears at 90s mark.
+	\n\nFootprint tracks will not be made by the Defenders if they are prone.
+	\n\nAll Attackers will see the live ping update of Defender who is being tracked by Jackal.
+	\n\nJackal is very effective in detecting any movement of Defenders in the vicinity.
+	\n\nJackal shotgun can be used to make rotation holes quickly.
+	\n\nJackal is very effective to find the position of last Defender alive.\n\n</string>
+
+    <string name="ying_tip">Ying Candela works like Stun grenades.They blind the Defenders and leaves them vulnerable.
+	\n\nCandelas can be placed on breakable surfaces to fire flashes onto the other side.
+	\n\nCandelas are very effective in getting the Defuser Planted by blinding Defenders.
+	\n\nCandelas can be used to waste Jager Active Defense System by placing them on barricades to  fire flashes in line of sight of those ADS.
+	\n\nCandelas can be cooked before release, Doing so delays the detonation and rolls them on the ground for a while. The rolling time depends on how long you wait to release them initially.
+	\n\nCandelas can be punched through Castle Armor too.
+	\n\nYing wears special goggles that allows her to see through the flashes.
+	\n\nYing is very effective in flashing any Defender behind a Black Mirror and prevent them from firing.
+	\n\Ying will also blind Attackers if not communicated well.\n\n</string>
+
+    <string name="zofia_tip">Zofia can fire Impact Grenades and Proximity Concussion Grenades. She can switch them both any time.
+	\n\nZofia has 2 Impact Grenades and 4 Concussion Grenades.
+	\n\nConcussion Grenades cause Visual and Mobility disorientation effects.
+	\n\nConcussion Grenades when hit on a surface will rebound and detonate.
+	\n\nConcussion Grenades will detonate when they come in proximity of a Defender.
+	\n\nZofia is resistant to Ela proximity mine and can recover in half the time taken by other Attackers.
+	\n\nZofia has a ability to withstand when in down state. She will recover herself up 5 percent of baseline health. It taked 5 seconds to stand up from downed state.
+	\n\nThere is a arc present to the grenade trajectory of the mines.
+	\n\nThere is no reload process for the grenades. Zofia can fire the grenades one after another.
+	\n\nZofia impact grenades can be used to destroy Castle barricades.
+	\n\nZofia impact grenades can be used to destroy Shields and Barbed wire in the path of Attackers.
+	\n\nZofia can be used to destroy Mira Black mirror if it is placed in unreinforced walls.
+	\n\nZofia impact grenade will destroy Defender gadgets if they are in radius of the explosion.\n\n</string>
+
+    <string name="dokkaebi_tip">The Logic Bomb hacks Defender system and calls them. It makes Defenders phones vibrate and give out a buzzing sound helping Attackers locate them easily.
+	\n\nWhen Defender phones are called, they will have no longer be able to access Defender cameras unless they switch off the phone.
+	\n\nLogic Bomb call can only be made twice Use them wisely.
+	\n\nLogic Bomb can hack the phone dropped by any Defender who is killed. This hacks the Defender camera network including Valkyrie Black Eyes and makes the camera feed available to the Attackers.
+	\n\nLogic Bomb calls are very helpful to locate Roamers.
+	\n\nHacked cameras are accessible to both Attackers and Defenders.
+	\n\nExplosives will not destroy phones of Defenders, they must be destroyed manually.
+	\n\nDokkaebi calls can be used to quickly find the roamer who is close by.\n\n</string>
+
+    <string name="lion_tip">Lion EE-One-D drone will detect Defender movement and provide their real time outline for the 4 second duration when its active.
+	\n\nLion scan revealing enemy position of Defender can be seen by all the Attackers.
+	\n\nLion can call three scans per round.
+	\n\nLion ability is perfect to kill any moving Defender from above or below the floor.
+	\n\nLion is a good counter to prevent Defenders from prefiring from Mira Black Mirror.
+	\n\nLion is also very useful to detect any Defenders who is trying to spawn peek .\n\n</string>
+
+    <string name="finka_tip">Finka Adrenal shot provide set of abilities which increases the performance of Attackers.
+	\n\nFinka shot will last for 20 seconds.
+	\n\nFinka has three Adrenal surge shots.
+	\n\nFinka Adrenal shot also provide a health boost of 20hp.
+	\n\nFinka can use her ability Adrenal shot to revive team mates when down.
+	\n\nFinka Adrenal shot will reduce the recoil of Attacker weapons to a huge amount in that duration.
+	\n\nFinka is very useful when played aggressive, or when a team rushes into the site aggressively.
+	\n\nWhen Finka ability is active, Attackers will move easily through Barbed Wire, recover faster from Stun grenades and Concussion Mines.
+	\n\nFinka can prevent Caveira interrogation by reviving the downed Attacker instantly.\n\n</string>
+
+    <string name="smoke_tip">Smoke Gas grenades stick to surfaces and can be detonated remotely.
+	\n\nSmoke Gas grenades release toxic content dealing critical damage.
+	\n\nSmoke Gas grenades damages 15 health points every second regardless of armor.
+	\n\nSmoke Gas grenades can be used to kill downed enemies.
+	\n\nSmoke Gas grenades can be detonated on impact like nitro cells.
+	\n\nSmoke Gas grenades release toxic gas which is dense and deny vision through it. This can be used for rotation or escaping from Attackers if caught.
+	\n\nUsing Smoke Gas grenades when Attackers are walking through Barbed Wire will surely down them and kill them as they take more damage the longer they are in the gas.
+	\n\nSmoke gas grenades deal more damage per second to Attackers if Finka nanobot is active on the Attackers.
+	\n\nWhen Attackers try to plant defuser with the help of smoke, Smoke can use his gas grenades to deny the plant.
+	\n\nSmoke shotgun and impact grenades can be used to create rotation holes between sites.\n\n</string>
+
+    <string name="mute_tip">Mute Jammer are portable devices and has a range of 5m.
+	\n\nThey disrupt all Attacker gadget that are used remotely.
+	\n\nMute Jammer can disrupt Jackal Eyenox making him blind.
+	\n\nMute Jammer can prevent Defenders from being called by Dokkaebi Logic Bomb.
+	\n\nMute Jammer can prevent movement of Attacker drones and their recon.
+	\n\nWhen Defenders are near Mute Jammer, their phones will not ring if Dokkaebi calls.
+	\n\nWhen placed between two reinforced walls, Mute Jammer prevent Thermite and Hibana from destroying the wall as their gadgets cannot be detonated.
+	\n\nIn preparation phase if a drone is jammed by Mute jammer and is not destroyed. The Attacker will not be able to see the feed from other Attacker drones.
+	\n\nMute Signal Disruptor are placed in doorways to prevent drones from entering the room. Place them in a way Attackers wont shoot them.
+	\n\nWhen Defenders are near Mute Jammer when Lion uses his Drone, they will not be detected even if they move.\n\n</string>
+
+    <string name="castle_tip">Castle has 3 Armor Panels which he can barricades in doors and windows. They are bulletproof and are very much tougher than normal barricades.
+	\n\nArmor Panel once barricaded, can be pulled down by any defender. They will return back to Castle.
+	\n\nCastle helps slowing down Attackers and deny line of sights that are more vulnerable.
+	\n\nWhen these panels are combined with Mute, they can prevent Attacker from opening it with Breach Charges.
+	\n\nDefenders cannot make hole in Armor Panels except with Vigil shotgun.
+	\n\nUsing Thermite and Hibana to open Caste is waste of utility.
+	\n\nArmor Panel when pre-hit 11 times, can be used to make surprise run-outs by hitting once and using element of surprise on Attackers.
+	\n\nImpact Grenades can destroy Armor Panels on impact.
+	\n\nWhen Attacker tries to melee attack Panels, Defenders can use nitro cell to kill them,or shoot Attackers in legs exposed under the Panel to prevent them from opening.
+	\n\nArmor Panels can be used to deny entry for Attackers into the objective.\n\n</string>
+
+    <string name="pulse_tip">Pulse can detect Attacker in proximity using the Heartbeat Sensor.
+	\n\nPulse is very useful to inform Attacker movement to others.
+	\n\nPulse can detect and use nitro cells to blow up Attackers from below.
+	\n\nPulse can detect Attackers and shoot through surfaces to kill them.
+	\n\nPulse is a effective roamer who can detect enemies and outsmart them with creative plays.
+	\n\nPulse is very effective in analyzing the Attacker movement and their plan.
+	\n\nPulse is useful in detecting the position of Defuser plant when Attackers use smoke and plant.
+	\n\nPulse can also prevent defuser from being planted by playing below the floor.
+	\n\nPulse is effective in locating Fuze.\n\n</string>
+
+    <string name="doc_tip">Stim Pistol heals Defenders for 40 hp when hit with it.
+	\n\nDoc can pick himself up when down using his Stim Pistol.
+	\n\nStim Pistol revives a person who is down with 75 hp.
+	\n\nWhen used on a downed Defender it gets them up without any help from other Defenders.
+	\n\nStim Pistol has pinpoint  hipfire accuracy. It can be shot without aiming down.
+	\n\nStim Pistol has ability to overheal Defenders. It is useful when trying to face a group of Attackers or when trying to take back Defuser.
+	\n\nThe overheal if done, decays at rate of 1 hp per second until baseline 100 is achieved.
+	\n\nDoc has 3 shots in Multiplayer and 5 in Terrorist Hunt mode.
+	\n\nInstead of using Stim Pistol to revive downed Defenders, if Doc tries to revive them manually and later provide them a Stim shot he can provide more health points.\n\n</string>
+
+    <string name="rook_tip">Rook Armor Plates come in a Satchel.It has five armors in it.
+	\n\nRook Armor reduces 20 percent damage.
+	\n\nRook Armor does not affect headshot kills.
+	\n\nRook cannot pick up Satchel once dropped.
+	\n\nArmor Plates when worn always put you in a downed state instead of being killed But when shot after being downed kills you.
+	\n\nOperators wearing Rook Armor can only be downed once per round. Next time, instead of being downed, they will be killed.
+	\n\nWhen downed wearing a armor, the bleedout is doubled for 120 secs.
+	\n\nOperators will die from melee even when Armor Plates are worn.\n\n</string>
+
+    <string name="kapkan_tip">Kapkan uses Entry Denial Device to damage unwary Attackers.
+	\n\nEDD deal a damage of 60hp.
+	\n\nThey can be attached to frames of doors and windows.
+	\n\nThe laser of EDD cannot be seen.\
+	\n\nEDD can be placed in multiple heights on  door frames. It depends on where you look when placing them.
+	\n\nWhen placed wisely they can deal great damage to Attackers.
+	\n\Deploy EDD and barricade doors and windows. This way any careless Attacker trying to break the barricade will trigger the EDD.
+	\n\Deploy EDD and place a shield in doorways. This way any careless Attacker trying to jump over the shield will trigger the EDD.
+	\n\nKapkan can help in providing intel for Roamers on Attacker movement. Place EDD in locations where Attackers might push. When those EDD go off, Kapkan will be notified of it. This was he can learn about Attacker presence there.
+	\n\nKapkan must be careful not to be detected by drones while placing EDD mines.
+	\n\nFind good locations to place the EDD mines where Attackers will not detect them.\n\n</string>
+
+    <string name="tachanka_tip">The LMG gives a high level of protection.
+	\n\nWhen used wisely with a Defender Shield in front, it can be used for a great suppressive fire at entrances.
+	\n\nTachanka can deploy LMG and pick it up later.
+	\n\nWhen unmanned ,LMG can be used by any Defender or even Attacker.
+	\n\nThe Mounted LMG has a protective shield on the top that protects head from direct  gunfire.
+	\n\nThe LMG Mount has a 60 degrees limitation in any directions.
+	\n\nThe LMG has greater destruction power, it can destroy surfaces to create new lines of sights and provide support to Defenders in that area.\n\n</string>
+
+    <string name="jager_tip">Jager is a powerful Defense Operator.
+	\n\nJager provide anti grenade support using his Magpies - Active Defense System.
+	\n\nADS detects and destroys any projectile coming in its line of sight.
+	\n\nJager have 3 Magpies. They are placed right next to windows or doors to prevent Attackers from using remote detonated devices.
+	\n\nADS can simultaneously destroy two projectiles.
+	\n\nADS can destroy Frag grenades, Stun Grenades, Smoke Grenades, Ash CREM, Thatcher EMPs, Grenades from Fuze Cluster Charge, Hibana XKAIROS, Ying Candela,Zofia Impact and Concussion grenades.\n\n</string>
+
+    <string name="bandit_tip">Bandit can place Shock Wire on all metallic gadgets, Barbed wires, Shields, Reinforced walls.
+	\n\nShock can be identified with sparks coming out of metal objects.
+	\n\nShock Wires destroy Attacker gadgets when in contact with.
+	\n\nBandit shotgun is very effective at close range.
+	\n\nBandit can active switch the batteries to prevent Thermite from using his Exothermic Charge by destroying it.
+	\n\nBandit can prevent Mira Black Mirrors being open by Hibana XKAIROS by shocking the walls.
+	\n\nDefender gadgets can also be destroyed by Bandit Shock Wires.
+	\n\nAttacker in contact with shock sparks will deal 10 damage per second. They also cause disorientations.
+	\n\nOne Shock Wire can electrify one Barbed Wire or One Shield or One Reinforced wall.
+	\n\nIt is possible for Bandit Shock Wire to get kills even after Bandit is dead.\n\n</string>
+
+    <string name="mira_tip">Mira uses Black Mirrors that are deployed on walls that help Defenders create a one way view to the other side.
+	\n\nThey can be tactically used to defend a location. When needed the gas canister in Black Mirror can be destroyed creating a murder hole that Defenders can use.
+	\n\nBlack Mirrors are useful to hold Bomb Defuser plant. Combine Mira with Smoke and you can deny plant.
+	\n\nMira Black Mirrors can be places at head or crouch level.
+	\n\nCommon strategy is to reinforce one of two adjacent walls and place a Mira Black Mirror in the reinforced wall, Leaving the other wall soft fire when Attackers are in line of sight to the front.
+	\n\nOnce deployed Mira Black Mirrors cannot be removed from walls.
+	\n\nUsing shotgun to shoot on sides on Mira Black Mirror create deep angles on the sides to the other side.
+	\n\nMira can prevent Attackers from entering the objective with the help of her Black Mirrors.\n\n</string>
+
+    <string name="valkyrie_tip">Valkyrie can throw upto three Black Eye cameras which extend three more camera feed to Defenders.
+	\n\nBlack Eyes can be thrown anywhere and they stick to the surface.
+	\n\nBlack Eyes create new intel available for Defenders.
+	\n\nBlack Eyes are gyroscopic and have 360 degree viewing angle if thrown to appropriate surfaces at correct angles.
+	\n\nBlack Eyes transmit color video footage with a blue tint as opposed to black and white footage of Defender cameras .
+	\n\nBlack Eyes are denoted by blue dots in Defenders camera UI.
+	\n\nBlack Eyes help you plan your runouts on Attackers when they are not expecting.\n\n</string>
+
+    <string name="caveira_tip">Caveira is a powerful stealth operator. She is a powerful Roamer.
+        \n\nCaveira can interrogate the Attackers in 5 seconds and kills them after that.
+        \n\nCaveira can use Silent step for 10 seconds and need to be recharged before using again.
+	\n\nCaveira handgun Luison is a specially modified version that does a 99 hp damage at close range. It is guaranteed to put Attackers in a downed state when used. When shot at Attackers who are downed it will kill them.
+	\n\nCaveira Silent Step will enable her to walk, sprint in a stealth approach, making very less noise compared to others.
+	\n\nWhen Jackal is tracking Caveira, She can activate her Silent Step ability to prevent pinging of her location.
+	\n\nWhen she uses her Silent Step, she will not make footstep tracks.
+	\n\nCaveira is best used for flanks and to surprise Attackers who are unwary from behind.
+	\n\nCaveira, when she finds an Attacker down, can interrogate them to track the other Attackers in real time. It shows their name and icons for 10 secs.
+	\n\nCaveira, when using Silent Step melee, an Attacker will always be put in downed state so that she can interrogate them.
+	\n\nCaveira is well known to use her Impact Grenades to rotate around quickly and surprise Attackers in multiple angles</string>
+
+    <string name="echo_tip">Echo uses his remotely controlled Yokai Drone to do recon on Attackers and disorient them with his Sonic blast.
+	\n\nEcho can deploy the drone to higher locations while aiming.
+	\n\nYokai Drone cannot jump and can be moved vertically up to the ceiling and sticks to it.
+	\n\nYokai Drone has a 2 sec jump cooldown and is limited to jump distance of 5 m.
+	\n\nYokai drone when in ceiling will render it invisible but a little bit visible when closely seen. Yokai drone will blast an Attacker with sonic bursts which will disorient them and make their movements dizzy. This disorientation is very effective if Attacker tries to run away after being attacked by the drone as it worsens the effect much more .
+	\n\nCamera feed from Yokai can only be seen by Echo, Even if Echo is dead, he will be able to access the camera feed from the drone.
+	\n\nBlast range is 14m for Echo drone, The blast has no travel time and is instantaneous.
+	\n\nYokai blast need to be targeted to the Attackers to cause disorientation effect.
+	\n\nYokai drone cannot scan Attackers.
+	\n\nYokai drone blast can have interesting effect on Attackers movement, it will cancel action they are performing like planting a Defuser and more.
+	\n\nEcho drone can be used to prevent the Attacker from planting the defuser as it cancels their action. This is very useful at end of round as denying Defuser plant will make the Defenders win the round.
+	\n\nEcho drone effect will disable the effect of Finka nanobots to Attackers.
+	\n\nYokai will lose signal if it goes out of Defenders area, You will have 3 secs before you lose signal. Once Yokai drone loses signal outside, It can only be picked up Echo himself.
+	\n\nEcho is immune to Dokkaebi Logic Bomb Call .
+	\n\nYokai drone can touch Bandit Shock Wire and not be destroyed by it.
+	\n\nBe careful while placing Defender Shield in doors I will prevent Yokai Drone from moving outside the room and vice versa.\n\n</string>
+
+    <string name="frost_tip">Frost uses Welcome Mats, which when in contact with will down the Attackers. Welcome Mats have no effect on Defenders.
+	\n\nIf Attacker was already in a downed state and was revived earlier, stepping on a Welcome Mat will kill them instantly.
+	\n\nWelcome Mat, when it catches Attackers will make a very distinct sound of "clank" to notify about it to the Defenders.
+	\n\nWhen Attackers are caught in a Welcome Mat, any Attacker who is nearby can revive them by helping them get up on their feet but downed Attacker will only have 50hp once up.
+	\n\nWelcome Mats are best placed in dark places where Attackers will not see them.
+	\n\nFrost Mats are very useful when places next to Windows and Door as rushing Attacker will not notice it and get trapped.
+	\n\nWelcome Mats combine best with Defenders who have Shield because, Shields can be placed in the doorway with Welcome Mat behind it. When Attackers vault the Shield, they will be trapped in the Mat.
+	\n\nAttackers cannot move when downed in a Welcome Mat.\n\nWelcome Mats are best placed on top of stairs as Attackers will not see the trap as they move up the step and will be trapped.
+	\n\nWhen Attackers are trapped in Frost Mat, they can be killed from below or above the floor by shooting at them. This require good map knowledge to execute.
+	\n\nFrost Mats are very effective in trapping high speed operators when they are rushing the objective.\n\n</string>
+
+    <string name="lesion_tip">Lesion uses his Gu Mines to cause damage to Attackers. It causes initial damage of 10 hp and 8 hp per 2 seconds until removed.
+	\n\nWhen Attackers are removing Gu Mines, they dont have their Weapons in hand and are very vulnerable.
+	\n\nGu Mines have radius of 1 m when deployed to be triggered by Attackers.
+	\n\nGu Mines are best suited to prevent rush from Attackers especially Ash, Hibana, Iq and Capitao.
+	\n\nWhen poisoned by Gu Mines, the Attacker cannot sprint.
+	\n\nLesion is only Defender who can see the Gu Mines where they are placed. When Attacker comes in contact with the mines, the icon disappear thus providing valuable intel to Lesion. This can be effective in shooting Attackers through walls when Gu Mines are placed at certain locations.
+	\n\nGu Mines are cloaked, but can be seen if one notice closely.
+	\n\nLesion start with 1 Gu Mine at start of round and acquires one every 30 seconds.
+	\n\nGu Mines are very effective in preventing Shield operators from pushing to the objective. If they come in contact with a Gu Mine, they will be very vulnerable when removing it.
+	\n\nStepping on a Gu Mine cancels the boost provided by Finka to Attacker.
+	\n\nWhen Attackers step on a Gu Mine, Defenders can hear a clank sound to denote that.\n\n</string>
+
+    <string name="ela_tip">Ela Grizmot Mines can stick to any surface at any height.
+	\n\nGrizmot Mines detonate when a Attacker is close by. It cancels their current action, disorients them, limit visual and disrupt their hearing.
+	\n\nUnlike disoriented by Echo Yokai, moving around with Grizmot Mines triggered will not worsen the effect.
+	\n\nEla is a powerful defender with her powerful Sub Machine Gun. It is almost impossible to win gunfights against Ela.
+	\n\nDisoriented with Ela or Echo one after other will cancel the previous effect. Only one disorientation can be in place at a time.
+	\n\nEla mines cannot cancel Attacker action of them pulling out needle from Lesion Gu Mines.
+	\n\nEla when downed has another Concussion Mines which she can detonate to disorient nearby enemies to give other Defenders a chance to save her.
+	\n\nEla recovers at a pace two times the speed of other Defenders when in contact with Zofia Concussion grenades They work in both ways.
+	\n\nRook can increase the time of bleeding when Ela is down so she can detonate the last Concussion a bit later selectively targeted at Attacked who come nearby.
+	\n\nGrizmot Mines detonate only if Attackers are in line of sight of the mine.
+	\n\nGrizmot Mines blast radius is 6m while its proximity detonation radius is 4m.
+	\n\nEla uses her Grizmot Mines to defend her close vicinity When someone triggers the mine, She pushed hard and gets the kill.
+	\n\nGrizmot Mines can also be used to collect intel about Attackers if they have entered any particular room in which the mine was placed.\n\n</string>
+
+    <string name="vigil_tip">Vigil uses his ERC7 video disruptor to erase  himself from showing up in cameras and drones.
+	\n\nERC7 takes a second to make Vigil fully visible to the cameras and drones.
+	\n\nERC7 has a time duration in which it can be active, It need to be recharged to be used again.
+	\n\nWhen Vigil fires a gun or affects the environment, The ERC7 will stop the mechanism and make him visible
+	.\n\nWhen Vigil is in a area under cloak, the camera feed will have a unique interference border to denote his presence in the room.
+	\n\nVideo Disruptor ERC7 has a range of 12m.
+	\n\nVigil can be very effective in roaming and can waste a lot of time for Attackers.
+	\n\nVigil cannot be droned out by Attackers, His exact location can never be found by Attackers.\n\n</string>
+
+
+    <!-- OPERATOR COMBINE -->
+
+    <string name="sledge_combine">Sledge can create new line of sight for Glaz and Glaz can provide support for him from long range.
+	\n\nSledge works well with Thermite, Buck and Hibana. They all combined can create havoc by destroying everything (walls, barricades, floors and hatches). They are the defenders nightmare.
+	\n\nSledge works well with Jackal to track any enemies below the floor and create holes in floors to kill them from above.
+	\n\nSledge can help Thatcher to help him throw EMPs at critical location by creating new lines of sight in floors or walls.
+	\n\nSledge can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
+	\n\nSledge can help Capitao to help him fire arrows at critical location by creating new lines of sight in floors or walls.\n\n</string>
+
+    <string name="thatcher_combine">Thatcher works well with Hibana and Thermite to help open walls if they are jammed with Mute Signal Disruptors or Bandit Shock Wires.
+	\n\nThatcher works well with Iq to detect defender gadgets and eliminate them.
+	\n\nTwitch can help Thatcher save his EMPs by destroying gadgets with her drone.
+	\n\nThatcher can combine with Stun grenade operators to prevent EMP being destroyed by Jager Active Defense Systems by using Stun grenades to waste the Active Defense Systems.
+	\n\nThatcher can use the EMP to help an aggressive Attacker like Ash, by clearing out the way and removing any Defender gadgets like Gu Mines, Ela Grizmot mines and more.\n\n</string>
+
+    <string name="ash_combine">Ash works well with other three speed operators Hibana, Capitao, Iq in a very aggressive manner to rush the objective and kill all Defenders.
+	\n\nAsh works well with Buck ,Sledge and Hibana to break the surrounding walls and floors.\n\n</string>
+
+    <string name="thermite_combine">Thermite works well with Hibana and they combined can destroy most of the walls and hatches.
+	\n\nThatcher can help Thermite if the area to be destroyed is jammed by Mute Signal Disruptors or Bandit Shock Wired. Thatcher can remove them with his EMP.
+	\n\nTwitch can help remove the Mute Signal Disruptor or Bandit Shock Wires.
+	\n\nZofia can help Thermite in certain places and help disorient Bandit via drone hole and prevent him from doing the Bandit trick.
+	\n\nIq can help Thermite to see if Bandit is tricking the other side of wall.
+	\n\nThermite can open walls for Glaz to cover from long distance.
+	\n\nSledge, Buck, Iq can help Thermite in certain places to kill Bandit via drone hole with Grenades if he is in close proximity to the drone hole and is active Bandit tricking.\n\n</string>
+
+    <string name="twitch_combine">Twitch Drones can be used to distract Defenders while other Attackers are pushing aggressive.
+	\n\nTwitch works best with Thatcher and Iq at taking out Defender gadgets as a whole.
+	\n\nTwitch can help Thermite in removing Mute Jammers or Bandit Shock Wires on the other side of the wall.
+	\n\nTwitch is very useful in removing Jager ADS which blocks projectiles into the room.\n\n</string>
+
+    <string name="montagne_combine">Montagne works with Ash,Thermite and Hibana who can create entry for him.
+	\n\nMontagne, Blitz, Glaz and Ying can be combined to perform a methodical Smoke plant, where all use their smokes and Ying uses her candelas to perform the plant in the confusion. Blitz can cover the Defuser at short range while Glaz covers it at long range.
+	\n\nMontagne can use his smoke grenades to help him with his thermal scope.\n\n</string>
+
+    <string name="glaz_combine">Thermite, Hibana, Sledge and Buck can create new lines of sight to help Glaz get new line of sight.
+	\n\nGlaz, Ying , Blitz and Montagne can be combined to perform a methodical Smoke plant It is very hard to deny Blitz can cover the Defuser at short range while Glaz covers it at long range.\n\n</string>
+
+    <string name="fuze_combine">Fuze works well with Jackal to track any enemies below and fuzing them from above.
+	\n\nFuze works well with Montagne to lock Defenders into a room and fuzing them from above.
+	\n\nFuze can help cover defuser after plant by pre placing cluster charges above defuser and activating them when Defenders try to defuse.\n\n</string>
+
+    <string name="blitz_combine">Blitz can be used to smoke plant the defuser and cover it in short range When combined with Glaz, Montagne and Ying, They can easily plant Defuser.
+	\n\nBlitz can use his smoke grenades to help Glaz with his thermal scope.\n\n</string>
+
+    <string name="iq_combine">Iq with Thermite can help kill Bandit through drone holes if Bandit is tricking in the vicinity of the drone hole.
+	\n\nIq can help Thatcher and Thermite in detecting if Bandit is tricking for Thermite.
+	\n\nIq can help Thatcher identify areas where gadgets are placed to throw EMP at.
+	\n\nIq works well with Dokkaebi, When she calls, Iq can detect the phones if Defenders are trying to switch them off.\n\n</string>
+
+    <string name="buck_combine">Buck can combine with Thermite, Hibana and Sledge They combined can destroy almost all surfaces and create chaos.
+	\n\nBuck can create new lines of sight for Glaz to cover from a distance.
+	\n\nBuck can also be used to destroy Mira Black Mirror by shooting from below the floor or above the floor. It requires good map knowledge.
+	\n\nBuck can help Thatcher to help him throw EMPs at critical location by creating new lines of sight in floors or walls.
+	\n\nBuck can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
+	\n\nBuck can help Capitao to help him fire arrows at critical location by creating new lines of sight in floors or walls.\n\n</string>
+
+    <string name="blackbeard_combine">Blackbeard works well with Shield operators like Fuze, Blitz and Montagne That is a lot of shields to deal with.
+	\n\nBlackbeard is very useful to hold flank angle It is very difficult to kill a blackbeard when his body is not visible.\n\n</string>
+
+    <string name="capitao_combine">Capitao Smoke mode can be used to help plant Defuser and is best combined with Blitz, Glaz, Ying and Montagne With all their smokes Defenders can be made unaware of the Defuser plant location.
+	\n\nCapitao can use his smoke grenades to help Glaz with his thermal scope.
+	\n\nCapitao can be combined with Buck and Sledge Buck or Sledge can create new line of sight in floor and Capitao can use it to fire his bolts.
+	\n\nCapitao can be used aggressively to rush the objective with Ash, Hibana, Twitch and Sledge .\n\n</string>
+
+    <string name="hibana_combine">Thermite along with Hibana can open holes in walls when under Bandit trick Use X-KAIROS on both walls and place Exothermic charge on one side Denote them both at same time, this way Bandit cannot prevent any one side from opening.
+	\n\nHibana with Capitao, Ash and Iq can be used aggressively and rush into objective.\n\n</string>
+
+    <string name="jackal_combine">Jackal when combined with Dokkaebi is very useful in finding the Roamers.
+	\n\nFuze and Jackal can locate the roamer and drive them out of the room using his Cluster charges.\n\n</string>
+
+    <string name="ying_combine">Ying works best with Glaz, Blitz and Montagne to do a Defuser Plant that is hard to deny.
+	\n\nYing works with Fuze, When Ying blinds Defenders, Fuze can detonate the Cluster Charges to wreak havoc.
+	\n\nSledge and Buck can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
+	\n\nThatcher can help Ying in removing Jager ADS before she throws the Candela.\n\n</string>
+
+    <string name="zofia_combine">Zofia works well with Buck, Sledge, Hibana and Thermite They all combined can destroy most of the walls and floors.
+	\n\nZofia can be used to disorient Bandit if Bandit tricking This is possible if there is a drone hole next to where Bandit is tricking.\n\n</string>
+
+    <string name="dokkaebi_combine">Dokkaebi works with Iq to detect phones when Defenders are trying to switch them off.
+	\n\nDokkaebi works with Attackers like Ash, Hibana, Capitao and Iq While Dokkaebi calls Defenders, they can rush the objective and kill theDefenders who are trying to switch off their phones.
+	\n\nDokkaebi and Jackal combined can be very effective in finding the roamer and killing them.\n\n</string>
+
+    <string name="finka_combine">Finka abililty is very powerful when combined with Attackers having Light Machine Guns and Machine Pistols as their recoils are reduced to large extent.
+	\n\nFinka can help Attackers recover from Ela Mines by using her ability.
+	\n\nFinka can be used well with Attackers having Stun Grenades Finka boost will recover Attackers from the flash faster.\n\n</string>
+
+    <string name="lion_combine">Lion ability works well when the Defuser has been planted Using his ability will detect Defenders approaching the Defuser.
+	\n\nLion works well with Jackal to track the position of Roamers and resist their movement.
+	\n\nLion works well with Thermite to detect the Bandit Trick.\n\n</string>
+
+    <string name="smoke_combine">Smoke can be combined with Defenders having Barbed wire Using smoke gas grenades when Attackers are moving through barbed wire will deal them with more damage.
+	\n\nSmoke works well with Mira Staying behind the cover of Mira Black Mirrors, Smoke can prevent Attackers from planting defuser by using hisSmoke gas grenades over the plant spot.\n\n</string>
+
+    <string name="mute_combine">Mute works well with Mira When placed behind wall where Mira Black mirror is present, it will prevent Attacker from opening the wall This is very effective in preventing Hibana from opening Mira walls.
+	\n\nMute works well with Bandit, Mute can be used to waste Thatcher EMP so that Bandit can later Shock wire the wall and Attacker have no way to open the shocked wall.
+	\n\nMute works well with Castle Armor panels If placed in range of the armor panel, Attackers will not be able to breach the panel because their detonation device will be jammed.\n\n</string>
+
+    <string name="castle_combine">Pulse can be used with Castle to detect enemy movements beyond the Armor Panel and take necessary action.
+	\n\nMira strategies can be used with Castle to protect Mira while she uses her Black Mirror to the advantage of the Defenders.\n\n</string>
+
+    <string name="pulse_combine">Pulse can be combines with other nitro cell operators to pre-place them and detonate by communicating with team mates.
+	\n\nPulse along with Caveira, Ela, Jager and Vigil can be used for aggressive roaming.
+	\n\nPulse can be used with Bandit to detect where Thermite is placing his Exothermic charge and help in Bandit trick.\n\n</string>
+
+    <string name="doc_combine">Doc works better with Rook to greatly improve the armor characteristics of Defenders.
+	\n\nDoc works best with Rook because wearing a rook armor will down the Defender before being killed by Attacker, Doc when timed correctly can save the downed Defender.\n\n</string>
+
+    <string name="rook_combine">Rook works best with Doc who can revive Defenders when they are down.\n\n</string>
+
+    <string name="kapkan_combine">Kapkan works well with Roamers and help them know if a Attacker is nearby Detonation of a EDD device will alert Defenders about a nearby Attacker.\n\n</string>
+
+    <string name="tachanka_combine">Tachanka can combine with Doc and Rook to hold the objective from the Attackers They combined can deal high amount of gunfire.
+	\n\nTachanka works well with Jager, where his ADS will prevent anyone from destroying the shield from distance ADS will block the incoming grenades targeted at destroying the shield.\n\n</string>
+
+    <string name="jager_combine">Jager works well with Anchor Defenders and prevent Attackers from using explosive grenades at them.
+	\n\nJager works well with other roamers Ela, Pulse and Caveira to prevent Attackers from approaching the objective.\n\n</string>
+
+    <string name="bandit_combine">Bandit can be a effective roamer given his high agility He works well with other roamers like Pulse, Ela, Jager and Caveira.
+	\n\nBandit Shock wires can be used with Castle Armor Panels with Barbed wire underneath to deal damage to Attackers who come for breaching the Panels.
+	\n\nBandit can combine with Mira and can help the wall where Black Mirror is placed from being destroyed by Hibana or Thermite.\n\n</string>
+
+    <string name="mira_combine">Mira walls can be best covered from hot breachers like Thermite and Hibana by using Bandit Shock Wire on the wall.
+	\n\nMira works well with Mute who can help in preventing the Mira wall being open by Hibana or Thermite Mute Jammers will prevent Hibana or Thermite from activating the charge.\n\n</string>
+
+    <string name="valkyrie_combine">Valkyrie works well with Defenders having Nitro cellsBlack Eyes are very useful for tracking Attackers above the floor and killing them with the help of Nitro cell to the floor. This requires good map knowledge to implement.
+	\n\nBlack Eyes Cameras can be great source for information for Roamers especially Caveira.
+	\n\nWhen Black Eye cameras are hacked by Dokkaebi, Vigil cannot be seen in it</string>
+
+    <string name="caveira_combine">Caveira works best with Valyrie who can help her providing intel about Attackers with help of her Black Eye Cameras.
+	\n\nCaveira works best with Pulse who can provide her with the intel of Attacker movement.
+	\n\nCaveira works well with Lesion, Gu Mines if down any Attacker Caveira can interrogate them.\n\n</string>
+
+    <string name="echo_combine">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group This will render them vulnerable.
+	\n\nEla and Yokai drone effect on same Attacker will only produce latest effect on the Attacker cancelling the previous one.
+	\n\nEcho can be very helpful in collecting intel and  assisting Roamers in Attackers movements.\n\n</string>
+
+    <string name="frost_combine">Frost works well with Defenders who have deployable shield Placing frost mat next to shiled will down the Attacker who tries to vault the shield.
+	\n\nSmoke can help in killing Attackers who are trapped in Frost Map by using his smoke gas grenade from longer distance.
+	\n\nFrost works well with Lesion Gu Mines, When placed in close proximity to a Frost Mat,Attackers can be killed instantly.\n\n</string>
+
+    <string name="lesion_combine">Lesion works well with Frost, When Gu Mines are placed close to Welcome Mat, it can kill and Attacker instantly. Be careful not to place the Gu Mines very close to Welcome Mat which will disable the effect of Gu Mines
+	n\nGu Mines work well with Kapktan EDD When placed in near proximity to it, it will cause a total damage of 70hp and more.
+	\n\nGu Mines work with Ela traps, This allows the Attacker to be disoriented and poisoned at the same time.
+	\n\nGu Mines can down Attackers if they are not careful which provides opportunity for Caveira to interrogate them.
+	\n\nLesion Gu Mines can be used to detect Attacker Movement above and with little coordination with Nitro cell operators, It can used to blow up Attackers from below.\n\n</string>
+
+    <string name="ela_combine">Echo when working with Ela can cause a set of disorientation to group of Attackers who are pushing in same area.
+	\n\nDisoriented with Ela or Echo one after other will cancel the previous effect Only one disorientation can be in place at a time.\n\n</string>
+
+    <string name="vigil_combine">Vigil works well with roamers like Pulse, Jager and Caveira.
+	\n\nVigil shotgun can create small hole in Castle Armor Panel, This can be used to kill unwary Attackers.\n\n</string>
+
+
+    <!-- OPERATOR COUNTER -->
+
+    <string name="sledge_counter">Pulse can be used to detect the movement of Sledge as he moves around breaking stuff.
+	\n\nDefenders can reinforce walls and hatches to prevent Sledge from breaking it.
+	\n\nRoamers are very effective in flanking Sledge from behind while he is busy breaking stuff.
+	\n\nValkyrie can spy on Sledge with the help of her Black Eye Cameras.
+	\n\nEcho drone can be used to disorient Sledge and prevent him from breaking floors and walls.\n\n</string>
+
+    <string name="thatcher_counter">Jager Active Defense Systems can destroy EMPs when caught in its line of sight while throwing.
+	\n\nEcho drone most times will be very high in ceiling and will not be affected by EMP as their range is short.
+	\n\nEMP do not affect mechanical devices like Mira Black Mirror or Frost Welcome Mat.
+	\n\nWhen Thatcher throws an EMP, Defenders can easily track his position because the light from EMP will make the angle thrown from easily detectable.
+	\n\nWhen combining with Thermite, throw an EMP only when Thermite is in active position to place the Exothermic Charge to bypass Bandit trick.\n\n</string>
+
+    <string name="ash_counter">CREM breaches can be electrified and are destroyed if they come in contact with Bandit Shock Wire  Shield or Barbed Wire.
+	\n\nJager Active Defense System will destroy the CREM breaches if in line of sight.
+	\n\nAsh rush into the objective can be prevented with the help of Gu Mines, Ela Proximity mines,Frost Welcome Mats,Castle Armor Panels and Kapkan EDDs.\n\n</string>
+
+    <string name="thermite_counter">Thermite Exothermic Charges can be jammed by Mute Signal Disruptor from Detonation.
+	\n\nExothermic Charges can be destroyed by Bandit Shock Wires This counter by Bandit is called the "Bandit Trick" while he actively places aShock Wire to the wall while Thermite sets an Exothermic Charge thereby destroying it.
+	\n\nExothermic Charges release visible sparks on other side of wall to denote its activation and detonation.
+	\n\nPulse can be used to detect the position of placement of Thermite Exothermic charges and help in Bandit trick.
+	\n\nValkyrie can be used to spy Thermite with her Black Eye cameras and help in Bandit trick.
+	\n\nMira can be used on the wall to see where Thermite is placing his Exothermic charges and help in Bandit trick.\n\n</string>
+
+    <string name="twitch_counter">Defender Shields blocking entrances eliminate the movement of Twitch Drone into the room. This is a reliable method to protect Mira Black Mirrors.
+	\n\nTwitch Drones get destroyed if it comes in contact with Bandit Shoch Wires.
+	\n\nTwitch Drones are jammed when in contact with Mute Signal Disruptors.\n\n</string>
+
+    <string name="montagne_counter">Montagne is vulnerable from behind very much Be on the lookout for roamers.
+	\n\nMontagne is comparatively slower than heavy operators.
+	\n\nMontagne is only covered 80 degrees and not 90 degrees at both sides and is vulnerable a little bit at the sides.
+	\n\nEla Grizmot mines can lower his fully extended shield when in contact.
+	\n\nEcho Yokai can disorient him and lower his fully extended shield when in contact.\n\nMontagne is louder when moving like other shield operators.
+	\n\nFrost Mats will injure Montagne even when his shield is fully extended.
+	\n\nBandit shock wires will damage him when he touches it.
+	\n\nSmoke Gas grenades are ideal to prevent Montagne from entering sites and push him back.
+	\n\nA nitro cell thrown behind Montagne when detonated will down or kill him.
+	\n\nLesion Gu Mines are ideal to prevent Montagne from pushing forward into the objective Once in contact with a Gu Mine, He is very vulnerable when removing it.\n\n</string>
+
+    <string name="glaz_counter">Glaz is very vulnerable in short range as his weapon is hard to use in short range.
+	\n\nCastle Armor Panels can used to close entrances to objectives and prevent Glaz from peeking from long distance.
+	\n\nReinforcing critical walls will prevent Glaz from breaking it and peeking inside.
+	\n\nJager ADS can destroy Smoke grenades from Glaz and prevent him from using his Thermal Scope.\n\n</string>
+
+    <string name="fuze_counter">Mute Signal Disruptor can jam the Cluster charge from being activated.
+	\n\nThere is a distinct sound made when placing the Cluster Chargess This audio cue can be used by Defenders to vacate the room or shoot the charge. Jager Active Defense systems can destroy pellets as they come in line of sight to them.
+	\n\nReinforcing walls and hatches will prevent Fuze from placing his Cluster Charges.
+	\n\nFuze when placing his Cluster Charges are very vulnerable and cannot defend himself Roamers can locate Fuze easily based on the detonation sound.
+	\n\nPulse is very effective in detecting Fuze with his Heartbeat Scanner Pulse can closely follow Fuze and kill him in cover.\n\n</string>
+
+    <string name="blitz_counter">Blitz shield moves away left when melee attacked to the front leaving Blitz open and vulnerable in the front, He must quickly turn right to bring the shield in front of him to prevent any frontal damage.
+	\n\nMute Signal Disruptor will jam Blitz Flash Shield if in its radius.
+	\n\nGu Mines are very effective in preventing Blitz from pushing aggressively into objective.
+	\n\nEla Grizmot mines help prevent Blitz from pushing aggressively.\n\nEcho Yokai Drone can be used to disorient and distract Blitz.
+	\n\nKapkan traps prevent Blitz from entering objective.\n\nFrost Mats will down Blitz when he is in contact with it.
+	\n\nCastle Armor panels can be used to deny entry access to Blitz into the objective.
+	\n\nNitro cells on doorways and windows can be used to prevent Blitz from entering them As Blitz cannot shoot it, If he enters he can be killed easily.\n\n</string>
+
+    <string name="iq_counter">Iq can only use her pistol when she scans for Defender gadgets The pistol is very limited in terms of firing power so she is very vulnerable in that time period.\n\n</string>
+
+    <string name="buck_counter">Buck is vulnerable to Roamers while breaking stuff if not careful,especially Caveira.
+	\n\nDefenders can reinforce walls and floors to prevent Buck from opening them.\n\nPulse can be used to detect the movement of Buck as he moves around breaking stuff.\n\n</string>
+
+    <string name="blackbeard_counter">Vigil shotgun will break the shield on any level when dealt with.
+	\n\nEla submachine gun is very aggressive to deal Blackbeard .\n\nSmoke SMG and Mira Vector are effective weapons to deal Blackbeard Be on the lookout for them.
+	\n\nBlackbeard can be killed easily if shot in legs and body.
+	\n\nNever peek a Blackbeard unless you are confident you can kill himYou are at a great disadvantage by peeking him.
+	\n\nCastle Armor Panels are very useful in preventing Blackbeard from peeking the windows.\n\n</string>
+
+    <string name="capitao_counter">Nitro cell is very effective to use in smoke and deny Defuser plant if Capitao is trying to smoke and plant.
+	\n\nLesion Gu Mines are effective in preventing Capitao from rushing into the objective.
+	\n\nEla Grizmot mines are effective in preventing Capitao from rushing into the objective.
+	\n\nKapkan traps are effective in denying Capitao the entrance into objective.\n\nFrost Mats are effective in trapping Capitao who rushes into objective.
+	\n\nIf you are cornered with a Asphyxiating Bolt, try to find alternative location and relocate quickly.\n\n</string>
+
+    <string name="hibana_counter">Mute Signal Disruptors prevent you from detonating X-KAIROS pellets.
+	\n\nX-KAIROS pellets will be destoyed if is in contct with Bandit Shock wire.
+	\n\nX-KAIROS pellets can be destroyed by gunfire or explosives Defenders can use nitro cell or impact grenade to destroy the pellet in activation and prevent it from opening walls or floors.\n\n</string>
+
+    <string name="jackal_counter">Thatcher or Twitch can help Jackal by removing the Mute Signal Disruptors.
+	\n\nJackal works well with Sledge, Buck to track any enemies below the floor and create holes in floors to kill them from above.
+	\n\nCaveira is a direct counter to Jackal, Eventhough she can be tracked by him, When she enters Silent Step, Her location will not be ping like other Defenders.
+	\n\nCaveira, When she times the ping made by Eyenox by moving into Silent Step cannot be detected by Jackal in any manner.
+	\n\nEyenox cannot be turned ON or OFF while holding a hostage.
+	\n\nMute Signal Disruptors will interfere with his Eyenox causing static effect, which almost makes him blind.\n\n</string>
+
+    <string name="ying_counter">Jager Active Defense Systems are capable of destoying it when thrown as a whole.
+	\n\nBarbed wires will reduce Candela rolling speed.
+	\n\nBandit Shock Wires is capable of destroying Candelas when in contact with.
+	\n\nDefenders looking into the site with the help of Cameras will not be blinded if Candela is in the feed of the camera.\n\n</string>
+
+    <string name="zofia_counter">Ela is resistant to Zofia Concussion effects, allowing her to recover twice as fast as other Defenders.
+	\n\nJager Active Defense System can take out Zofia grenades if they are not detonated when coming into line of sight of the ADS.
+	\n\nDefenders can reinforce walls and floors to prevent Zofia from opening them.\n\n</string>
+
+    <string name="dokkaebi_counter">When Logic Bomb calls are activated, Defenders can try to hide and switch it off to prevent it from ringing.
+	\n\nDoekkabi takes time to do calls or camera hacks, during this time she is very vulnerable and cannot move.
+	\n\nThe Defender phones are destroyable, which must be destroyed by another Defender if one  dies to prevent Dokkaebi from hacking into the Defender Camera Network.
+	\n\nWhen Defender cameras are hacked it displays a logo to show it is hacked for the Defenders, Defenders should shoot the hacked cameras to prevent giving away their location.
+	\n\nDokkaebi cannot call Echo and cannot hack into Echo Drone.\n\nWhen Defenders are in range of Mute Signal Disruptors, their phones will not ring when called.
+	\n\nBandit Shock Wires will destroy Defender phones when in contact.\n\nVigil cannot be seen in hacked camera feed.\n\n</string>
+
+    <string name="finka_counter">When under Finka boost Attackers will take more damage from Smoke toxic gas grenades.
+	\n\nWhen under Finka boost Attackers will be detectable at a longer distance in Pulse Cardiac Sensor.
+	\n\nFinka boost will be cancelled when hit by Echo Yokai drone or Lesion Gu mines.\n\n</string>
+
+    <string name="lion_counter">Defenders are given a warning of 3 seconds before the scan takes place to position themselves in a safe place.
+	\n\nDefenders can do all actions except position movement and not be detected by the EE-One-D drone.
+	\n\nDefenders can move about freely and do all actions when they are in close proximity to a Mute Jammer.\n\n</string>
+
+    <string name="smoke_counter">Thatcher can destroy the gas grenades using his EMP.
+	\n\nIq can detect smoke gas grenades and shoot them.\n\nTwitch can destroy smoke gas grenades with her drones.
+	\n\nHigh speed Attackers are more likely to escape through the smoke taking less damage than Low speed Attackers.\n\n</string>
+
+    <string name="mute_counter">Thatcher can destroy Mute Disruptors when in Range.
+	\n\nIq can detect Mute Disruptors and shoot them through floors, windows and doors.
+	\n\nTwitch can destroy them using her drone But if the drone is too close, it will be disrupted too.
+	\n\nWhen drones are jammed by Mute Disruptors, Attackers can destroy the jammer and recover their drones.
+	\n\nMechanical devices are not affected by Signal Disruptors.\n\n</string>
+
+    <string name="castle_counter">Effective ways to destroy them are using Breach charges and Grenades.
+	\n\nAsh, Zofia and Hibana can destroy the Armor Panels from a safe distance.
+	\n\nSledge Breaching Hammer and Thermite charge can take down Armor Panels easily.
+	\n\nGlaz can 12 shot Armor Panel with his sniper to destroy them.
+	\n\nFuze Cluster Charges, Ying Candela and Doekkabi shotgun create holes in Armor Panels for new line of sight.
+	\n\nArmor Panel can be destroyed by melee attack 12 times.\n\n</string>
+
+    <string name="pulse_counter">Thatchers EMP grenade will disable Heartbeat Sensor for a while before it can be reused.
+	\n\nThe sound Heartbeat Sensor emits will get louder as Attackers get close to it.
+	\n\nDokkaebi can call Defenders, therrby giving away the position of Pulse.
+	\n\nJackal is very effective in tracking Pulse foottracks and detecting his current position.
+	\n\nIq can detect Pulse when he is using the Heartbeat Sensor Iq can effectively try to locate him shoot through surfaces.\n\n</string>
+
+    <string name="doc_counter">Doc can be prevented from reviving any Defender by quickly killing them after they are downed.\n\n</string>
+
+    <string name="rook_counter">Rook Satchel can be destroyed by team mates or Attackers.
+	\n\nAttackers can also wear Rook Armor Plates if found.
+	\n\nTwitch Shock drone can be used to kill Defenders who are downed.
+	\n\nCapitao can use his asphyxiating bolts to kill downed Defenders too.
+	\n\nAny Attacker who can do any Damage with gadget can kill downed Defenders Even throwing a flashbang can kill a downed Defender.\n\n</string>
+
+    <string name="kapkan_counter">Kapkan traps can be destroyed by Thatcher EMP.
+	\n\nTwitch can destroy the Kapkan traps.\n\nAny Attacker gadget when detonates, if the Kapkan trap is in the radius of the explosion will be destroyed.
+	\n\nKapkan traps can be destoyed by normal gunfire.
+	\n\nDrones can be effectively used to follow Kapkan and find where he places his traps.
+	\n\nIq can detect the Kapkan traps and destroy it.\n\n</string>
+
+    <string name="tachanka_counter">Montagne can deal bullets from LMG.
+	\n\nAsh and Zofia are capable of shooting LMG with their grenades to destroy the front shield making the Defender who uses it vulnerable.
+	\n\nCapitao asphyxiating bolts are very effective to kill Defender who is using the mounted LMG.\n\n</string>
+
+    <string name="jager_counter">Most times Stun Grenade, Hibana XKAIROS pellets and Ying Candela will be used to burn out the ADS to further use Frag grenades to throw at Defenders. Thatcher can destroy the ADS if in radius of the EMP.
+	\n\nTwitch can destoy the ADS by using her drone .
+	\n\nJager ADS can be destroyed by normal gunfire.
+	\n\nIq can detect the Jager ADS and destroy it.\n\n</string>
+
+    <string name="bandit_counter">Bandit Shock wires can be destroyed  by normal gunfire.
+	\n\nThatcher EMP will destroy the Shock wire if in radius.
+	\n\nTwitch can use her drone to destroy Bandit Shock wire.
+	\n\nBandit when tricking for Thermite is very vulnerable from behind.
+	\n\nIq can detect the Bandit shock wire and destroy it.
+	\n\nBandit Shock wire can be destroyed by Attacker explosion gadgets if it comes in contact with them.\n\n</string>
+
+    <string name="mira_counter">Any explosion device when in contact with the Gas canister in Black Mirrors will open it.
+	\n\nTwitch drones can destroy Black Mirrors leaving a hole in middle of the wall Nothing can be done to remove the hole in wall.
+	\n\nBuck, Sledge or Ash can be used to open Mira Black Mirrors from below and above the floor, Be careful in their placements.
+	\n\nNon-reinforced walls cannot be reinforced if a Black Mirror was placed in wall.
+	\n\nMira can place Black Mirror at elevated height if she can reach so.
+	\n\nMira Black Mirror can be opened by Defenders by melee, bullet , nitro, impacting the gas canister in it.
+	\n\nYing will flash people in Mira Black Mirror  even when it is not open.
+	\n\nIf Black Mirror is placed on unreinforced wall, destruction on the wall will destroy the Black Mirror too.
+	\n\nThermite and Hibana can destroy Mira Black Mirrors Be on the lookout for them.
+	\n\nDouble Mira Black Mirrors with one open and one closed is a common strategy to intimidate Attackers with prefire.\n\n</string>
+
+    <string name="valkyrie_counter">Thatcher EMP grenades will destroy Black Eyes.
+	\n\nTwitch can destroy Black Eyes with her darts.\n\nIq is a direct counter to Valkyrie, She can detect any cameras thrown outside and prevent the advantage it has for Defenders.
+	\n\nDokkaebi can hack into Defender camera network including Black Eyes when she hacks a dead Defender phone.
+	\n\nAny explosion device when in contact with the Black Eye camera will destroy it.\n\n</string>
+
+    <string name="caveira_counter">Interrogation will take 3 seconds and Caveira is vulnerable in that time.
+	\n\nDokkaebi can call and locate Caveira Have a rotation route planned if you are pinned down by Attackers.
+	\n\nAlways drone to find out the position of Caveira She can be very lethal.
+	\n\nCaveira is the ultimate roamer, cover you flanks and always be ready to confront her.\n\n</string>
+
+    <string name="echo_counter">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group This will render them vulnerable.
+	\n\nEla and Yokai drone effect on same Attacker will only produce latest effect on the Attacker canceling the previous one.
+	\n\nEcho can be very helpful in collecting intel and  assisting Roamers in Attackers movements.\n\n</string>
+
+    <string name="frost_counter">Frost Welcome Mats can destroyed by a melee hit but must be done carefully or it may down you Hit the part that does not activate the trap.
+	\n\nFrost traps will get destroyed if in radius of a explosion from Attacker gadget.\n\n</string>
+
+    <string name="lesion_counter">Gu Mines can be destroyed by Thatcher EMP when in range.
+	\n\nGu mines can be destroyed by Gunfire and any explosion near to it, like Frag grenades, Ash CREM and more.
+	\n\nIq can detect Gu Mines though her Scanner and destroy them.\n\n</string>
+
+    <string name="ela_counter">Iq can detect Ela Grizmot Mines and destroy them through surfaces.
+	\n\nTwitch can destroy Grizmot Mines and she makes this as her main priority.
+	\n\nThatcher can destroy any Grizmot Mines in radious of his EMP.
+	\n\nAny number of Attackers caught in the Grizmot Mines detonation proximity will be disoriented.
+	\n\nGrizmot Mines are destroyed by destruction nearby like Frag grenades, Ash CREM and more.
+	\n\nZofia is less affected by Ela Grizmot minesThe Grizmot mine effect only last for half the time it lasts for other Defenders.
+	\n\nMontagne can be used to clear out the Ela mines from under the cover of his Extended Shield.\n\n</string>
+
+    <string name="vigil_counter">Jackal is very effective in tracking Vigil and counter him.
+	\n\nDokkaebi can call Vigil and find his location based on the sound from his phone ring.
+	\n\nEven when Vigil in cloak, he can be heard in drones and cameras if hacked by Dokkaebi.
+	\n\nIq can detect Vigil when the ERC7 is active.
+	\n\nThatcher can temporarily disable the ERC7 of Vigil.
+	\n\nTwitch can temporarily disable the ERC7 when she shoots the dart into Vigil.
+	\n\nFuze is effective in pushing Vigil out of a room by using his Cluster charges in that room.\n\n</string>
 
 
 </resources>

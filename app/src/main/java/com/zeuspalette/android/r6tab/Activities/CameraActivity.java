@@ -348,6 +348,10 @@ public class CameraActivity extends AppCompatActivity {
         theme = null;
         tower = null;
         yacht = null;
+
+        mBottomNavigationView = null;
+        mFragmentManager = null;
+        zUtils = null;
     }
 
     /* Helper Methods */

@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.squareup.picasso.MemoryPolicy;
+import com.squareup.picasso.Picasso;
 import com.zeuspalette.android.r6tab.Activities.OperatorActivity;
 import com.zeuspalette.android.r6tab.Activities.UnitOperatorActivity;
 import com.zeuspalette.android.r6tab.Helpers.OperatorHelper;
@@ -26,10 +28,22 @@ public class OperatorUnitDefenderFragment extends Fragment {
     OperatorHelper o;
 
     private int[] unitAttackerIcons = {};
+    ImageView defenderOne;
+    ImageView defenderTwo;
 
     public OperatorUnitDefenderFragment() {
 
 
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        defenderOne = null;
+        defenderTwo = null;
+        zUtils = null;
+        o = null;
     }
 
 
@@ -218,14 +232,13 @@ public class OperatorUnitDefenderFragment extends Fragment {
 
     public void setupDefenders(View view, int id1, int id2, final String op1Name, final String op2Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
-        Drawable two = zUtils.resizeImage(id2, getActivity());
 
-        ImageView defenderOne = view.findViewById(R.id.unit_operator_one);
-        ImageView defenderTwo = view.findViewById(R.id.unit_operator_two);
+        defenderOne = view.findViewById(R.id.unit_operator_one);
+        defenderTwo = view.findViewById(R.id.unit_operator_two);
 
-        defenderOne.setImageDrawable(one);
-        defenderTwo.setImageDrawable(two);
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderOne);
+
+        Picasso.with(getActivity()).load(id2).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderTwo);
 
 
         defenderOne.setOnClickListener(new View.OnClickListener() {
@@ -250,11 +263,10 @@ public class OperatorUnitDefenderFragment extends Fragment {
 
     public void setupDefenders(View view, int id1, final String op1Name) {
 
-        Drawable one = zUtils.resizeImage(id1, getActivity());
 
-        ImageView defenderOne = view.findViewById(R.id.unit_operator_one);
+        defenderOne = view.findViewById(R.id.unit_operator_one);
 
-        defenderOne.setImageDrawable(one);
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(defenderOne);
 
 
         defenderOne.setOnClickListener(new View.OnClickListener() {

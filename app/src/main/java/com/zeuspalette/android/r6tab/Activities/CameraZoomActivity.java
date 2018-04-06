@@ -48,6 +48,7 @@ public class CameraZoomActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         photoView = null;
+        mFragmentManager = null;
 
     }
 }

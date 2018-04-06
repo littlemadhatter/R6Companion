@@ -35,6 +35,16 @@ public class OperatorActivity extends AppCompatActivity {
     public static String mOperatorTAG = "";
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        mFragmentManager = null;
+        mBottomNavigationView = null;
+        mFragment = null;
+        mFragmentTransaction = null;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -46,7 +56,6 @@ public class OperatorActivity extends AppCompatActivity {
 
         mBottomNavigationView = findViewById(R.id.bottomnavigation_operator);
         disableShiftMode(mBottomNavigationView);
-        mNavigationView = findViewById(R.id.nav_drawer_main);
 
         Toolbar toolbar = findViewById(R.id.toolbar_operator);
         setSupportActionBar(toolbar);

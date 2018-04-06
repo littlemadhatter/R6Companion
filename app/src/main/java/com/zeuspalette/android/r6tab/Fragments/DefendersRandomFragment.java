@@ -48,6 +48,17 @@ public class DefendersRandomFragment extends Fragment {
 
 
     @Override
+    public void onDestroy() {
+        super.onDestroy();
+        opKey = null;
+        defenderIcons = null;
+        defenderProfileIcons = null;
+        defenders = null;
+        randomize = null;
+        zUtils = null;
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 

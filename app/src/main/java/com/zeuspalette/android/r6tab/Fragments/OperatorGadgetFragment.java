@@ -24,8 +24,15 @@ public class OperatorGadgetFragment extends Fragment {
     public OperatorGadgetFragment() {
 
         zUtils = new ZUtils();
+
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        zUtils = null;
+        gadgetHelper = null;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

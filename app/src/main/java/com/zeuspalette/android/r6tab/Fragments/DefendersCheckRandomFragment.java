@@ -25,8 +25,54 @@ public class DefendersCheckRandomFragment extends Fragment {
     private ZUtils zUtils;
     int prev = 0;
 
+    ImageView smokeI;
+    ImageView muteI;
+    ImageView castleI;
+    ImageView pulseI;
+    ImageView docI;
+    ImageView rookI;
+    ImageView kapkanI;
+    ImageView tachankaI;
+    ImageView jagerI;
+    ImageView banditI;
+    ImageView frostI;
+    ImageView valkyrieI;
+    ImageView caveiraI;
+    ImageView echoI;
+    ImageView miraI;
+    ImageView lesionI;
+    ImageView elaI;
+    ImageView vigilI;
+
 
     public DefendersCheckRandomFragment() {
+
+    }
+
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        zUtils = null;
+        smokeI = null;
+        muteI = null;
+        castleI = null;
+        pulseI = null;
+        docI = null;
+        rookI = null;
+        kapkanI = null;
+        tachankaI = null;
+        jagerI = null;
+        banditI = null;
+        frostI = null;
+        valkyrieI = null;
+        caveiraI = null;
+        echoI = null;
+        miraI = null;
+        lesionI = null;
+        elaI = null;
+        vigilI = null;
 
     }
 
