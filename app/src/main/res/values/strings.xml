@@ -845,7 +845,8 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nEach pellet have a range of 42m and deal lethal damage.
 	\n\nCluster Charge pellets can bounce back surfaces too, Be wary how you place them.
 	\n\nFuze Charges can pierce through Castle Armored Panels and create a hole when doing so. This hole can be used for line of sight into the room.
-	\n\nFuze Cluster Charges can be used tactically to create confusion and chaos among Defenders.
+	\n\nFuze can be combined with Lion to lock Defenders into a room and fuzing them to kill them all or injure them.
+    \n\nFuze Cluster Charges can be used tactically to create confusion and chaos among Defenders.
 	\n\nInstead of using Fuze Cluster Charges random to get kills, placing them in conventional spots based on map knowledge will yield you confirmed kills.\n\n</string>
 
     <string name="blitz_tip">Blitz Shield can blind enemies when flashed.
@@ -865,6 +866,7 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nIq is very effective in preventing Defenders from using Valkyrie Black Eyes for run out kills.
 	\n\nIq is very effective in identifying Lesion GU mines which are invisible to naked eye.
 	\n\nIq can detect phones when Defenders are using them to check their cameras.
+    \n\nIq is very effective in finding Echo Yokai drone and destorying it. She can detect it through walls and can destroy it.
 	\n\nIq can detect phones when Defenders are using them to prevent call from Dokkaebi.\n\n</string>
 
     <string name="buck_tip">Buck uses a Shotgun attached to his primary to destroy surfaces very fast.
@@ -1160,9 +1162,9 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
     <string name="vigil_tip">Vigil uses his ERC7 video disruptor to erase  himself from showing up in cameras and drones.
 	\n\nERC7 takes a second to make Vigil fully visible to the cameras and drones.
 	\n\nERC7 has a time duration in which it can be active, It need to be recharged to be used again.
-	\n\nWhen Vigil fires a gun or affects the environment, The ERC7 will stop the mechanism and make him visible
-	.\n\nWhen Vigil is in a area under cloak, the camera feed will have a unique interference border to denote his presence in the room.
-	\n\nVideo Disruptor ERC7 has a range of 12m.
+	\n\nWhen Vigil fires a gun or affects the environment, The ERC7 will stop the mechanism and make him visible.\n\nWhen Vigil is in a area under cloak, the camera feed will have a unique interference border to denote his presence in the room.
+	\n\nVigil EERC will turn the red light of drones into white when jamming them.
+    \n\nVideo Disruptor ERC7 has a range of 12m.
 	\n\nVigil can be very effective in roaming and can waste a lot of time for Attackers.
 	\n\nVigil cannot be droned out by Attackers, His exact location can never be found by Attackers.\n\n</string>
 
@@ -1256,7 +1258,8 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 
     <string name="lion_combine">Lion ability works well when the Defuser has been planted Using his ability will detect Defenders approaching the Defuser.
 	\n\nLion works well with Jackal to track the position of Roamers and resist their movement.
-	\n\nLion works well with Thermite to detect the Bandit Trick.\n\n</string>
+	\n\nFuze can be combined with Lion to lock defenders in a room and fuzing to kill them or injure them a lot.
+    \n\nLion works well with Thermite to detect the Bandit Trick.\n\n</string>
 
     <string name="smoke_combine">Smoke can be combined with Defenders having Barbed wire Using smoke gas grenades when Attackers are moving through barbed wire will deal them with more damage.
 	\n\nSmoke works well with Mira Staying behind the cover of Mira Black Mirrors, Smoke can prevent Attackers from planting defuser by using hisSmoke gas grenades over the plant spot.\n\n</string>

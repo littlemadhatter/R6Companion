@@ -42,7 +42,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="Attackers"
-                    android:padding="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
                     android:textColor="@color/colorWhiteTwo"
                     android:layout_height="wrap_content" />
 
@@ -78,7 +80,9 @@
                     android:layout_width="wrap_content"
                     android:text="Defenders"
                     android:textColor="@color/colorWhiteTwo"
-                    android:padding="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
                     android:layout_height="wrap_content" />
 
                 <LinearLayout

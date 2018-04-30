@@ -30,6 +30,7 @@ public class OperatorUnitAttackerFragment extends Fragment {
     private int[] unitAttackerIcons = {};
     ImageView attackerOne;
     ImageView attackerTwo;
+    ImageView attackerThree;
 
     public OperatorUnitAttackerFragment() {
 
@@ -78,12 +79,12 @@ public class OperatorUnitAttackerFragment extends Fragment {
 
         if (UnitOperatorActivity.mUnitTAG.equalsIgnoreCase("gign")) {
 
-            setupAttackers(view, R.drawable.itwitch, R.drawable.imontagne, "twitch", "montagne");
+            setupAttackers(view, R.drawable.itwitch, R.drawable.imontagne,R.drawable.ilion, "twitch", "montagne","lion");
         }
 
         if (UnitOperatorActivity.mUnitTAG.equalsIgnoreCase("spetznaz")) {
 
-            setupAttackers(view, R.drawable.iglaz, R.drawable.ifuze, "glaz", "fuze");
+            setupAttackers(view, R.drawable.iglaz, R.drawable.ifuze,R.drawable.ifinka, "glaz", "fuze", "finka");
         }
 
         if (UnitOperatorActivity.mUnitTAG.equalsIgnoreCase("gsg9")) {
@@ -151,12 +152,12 @@ public class OperatorUnitAttackerFragment extends Fragment {
         }
 
         if (UnitOperatorActivity.mUnitTAG.equalsIgnoreCase("gign")) {
-            return R.layout.fragment_operator_unit_two;
+            return R.layout.fragment_operator_unit_three;
 
         }
 
         if (UnitOperatorActivity.mUnitTAG.equalsIgnoreCase("spetznaz")) {
-            return R.layout.fragment_operator_unit_two;
+            return R.layout.fragment_operator_unit_three;
 
         }
 
@@ -242,6 +243,49 @@ public class OperatorUnitAttackerFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), OperatorActivity.class);
                 intent.putExtra("operator", op2Name);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    public void setupAttackers(View view, int id1, int id2,int id3, final String op1Name, final String op2Name, final String op3Name) {
+
+        attackerOne = view.findViewById(R.id.unit_operator_one);
+        attackerTwo = view.findViewById(R.id.unit_operator_two);
+        attackerThree = view.findViewById(R.id.unit_operator_three);
+
+
+        Picasso.with(getActivity()).load(id1).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerOne);
+
+        Picasso.with(getActivity()).load(id2).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerTwo);
+
+        Picasso.with(getActivity()).load(id3).memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).resize(zUtils.getPixelfromDP(getActivity(), 271), zUtils.getPixelfromDP(getActivity(), 271)).into(attackerThree);
+
+
+        attackerOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), OperatorActivity.class);
+                intent.putExtra("operator", op1Name);
+                startActivity(intent);
+            }
+        });
+
+        attackerTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), OperatorActivity.class);
+                intent.putExtra("operator", op2Name);
+                startActivity(intent);
+            }
+        });
+
+        attackerThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), OperatorActivity.class);
+                intent.putExtra("operator", op3Name);
                 startActivity(intent);
             }
         });

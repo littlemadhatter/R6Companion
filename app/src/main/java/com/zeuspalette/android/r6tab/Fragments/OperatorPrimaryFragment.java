@@ -150,7 +150,7 @@ public class OperatorPrimaryFragment extends Fragment {
             weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
             wH.setAUGA2View(weaponOne, layoutInflater, getActivity());
             weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
-            wH.set556XIView(weaponTwo, layoutInflater, getActivity());
+            wH.set552COMMANDOView(weaponTwo, layoutInflater, getActivity());
             weaponThree = (ViewGroup) view.findViewById(R.id.view_head_weapon_three);
             wH.set68A1View(weaponThree, layoutInflater, getActivity());
 

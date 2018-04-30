@@ -66,13 +66,14 @@ public class WeaponHelper {
         insertPoint.addView(weaponNotes, 6, layoutParams);
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
         TextView weaponDamage = insertPoint.findViewById(R.id.weapon_damage);
         TextView weaponROF = insertPoint.findViewById(R.id.weapon_rof);
         TextView weaponMobility = insertPoint.findViewById(R.id.weapon_mobility);
+
         TextView weaponCapacity = insertPoint.findViewById(R.id.weapon_capacity);
         final EditText weaponNote = insertPoint.findViewById(R.id.weapon_editnote);
         Button weaponNoteButton = insertPoint.findViewById(R.id.weapon_editbutton);
@@ -81,7 +82,7 @@ public class WeaponHelper {
                 activity.getResources().getString(R.string.key_preferences), Context.MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPref.edit();
 
-        weaponNote.setText(sharedPref.getString(String.valueOf(weaponNameString), ""));
+        weaponNote.setText(String.valueOf(zUtils.getSharedPreferenceString(activity,String.valueOf(weaponNameString), "")));
         weaponNoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -267,7 +268,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -406,7 +407,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -540,7 +541,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -731,7 +732,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -937,7 +938,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1143,7 +1144,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1349,7 +1350,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1479,7 +1480,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1607,7 +1608,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1813,7 +1814,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -1950,7 +1951,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2148,7 +2149,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2338,7 +2339,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2485,7 +2486,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2614,7 +2615,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2720,7 +2721,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -2912,7 +2913,7 @@ public class WeaponHelper {
 
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3037,7 +3038,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3166,7 +3167,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3382,7 +3383,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3587,7 +3588,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3749,7 +3750,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -3939,7 +3940,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -4144,7 +4145,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -4341,7 +4342,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -4536,7 +4537,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -4723,7 +4724,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -4851,7 +4852,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5066,7 +5067,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5264,7 +5265,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5370,7 +5371,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5584,7 +5585,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5764,7 +5765,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -5893,7 +5894,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6098,7 +6099,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6236,7 +6237,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6274,7 +6275,7 @@ public class WeaponHelper {
 
     public String getP229Name() {
 
-        return "Assault Rifle - P229";
+        return "Handgun - P229";
     }
 
     public String getP229D() {
@@ -6365,7 +6366,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6535,7 +6536,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6740,7 +6741,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -6945,7 +6946,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7082,7 +7083,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7210,7 +7211,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7348,7 +7349,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7554,7 +7555,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7692,7 +7693,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -7821,7 +7822,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8027,7 +8028,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8225,7 +8226,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8354,7 +8355,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8560,7 +8561,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8719,7 +8720,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8826,7 +8827,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -8984,7 +8985,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -9145,7 +9146,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -9322,7 +9323,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -9527,7 +9528,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -9717,7 +9718,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -9901,7 +9902,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10096,7 +10097,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10266,7 +10267,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10404,7 +10405,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10589,7 +10590,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10765,7 +10766,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -10927,7 +10928,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11064,7 +11065,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11261,7 +11262,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11399,7 +11400,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11463,7 +11464,7 @@ public class WeaponHelper {
     public void setM12View(ViewGroup insertPoint, LayoutInflater mLayoutInflater, final Activity activity) {
 
         setupM12WeaponView(insertPoint, mLayoutInflater, activity, "m12", R.drawable.r_m12, getM12Name(), getM12D(), getM12FR(), getM12M(), getM12C(),
-                R.layout.weapon_scope_rr, R.layout.weapon_barrel_sfcm, R.layout.weapon_grip_no, R.layout.weapon_underbarrel_l);
+                R.layout.weapon_scope_rr, R.layout.weapon_barrel_sfml, R.layout.weapon_grip_no, R.layout.weapon_underbarrel_l);
 
     }
 
@@ -11568,7 +11569,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11706,7 +11707,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11814,7 +11815,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -11982,7 +11983,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -12044,7 +12045,7 @@ public class WeaponHelper {
 
     public void setVECTOR45ACPView(ViewGroup insertPoint, LayoutInflater mLayoutInflater, final Activity activity) {
 
-        setupVECTOR45ACPWeaponView(insertPoint, mLayoutInflater, activity, "vector45acp", R.drawable.r_mp5sd, getVECTOR45ACPName(), getVECTOR45ACPD(), getVECTOR45ACPFR(), getVECTOR45ACPM(), getVECTOR45ACPC(),
+        setupVECTOR45ACPWeaponView(insertPoint, mLayoutInflater, activity, "vector45acp", R.drawable.r_vector45acp, getVECTOR45ACPName(), getVECTOR45ACPD(), getVECTOR45ACPFR(), getVECTOR45ACPM(), getVECTOR45ACPC(),
                 R.layout.weapon_scope_hrr, R.layout.weapon_barrel_sfcm, R.layout.weapon_grip_v, R.layout.weapon_underbarrel_l);
 
     }
@@ -12169,7 +12170,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -12212,22 +12213,22 @@ public class WeaponHelper {
 
     public String getT5SMGD() {
 
-        return "Damage      :     00 (Supp 00)";
+        return "Damage      :     30 (Supp 25)";
     }
 
     public String getT5SMGFR() {
 
-        return "Fire Rate     :     000";
+        return "Fire Rate     :     900";
     }
 
     public String getT5SMGM() {
 
-        return "Mobility      :     00";
+        return "Mobility      :     50";
     }
 
     public String getT5SMGC() {
 
-        return "Capacity     :     00";
+        return "Capacity     :     30";
     }
 
     public void setT5SMGView(ViewGroup insertPoint, LayoutInflater mLayoutInflater, final Activity activity) {
@@ -12346,7 +12347,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -12543,7 +12544,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -12722,7 +12723,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -12918,7 +12919,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -13125,7 +13126,7 @@ public class WeaponHelper {
             }
         });
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);
@@ -13323,7 +13324,7 @@ public class WeaponHelper {
         });
 
 
-        Drawable weaponImageDrawable = zUtils.resizeImage(weaponDrawable, activity);
+        
 
         ImageView weaponImageview = insertPoint.findViewById(R.id.weapon_image);
         final TextView weaponName = insertPoint.findViewById(R.id.weapon_name);

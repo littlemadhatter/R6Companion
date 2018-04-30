@@ -1790,7 +1790,7 @@ public class GadgetHelper {
     }
 
     public String getKapkanGadgetSecTwo() {
-        return "Barbed Wire";
+        return "Impact Grenade";
     }
 
 
@@ -1801,7 +1801,7 @@ public class GadgetHelper {
     public void setKapkanOperatorGadget(Activity activity, View view) {
 
         setOperatorGadget(activity, view, getKapkanGadgetTitle(), getKapkanGadgetByline(), getKapkanGadgetDesc(), getKapkanGadgetOne(), getKapkanGadgetTwo(), getKapkanGadgetThree(), getKapkanGadgetSecOne(), getKapkanGadgetSecOneCount(), getKapkanGadgetSecTwo(), getKapkanGadgetSecTwoCount(),
-                R.drawable.kapkan_gadget, R.drawable.r_nitro, R.drawable.r_barbed, false, true, getKapkanGadgetTips(),getKapkanGadgetCombine(),getKapkanGadgetCounter());
+                R.drawable.kapkan_gadget, R.drawable.r_nitro, R.drawable.r_impact, false, true, getKapkanGadgetTips(),getKapkanGadgetCombine(),getKapkanGadgetCounter());
     }
 
 

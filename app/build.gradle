@@ -6,8 +6,8 @@ android {
         applicationId "com.zeuspalette.android.r6tab"
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 6
-        versionName "1.20"
+        versionCode 9
+        versionName "1.23"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

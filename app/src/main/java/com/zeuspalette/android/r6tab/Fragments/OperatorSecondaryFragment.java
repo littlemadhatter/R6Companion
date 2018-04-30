@@ -401,6 +401,16 @@ public class OperatorSecondaryFragment extends Fragment {
         }
 
 
+        if (OperatorActivity.mOperatorTAG.equalsIgnoreCase("vigil")) {
+
+            layoutInflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            weaponOne = (ViewGroup) view.findViewById(R.id.view_head_weapon_one);
+            wH.setSMG12View(weaponOne, layoutInflater, getActivity());
+            weaponTwo = (ViewGroup) view.findViewById(R.id.view_head_weapon_two);
+            wH.setC75AUTOView(weaponTwo, layoutInflater, getActivity());
+
+        }
+
         return view;
     }
 
