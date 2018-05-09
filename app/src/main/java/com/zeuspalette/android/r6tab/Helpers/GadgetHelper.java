@@ -991,11 +991,11 @@ public class GadgetHelper {
     }
 
     public String getHibanaGadgetSecOne() {
-        return "Claymore";
+        return "Breaching Charge";
     }
 
     public String getHibanaGadgetSecOneCount() {
-        return "1";
+        return "3";
     }
 
     public String getHibanaGadgetSecTwo() {
@@ -1010,7 +1010,7 @@ public class GadgetHelper {
     public void setHibanaOperatorGadget(Activity activity, View view) {
 
         setOperatorGadget(activity, view, getHibanaGadgetTitle(), getHibanaGadgetByline(), getHibanaGadgetDesc(), getHibanaGadgetOne(), getHibanaGadgetTwo(), getHibanaGadgetThree(), getHibanaGadgetSecOne(), getHibanaGadgetSecOneCount(), getHibanaGadgetSecTwo(), getHibanaGadgetSecTwoCount(),
-                R.drawable.hibana_gadget, R.drawable.r_claymore, R.drawable.r_stun, false, true, getHibanaGadgetTips(),getHibanaGadgetCombine(),getHibanaGadgetCounter());
+                R.drawable.hibana_gadget, R.drawable.r_breach, R.drawable.r_stun, false, true, getHibanaGadgetTips(),getHibanaGadgetCombine(),getHibanaGadgetCounter());
     }
 
     //Jackal
@@ -1120,18 +1120,18 @@ public class GadgetHelper {
     }
 
     public String getYingGadgetSecTwo() {
-        return "Smoke";
+        return "Claymore";
     }
 
 
     public String getYingGadgetSecTwoCount() {
-        return "2";
+        return "1";
     }
 
     public void setYingOperatorGadget(Activity activity, View view) {
 
         setOperatorGadget(activity, view, getYingGadgetTitle(), getYingGadgetByline(), getYingGadgetDesc(), getYingGadgetOne(), getYingGadgetTwo(), getYingGadgetThree(), getYingGadgetSecOne(), getYingGadgetSecOneCount(), getYingGadgetSecTwo(), getYingGadgetSecTwoCount(),
-                R.drawable.ying_gadget, R.drawable.r_breach, R.drawable.r_smoke, true, true, getYingGadgetTips(),getYingGadgetCombine(),getYingGadgetCounter());
+                R.drawable.ying_gadget, R.drawable.r_breach, R.drawable.r_claymore, true, true, getYingGadgetTips(),getYingGadgetCombine(),getYingGadgetCounter());
     }
 
 
@@ -2471,7 +2471,7 @@ public class GadgetHelper {
     public void setVigilOperatorGadget(Activity activity, View view) {
 
         setOperatorGadget(activity, view, getVigilGadgetTitle(), getVigilGadgetByline(), getVigilGadgetDesc(), getVigilGadgetOne(), getVigilGadgetTwo(), getVigilGadgetThree(), getVigilGadgetSecOne(), getVigilGadgetSecOneCount(), getVigilGadgetSecTwo(), getVigilGadgetSecTwoCount(),
-                R.drawable.vigil_gadget, R.drawable.r_impact, R.drawable.r_grenade, false, true, getVigilGadgetTips(),getVigilGadgetCombine(),getVigilGadgetCounter());
+                R.drawable.vigil_gadget, R.drawable.r_impact, R.drawable.r_barbed, false, true, getVigilGadgetTips(),getVigilGadgetCombine(),getVigilGadgetCounter());
     }
 
 

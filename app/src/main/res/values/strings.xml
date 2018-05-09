@@ -851,12 +851,12 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 
     <string name="blitz_tip">Blitz Shield can blind enemies when flashed.
 	\n\nDefenders are very vulnerable when in line of sight of the flash as they are blinded completely.
-	\n\nBlitz has total of 5 flashes.
+	\n\nBlitz has total of 4 flashes.
 	\n\nBlitz can still use the Flash when aiming down the sights.
 	\n\nBlitz is effective for targeting roamers and get rid of them early.
 	\n\nDealing a Blitz alone is very difficult for any Defender.
 	\n\nBlitz can run with his shield up and flash at the same time making him very hard to deal with.
-	\n\nBlitz flash will cause full temporary blindness at range of 4m.\n\n</string>
+	\n\nBlitz flash will cause full temporary blindness at range of 4m and works partially till 5m.\n\n</string>
 
     <string name="iq_tip">Iq can detect Defender gadgets and destroy them through floors and walls.
 	\n\nIq can detect bombs and Defender gadgets from a distance.
@@ -961,7 +961,8 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 
     <string name="lion_tip">Lion EE-One-D drone will detect Defender movement and provide their real time outline for the 4 second duration when its active.
 	\n\nLion scan revealing enemy position of Defender can be seen by all the Attackers.
-	\n\nLion can call three scans per round.
+	\n\nLion can call two scans per round.
+	\n\nLion can use his Drone with interval of 20 seconds.
 	\n\nLion ability is perfect to kill any moving Defender from above or below the floor.
 	\n\nLion is a good counter to prevent Defenders from prefiring from Mira Black Mirror.
 	\n\nLion is also very useful to detect any Defenders who is trying to spawn peek .\n\n</string>
@@ -1161,6 +1162,8 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 
     <string name="vigil_tip">Vigil uses his ERC7 video disruptor to erase  himself from showing up in cameras and drones.
 	\n\nERC7 takes a second to make Vigil fully visible to the cameras and drones.
+	\n\nVigil ERC7 will deplete in 12 seconds.
+	\n\nVigil ERC7 will take 6 seconds to recharge.
 	\n\nERC7 has a time duration in which it can be active, It need to be recharged to be used again.
 	\n\nWhen Vigil fires a gun or affects the environment, The ERC7 will stop the mechanism and make him visible.\n\nWhen Vigil is in a area under cloak, the camera feed will have a unique interference border to denote his presence in the room.
 	\n\nVigil EERC will turn the red light of drones into white when jamming them.
@@ -1476,7 +1479,7 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nAsh and Zofia are capable of shooting LMG with their grenades to destroy the front shield making the Defender who uses it vulnerable.
 	\n\nCapitao asphyxiating bolts are very effective to kill Defender who is using the mounted LMG.\n\n</string>
 
-    <string name="jager_counter">Most times Stun Grenade, Hibana XKAIROS pellets and Ying Candela will be used to burn out the ADS to further use Frag grenades to throw at Defenders. Thatcher can destroy the ADS if in radius of the EMP.
+    <string name="jager_counter">Stun Grenade and Ying Candela can be used to burn out the ADS to further use Frag grenades to throw at Defenders. Thatcher can destroy the ADS if in radius of the EMP.
 	\n\nTwitch can destoy the ADS by using her drone .
 	\n\nJager ADS can be destroyed by normal gunfire.
 	\n\nIq can detect the Jager ADS and destroy it.\n\n</string>

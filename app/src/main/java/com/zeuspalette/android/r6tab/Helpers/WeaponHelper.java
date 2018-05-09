@@ -3244,7 +3244,7 @@ public class WeaponHelper {
 
     public String get6P41D() {
 
-        return "Damage      :     47 (Supp 39)";
+        return "Damage      :     47 (Supp 43)";
     }
 
     public String get6P41FR() {
@@ -5627,7 +5627,7 @@ public class WeaponHelper {
 
     public String getM249D() {
 
-        return "Damage      :     34";
+        return "Damage      :     48 (Supp 41)";
     }
 
     public String getM249FR() {
@@ -7392,7 +7392,7 @@ public class WeaponHelper {
 
     public String getT95LSWD() {
 
-        return "Damage      :     34 (Supp 28)";
+        return "Damage      :     48 (Supp 41)";
     }
 
     public String getT95LSWFR() {
@@ -8070,7 +8070,7 @@ public class WeaponHelper {
 
     public String getLMGED() {
 
-        return "Damage      :     32 (Supp 27)";
+        return "Damage      :     41 (Supp 29)";
     }
 
     public String getLMGEFR() {
@@ -11495,7 +11495,7 @@ public class WeaponHelper {
 
         final CheckBox supp = insertPoint.findViewById(R.id.check_supp);
         final CheckBox flash = insertPoint.findViewById(R.id.check_flash);
-        final CheckBox comp = insertPoint.findViewById(R.id.check_comp);
+        final CheckBox longBarrel = insertPoint.findViewById(R.id.check_long);
         final CheckBox muzzle = insertPoint.findViewById(R.id.check_muzzle);
 
         final CheckBox laser = insertPoint.findViewById(R.id.check_laser);
@@ -11505,7 +11505,7 @@ public class WeaponHelper {
         int sightCode = zUtils.getSharedPreferenceInt(activity, "m12_sight", 0);
         int laserCode = zUtils.getSharedPreferenceInt(activity, "m12_under", 0);
 
-        zUtils.barrelFCMS(flash, comp, muzzle, supp, barrelCode);
+        zUtils.barrelFMSL(flash,muzzle,supp,longBarrel,barrelCode);
         zUtils.sightRR(red, reflex,sightCode);
         zUtils.underL(laser, laserCode);
 
@@ -11530,31 +11530,31 @@ public class WeaponHelper {
         flash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                zUtils.barrelFCMS(flash, comp, muzzle, supp, 0);
+                zUtils.barrelFMSL(flash,muzzle,supp,longBarrel,0);
                 zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 0);
-            }
-        });
-
-        comp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                zUtils.barrelFCMS(flash, comp, muzzle, supp, 1);
-                zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 1);
             }
         });
 
         muzzle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                zUtils.barrelFCMS(flash, comp, muzzle, supp, 2);
-                zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 2);
+                zUtils.barrelFMSL(flash,muzzle,supp,longBarrel,1);
+                zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 1);
             }
         });
 
         supp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                zUtils.barrelFCMS(flash, comp, muzzle, supp, 3);
+                zUtils.barrelFMSL(flash,muzzle,supp,longBarrel,2);
+                zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 2);
+            }
+        });
+
+        longBarrel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                zUtils.barrelFMSL(flash,muzzle,supp,longBarrel,3);
                 zUtils.insertSharedPreferenceInt(activity, "m12_barrel", 3);
             }
         });

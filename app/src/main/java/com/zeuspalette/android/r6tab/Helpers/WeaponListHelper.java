@@ -482,7 +482,7 @@ public class WeaponListHelper {
             Picasso.with(activity).load(R.drawable.twitch).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerOne);
             Picasso.with(activity).load(R.drawable.doc).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderOne);
             Picasso.with(activity).load(R.drawable.rook).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderTwo);
-            attackerTwo.setVisibility(View.GONE);
+            Picasso.with(activity).load(R.drawable.montagne).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerTwo);
 
 
         }
@@ -492,7 +492,7 @@ public class WeaponListHelper {
             Picasso.with(activity).load(R.drawable.twitch).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerOne);
             Picasso.with(activity).load(R.drawable.doc).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderOne);
             Picasso.with(activity).load(R.drawable.rook).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderTwo);
-            attackerTwo.setVisibility(View.GONE);
+            Picasso.with(activity).load(R.drawable.montagne).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerTwo);
 
 
         }
