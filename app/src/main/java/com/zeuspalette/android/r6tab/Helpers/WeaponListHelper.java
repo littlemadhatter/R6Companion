@@ -841,8 +841,8 @@ public class WeaponListHelper {
 
             Picasso.with(activity).load(R.drawable.jager).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderOne);
             Picasso.with(activity).load(R.drawable.bandit).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderTwo);
+            attackerOne.setVisibility(View.GONE);
             attackerTwo.setVisibility(View.GONE);
-            defenderTwo.setVisibility(View.GONE);
 
 
         }
