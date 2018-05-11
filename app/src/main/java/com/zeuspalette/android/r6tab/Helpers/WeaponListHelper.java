@@ -25,7 +25,7 @@ public class WeaponListHelper {
         if (weapon.equalsIgnoreCase("6p41")) {
 
             Picasso.with(activity).load(R.drawable.fuze).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerOne);
-            attackerTwo.setVisibility(View.GONE);
+            Picasso.with(activity).load(R.drawable.finka).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerTwo);
             defenderOne.setVisibility(View.GONE);
             defenderTwo.setVisibility(View.GONE);
 
@@ -829,10 +829,10 @@ public class WeaponListHelper {
 
         if (weapon.equalsIgnoreCase("sasg12")) {
 
+            Picasso.with(activity).load(R.drawable.finka).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(attackerOne);
             Picasso.with(activity).load(R.drawable.kapkan).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderOne);
             Picasso.with(activity).load(R.drawable.tachanka).resize(zUtils.getPixelfromDP(activity,60),zUtils.getPixelfromDP(activity,57)).into(defenderTwo);
             attackerTwo.setVisibility(View.GONE);
-            defenderTwo.setVisibility(View.GONE);
 
 
         }
