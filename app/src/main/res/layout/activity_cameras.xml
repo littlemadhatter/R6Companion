@@ -16,7 +16,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar_main"
             android:layout_width="match_parent"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -34,19 +34,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_house"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_house"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -66,19 +66,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_bank"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_bank"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -97,19 +97,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_skyscraper"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_sky"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -120,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -128,19 +128,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_theme_park"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_theme"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -152,7 +152,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -160,19 +160,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_tower"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_tower"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -184,7 +184,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -192,19 +192,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_border"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_border"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -215,7 +215,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -223,19 +223,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_chalet"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_chalet"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -247,7 +247,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -255,19 +255,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_clubhouse"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_clubhouse"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -278,7 +278,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -286,19 +286,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_coastline"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_coastline"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -309,7 +309,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -317,19 +317,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_oregon"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_oregon"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -340,7 +340,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -348,19 +348,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_consulate"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_consulate"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -374,7 +374,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -382,19 +382,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_kafe"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_kafe"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -406,7 +406,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -414,19 +414,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_hereford"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_hereford"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -437,7 +437,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -445,19 +445,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_plane"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_plane"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -468,7 +468,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -476,19 +476,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_yacht"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_yacht"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -499,7 +499,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -507,19 +507,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_kanal"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_kanal"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -530,7 +530,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -538,19 +538,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_bartlett"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_bartlett"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
@@ -562,7 +562,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/d16"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -570,19 +570,19 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:paddingBottom="8dp">
+                android:paddingBottom="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_favela"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_favela"
-                    android:layout_width="280dp"
-                    android:layout_height="157dp" />
+                    android:layout_width="@dimen/camera_width"
+                    android:layout_height="@dimen/camera_height" />
 
             </LinearLayout>
 
