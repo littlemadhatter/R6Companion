@@ -44,7 +44,7 @@
                     android:paddingTop="@dimen/d8"
                     android:paddingBottom="@dimen/d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_one_image"
@@ -80,7 +80,7 @@
                     android:paddingTop="@dimen/d8"
                     android:paddingBottom="@dimen/d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_two_image"
@@ -116,7 +116,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_three_image"
@@ -152,7 +152,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_four_image"
@@ -187,7 +187,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_five_image"
@@ -222,7 +222,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_six_image"
@@ -259,7 +259,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_seven_image"
@@ -295,7 +295,7 @@
                     android:paddingTop="d8"
                     android:paddingBottom="d8"
                     android:text="Camera One"
-                    android:textSize="@dimen/t3" />
+                    android:textSize="@dimen/text_size_three" />
 
                 <ImageView
                     android:id="@+id/camera_eight_image"
