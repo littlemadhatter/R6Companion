@@ -18,14 +18,14 @@
             android:id="@+id/weapon_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="@dimen/d8"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_two" />
 
         <ImageView
             android:id="@+id/weapon_image"
-            android:layout_width="300dp"
-            android:layout_height="111dp"/>
+            android:layout_width="@dimen/weapon_list_image_W"
+            android:layout_height="@dimen/weapon_list_image_H"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,10 +41,10 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="Attackers"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
-                    android:paddingTop="8dp"
+                    android:text="@string/k_attackers"
+                    android:paddingLeft="@dimen/d8"
+                    android:paddingRight="@dimen/d8"
+                    android:paddingTop="@dimen/d8"
                     android:textColor="@color/colorWhiteTwo"
                     android:layout_height="wrap_content" />
 
@@ -54,16 +54,16 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_margin="8dp"
+                        android:layout_width="@dimen/weapon_list_opW"
+                        android:layout_margin="@dimen/d8"
                         android:id="@+id/list_attacker_one"
-                        android:layout_height="57dp" />
+                        android:layout_height="@dimen/weapon_list_opH" />
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_margin="8dp"
+                        android:layout_width="@dimen/weapon_list_opW"
+                        android:layout_margin="@dimen/d8"
                         android:id="@+id/list_attacker_two"
-                        android:layout_height="57dp" />
+                        android:layout_height="@dimen/weapon_list_opH" />
 
                 </LinearLayout>
 
@@ -78,11 +78,11 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="Defenders"
+                    android:text="@string/k_defenders"
                     android:textColor="@color/colorWhiteTwo"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
-                    android:paddingTop="8dp"
+                    android:paddingLeft="@dimen/d8"
+                    android:paddingRight="@dimen/d8"
+                    android:paddingTop="@dimen/d8"
                     android:layout_height="wrap_content" />
 
                 <LinearLayout
@@ -91,16 +91,16 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_margin="8dp"
+                        android:layout_width="@dimen/weapon_list_opW"
+                        android:layout_margin="@dimen/d8"
                         android:id="@+id/list_defender_one"
-                        android:layout_height="57dp" />
+                        android:layout_height="@dimen/weapon_list_opH" />
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_margin="8dp"
+                        android:layout_width="@dimen/weapon_list_opW"
+                        android:layout_margin="@dimen/d8"
                         android:id="@+id/list_defender_two"
-                        android:layout_height="57dp" />
+                        android:layout_height="@dimen/weapon_list_opH" />
 
                 </LinearLayout>
 
