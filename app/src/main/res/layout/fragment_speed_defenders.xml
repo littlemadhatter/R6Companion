@@ -10,11 +10,11 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="@dimen/d8">
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="61dp"
+            android:layout_width="@dimen/speed_statW"
+            android:layout_height="@dimen/speed_statH"
             android:gravity="center"
             android:paddingBottom="0dp"
             android:id="@+id/three_speed"
@@ -23,7 +23,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -34,14 +34,14 @@
 
                 <ImageView
                     android:id="@+id/pulse"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Pulse"
                     android:textSize="@dimen/text_size_five" />
@@ -55,14 +55,14 @@
 
                 <ImageView
                     android:id="@+id/jager"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Jager"
                     android:textSize="@dimen/text_size_five" />
@@ -76,14 +76,14 @@
 
                 <ImageView
                     android:id="@+id/bandit"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Bandit"
                     android:textSize="@dimen/text_size_five" />
@@ -95,7 +95,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -106,14 +106,14 @@
 
                 <ImageView
                     android:id="@+id/caveira"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Caveira"
                     android:textSize="@dimen/text_size_five" />
@@ -127,14 +127,14 @@
 
                 <ImageView
                     android:id="@+id/ela"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Ela"
                     android:textSize="@dimen/text_size_five" />
@@ -148,14 +148,14 @@
 
                 <ImageView
                     android:id="@+id/vigil"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Vigil"
                     android:textSize="@dimen/text_size_five" />
@@ -165,9 +165,9 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="61dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="@dimen/speed_statW"
+            android:layout_height="@dimen/speed_statH"
+            android:layout_marginTop="@dimen/d32"
             android:gravity="center"
             android:id="@+id/two_speed"
             android:paddingBottom="0dp"
@@ -176,7 +176,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -187,14 +187,14 @@
 
                 <ImageView
                     android:id="@+id/smoke"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Smoke"
                     android:textSize="@dimen/text_size_five" />
@@ -208,14 +208,14 @@
 
                 <ImageView
                     android:id="@+id/mute"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Mute"
                     android:textSize="@dimen/text_size_five" />
@@ -229,14 +229,14 @@
 
                 <ImageView
                     android:id="@+id/castle"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Castle"
                     android:textSize="@dimen/text_size_five" />
@@ -248,7 +248,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -259,14 +259,14 @@
 
                 <ImageView
                     android:id="@+id/kapkan"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Kapkan"
                     android:textSize="@dimen/text_size_five" />
@@ -280,14 +280,14 @@
 
                 <ImageView
                     android:id="@+id/frost"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Frost"
                     android:textSize="@dimen/text_size_five" />
@@ -301,14 +301,14 @@
 
                 <ImageView
                     android:id="@+id/valkyrie"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Valkyrie"
                     android:textSize="@dimen/text_size_five" />
@@ -320,7 +320,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -331,14 +331,14 @@
 
                 <ImageView
                     android:id="@+id/lesion"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:gravity="center"
                     android:text="Lesion"
                     android:textSize="@dimen/text_size_five" />
@@ -349,9 +349,9 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="61dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="@dimen/speed_statW"
+            android:layout_height="@dimen/speed_statH"
+            android:layout_marginTop="@dimen/d32"
             android:gravity="center"
             android:id="@+id/one_speed"
             android:paddingBottom="0dp"
@@ -360,7 +360,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -371,15 +371,15 @@
 
                 <ImageView
                     android:id="@+id/doc"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Doc"/>
 
@@ -392,15 +392,15 @@
 
                 <ImageView
                     android:id="@+id/rook"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Rook"/>
 
@@ -413,14 +413,14 @@
 
                 <ImageView
                     android:id="@+id/tachanka"
-                    android:layout_width="60dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_marginRight="@dimen/d8"
+                    android:layout_height="@dimen/icon_speedH" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:textSize="@dimen/text_size_five"
                     android:layout_height="wrap_content"
                     android:text="Tachanka"/>
@@ -433,9 +433,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="@dimen/d32"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -445,15 +445,15 @@
 
                 <ImageView
                     android:id="@+id/echo"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Echo"/>
 
@@ -466,15 +466,15 @@
 
                 <ImageView
                     android:id="@+id/mira"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_speedW"
+                    android:layout_height="@dimen/icon_speedH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Mira"/>
 
