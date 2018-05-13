@@ -9,12 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="@dimen/d8">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/d8"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -25,15 +25,15 @@
 
                 <ImageView
                     android:id="@+id/sledge"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Sledge"/>
 
@@ -46,15 +46,15 @@
 
                 <ImageView
                     android:id="@+id/thatcher"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Thatcher"/>
 
@@ -67,15 +67,15 @@
 
                 <ImageView
                     android:id="@+id/ash"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Ash"/>
 
@@ -88,8 +88,8 @@
 
                 <ImageView
                     android:id="@+id/thermite"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/d8">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -117,15 +117,15 @@
 
                 <ImageView
                     android:id="@+id/twitch"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Twitch"/>
 
@@ -138,15 +138,15 @@
 
                 <ImageView
                     android:id="@+id/montagne"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Montagne"/>
 
@@ -159,15 +159,15 @@
 
                 <ImageView
                     android:id="@+id/glaz"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Glaz"/>
 
@@ -180,8 +180,8 @@
 
                 <ImageView
                     android:id="@+id/fuze"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -200,7 +200,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/d8">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -209,15 +209,15 @@
 
                 <ImageView
                     android:id="@+id/blitz"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Blitz"/>
 
@@ -230,17 +230,17 @@
 
                 <ImageView
                     android:id="@+id/iq"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
-                    android:text="Iq"/>
+                    android:text="IQ"/>
 
             </LinearLayout>
 
@@ -251,15 +251,15 @@
 
                 <ImageView
                     android:id="@+id/buck"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Buck"/>
 
@@ -272,8 +272,8 @@
 
                 <ImageView
                     android:id="@+id/blackbeard"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -292,7 +292,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/d8">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -301,15 +301,15 @@
 
                 <ImageView
                     android:id="@+id/capitao"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Capitao"/>
 
@@ -322,15 +322,15 @@
 
                 <ImageView
                     android:id="@+id/hibana"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Hibana"/>
 
@@ -343,15 +343,15 @@
 
                 <ImageView
                     android:id="@+id/jackal"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Jackal"/>
 
@@ -364,8 +364,8 @@
 
                 <ImageView
                     android:id="@+id/ying"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -384,7 +384,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/d8">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -393,15 +393,15 @@
 
                 <ImageView
                     android:id="@+id/zofia"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp"
-                    android:layout_marginRight="8dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH"
+                    android:layout_marginRight="@dimen/d8" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:textSize="@dimen/text_size_five"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:layout_height="wrap_content"
                     android:text="Zofia"/>
 
@@ -414,14 +414,14 @@
 
                 <ImageView
                     android:id="@+id/dokkaebi"
-                    android:layout_marginRight="8dp"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_marginRight="@dimen/d8"
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:textSize="@dimen/text_size_five"
                     android:layout_height="wrap_content"
                     android:text="Dokkaebi"/>
@@ -435,14 +435,14 @@
 
                 <ImageView
                     android:id="@+id/lion"
-                    android:layout_marginRight="8dp"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_marginRight="@dimen/d8"
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:gravity="center"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginRight="@dimen/d8"
                     android:textSize="@dimen/text_size_five"
                     android:layout_height="wrap_content"
                     android:text="Lion"/>
@@ -456,8 +456,8 @@
 
                 <ImageView
                     android:id="@+id/finka"
-                    android:layout_width="60dp"
-                    android:layout_height="57dp" />
+                    android:layout_width="@dimen/icon_mainW"
+                    android:layout_height="@dimen/icon_mainH" />
 
                 <TextView
                     android:layout_width="match_parent"
