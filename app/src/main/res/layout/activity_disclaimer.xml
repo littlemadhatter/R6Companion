@@ -24,9 +24,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:padding="8dp"
+            android:layout_marginBottom="@dimen/d8"
+            android:layout_marginTop="@dimen/d8"
+            android:padding="@dimen/d8"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -38,17 +38,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:padding="@dimen/d8"
                     android:text="@string/k_version"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
+                    android:paddingBottom="@dimen/d8"
                     android:text="@string/k_version_number"
                     android:textColor="@color/colorAccent"
-                    android:textSize="60sp" />
+                    android:textSize="@dimen/text_size_big" />
 
 
             </LinearLayout>
@@ -60,8 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
+            android:layout_marginBottom="@dimen/d8"
+            android:padding="@dimen/d8"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -73,14 +73,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:padding="16dp"
+                    android:padding="@dimen/d16"
                     android:text="@string/k_personal_note"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:padding="@dimen/d16"
                     android:text="@string/k_note_content"
                     android:textSize="@dimen/text_size_three" />
 
@@ -95,8 +95,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
+            android:layout_marginBottom="@dimen/d8"
+            android:padding="@dimen/d8"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -104,20 +104,20 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:padding="8dp">
+                android:padding="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:padding="@dimen/d16"
                     android:text="@string/k_visit_ubisoft"
                     android:textSize="@dimen/text_size_two" />
 
                 <ImageView
                     android:id="@+id/ubisoft_link"
-                    android:layout_width="250dp"
-                    android:layout_height="99dp"
-                    android:layout_marginBottom="32dp" />
+                    android:layout_width="@dimen/credit_linkW"
+                    android:layout_height="@dimen/credit_linkH"
+                    android:layout_marginBottom="@dimen/d32" />
 
 
             </LinearLayout>
@@ -130,8 +130,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
+            android:layout_marginBottom="@dimen/d8"
+            android:padding="@dimen/d8"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -139,20 +139,20 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:padding="8dp">
+                android:padding="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:padding="@dimen/d16"
                     android:text="@string/k_access_github"
                     android:textSize="@dimen/text_size_two" />
 
                 <ImageView
                     android:id="@+id/github_link"
-                    android:layout_width="250dp"
-                    android:layout_height="100dp"
-                    android:layout_marginBottom="32dp" />
+                    android:layout_width="@dimen/credit_linkW"
+                    android:layout_height="@dimen/credit_linkH"
+                    android:layout_marginBottom="@dimen/d32" />
 
 
             </LinearLayout>
@@ -166,8 +166,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
+            android:layout_marginBottom="@dimen/d8"
+            android:padding="@dimen/d8"
             card_view:cardBackgroundColor="@color/colorDarkFour">
 
             <LinearLayout
@@ -175,11 +175,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:padding="8dp">
+                android:padding="@dimen/d8">
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_marginBottom="32dp"
+                    android:layout_marginBottom="@dimen/d32"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/text_size_two"
                     android:text="@string/k_credits"/>
@@ -192,10 +192,10 @@
                     android:minHeight="0dp"
                     android:minWidth="0dp"
                     android:id="@+id/ubilink"
-                    android:paddingBottom="4dp"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:paddingTop="4dp"
+                    android:paddingBottom="@dimen/d4"
+                    android:paddingLeft="@dimen/d16"
+                    android:paddingRight="@dimen/d16"
+                    android:paddingTop="@dimen/d4"
                     android:text="@string/k_ubisoft"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/text_size_two" />
@@ -204,8 +204,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/k_ubisoft_credit"
-                    android:padding="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:padding="@dimen/d16"
+                    android:layout_marginBottom="@dimen/d16"
                     android:textSize="@dimen/text_size_three"/>
 
                 <Button
@@ -216,10 +216,10 @@
                     android:minHeight="0dp"
                     android:minWidth="0dp"
                     android:id="@+id/maplink"
-                    android:paddingBottom="4dp"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:paddingTop="4dp"
+                    android:paddingBottom="@dimen/d4"
+                    android:paddingLeft="@dimen/d16"
+                    android:paddingRight="@dimen/d16"
+                    android:paddingTop="@dimen/d4"
                     android:text="@string/k_r6maps"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/text_size_two" />
@@ -228,8 +228,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/k_r6maps_credit"
-                    android:padding="16dp"
-                    android:layout_marginBottom="32dp"
+                    android:padding="@dimen/d16"
+                    android:layout_marginBottom="@dimen/d32"
                     android:textSize="@dimen/text_size_three"/>
 
 
