@@ -40,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="House"
+                    android:text="@string/k_house"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -72,7 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Bank"
+                    android:text="@string/k_bank"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -103,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Skyscraper"
+                    android:text="@string/k_skyscraper"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -134,7 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Theme Park"
+                    android:text="@string/k_theme_park"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -166,7 +166,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Tower"
+                    android:text="@string/k_tower"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -198,7 +198,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Border"
+                    android:text="@string/k_border"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -229,7 +229,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Chalet"
+                    android:text="@string/k_chalet"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -261,7 +261,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Club House"
+                    android:text="@string/k_clubhouse"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -292,7 +292,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Coastline"
+                    android:text="@string/k_coastline"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -323,7 +323,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Oregon"
+                    android:text="@string/k_oregon"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -354,7 +354,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Consulate"
+                    android:text="@string/k_consulate"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -388,7 +388,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Kafe Dostoyevsky"
+                    android:text="@string/k_kafe"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -420,7 +420,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Hereford"
+                    android:text="@string/k_hereford"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -451,7 +451,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Plane"
+                    android:text="@string/k_plane"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -482,7 +482,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Yacht"
+                    android:text="@string/k_yacht"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -513,7 +513,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Kanal"
+                    android:text="@string/k_kanal"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -544,7 +544,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Bartlett University"
+                    android:text="@string/k_bartlett"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView
@@ -576,7 +576,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Favela"
+                    android:text="@string/k_favela"
                     android:textSize="@dimen/text_size_three" />
 
                 <ImageView

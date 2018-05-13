@@ -5,8 +5,8 @@
 
     <string name="nav_drawer_attackers">Attackers</string>
     <string name="nav_drawer_defenders">Defenders</string>
-    <string name="nav_drawer_units">Operator Units</string>
-    <string name="nav_drawer_weapons">Operator Weapons</string>
+    <string name="nav_drawer_units">Units</string>
+    <string name="nav_drawer_weapons">Weapons</string>
     <string name="nav_drawer_speed">Operator Speed</string>
     <string name="nav_drawer_camera">Camera Locations</string>
     <string name="nav_drawer_map">Map Blueprints</string>
@@ -14,48 +14,6 @@
     <string name="nav_drawer_about">About R6 Companion</string>
     <string name="nav_drawer_bug">Report Bug</string>
     <string name="nav_main_info">Information</string>
-
-    <string name="title_name">Name</string>
-    <string name="title_birth">Birth</string>
-    <string name="title_height">Height</string>
-    <string name="title_weight">Weight</string>
-    <string name="title_background">Background</string>
-    <string name="title_profile">Psychological Profile</string>
-    <string name="title_training">Training</string>
-    <string name="title_exp">Experience</string>
-    <string name="title_notes">Notes</string>
-
-
-
-    <string name="title_op_tip">Operator Tips</string>
-    <string name="title_op_combine">Operator Combine</string>
-    <string name="title_op_counter">Operator Counter</string>
-
-    <string name="title_submit_tips">Submit Tips</string>
-
-    <string name="title_share_note"></string>
-    <string name="title_share">SHARE</string>
-    <string name="title_rate">RATE</string>
-
-
-    <string name="title_info">Information</string>
-
-    <string name="title_weapon_categories">Weapon Categories</string>
-    <string name="title_assault">Assault Rifles</string>
-    <string name="title_sub">Submachine Guns</string>
-    <string name="title_macpis">Machine Pistols</string>
-    <string name="title_shotgun">Shotgun</string>
-    <string name="title_lmg">Light Machine Guns</string>
-    <string name="title_pistol">Pistol</string>
-    <string name="title_dmr">DMR</string>
-
-    <string name="title_show_all">SHOW ALL</string>
-    <string name="title_attackers">Attackers</string>
-    <string name="title_defenders">Defenders</string>
-
-    <string name="title_random">Random</string>
-    <string name="title_owned_att">Owned Attackers</string>
-    <string name="title_owned_def">Owned Defenders</string>
 
 
     <string name="nav_bottom_info">Info</string>
@@ -67,23 +25,287 @@
     <string name="nav_bottom_unit">Units</string>
     <string name="nav_bottom_weapon">Weapons</string>
 
-    <string name="background">Background</string>
-    <string name="profile">Psychological Profile</string>
-    <string name="training">Training</string>
-    <string name="experience">Experience</string>
-    <string name="notes">Notes</string>
 
-    <string name="title_firerate">Fire Rate</string>
-    <string name="title_mobility">Mobility</string>
-    <string name="title_capacity">Capacity</string>
-    <string name="title_scope">Scopes</string>
-    <string name="title_barrel">Barrels</string>
-    <string name="title_underbarrel">Underbarrels</string>
-    <string name="title_grip">Grips</string>
-    <string name="title_comment">Notes</string>
-    <string name="title_damage">Damage</string>
-    <string name="title_stats">Stats</string>
-    <string name="title_help_notes">Enter notes here ..</string>
+    <string name="k_r6_companion">R6 Companion</string>
+
+    <string name="k_attackers">Attackers</string>
+    <string name="k_defenders">Defenders</string>
+    <string name="k_operator_units">Operator Units</string>
+    <string name="k_operator_weapons">Operator Weapons</string>
+    <string name="k_operator_speed">Operator Speed</string>
+    <string name="k_camera">Camera Locations</string>
+    <string name="k_map">Map Blueprints</string>
+    <string name="k_random">Random Operator</string>
+    <string name="k_about">About R6 Companion</string>
+    <string name="k_contact">Contact Me</string>
+    <string name="k_bug">Report Bug</string>
+    <string name="k_units">Units</string>
+    <string name="k_weapons">Weapons</string>
+
+    <string name="k_share_text">Thanks for installing R6 Companion. This app will always be free. Take a moment to share and rate us so that we can reach out to more people.</string>
+    <string name="k_share">SHARE</string>
+    <string name="k_rate">RATE</string>
+
+    <string name="k_operator_info">Operator Info</string>
+    <string name="k_name">Name</string>
+    <string name="k_birth">Birth</string>
+    <string name="k_weight">Weight</string>
+    <string name="k_height">Height</string>
+    <string name="k_background">Background</string>
+    <string name="k_profile">Psychological Profile</string>
+    <string name="k_training">Training</string>
+    <string name="k_experience">Experience</string>
+    <string name="k_notes">Notes</string>
+
+    <string name="k_info">Info</string>
+    <string name="k_gadget">Gadget</string>
+    <string name="k_operator_gadget">Operator Gadget</string>
+    <string name="k_secondary_weapon">Secondary Weapon</string>
+    <string name="k_primary">Primary</string>
+    <string name="k_secondary">Secondary</string>
+    <string name="k_primary_weapon">Primary Weapon</string>
+    <string name="k_stats">Stats</string>
+    <string name="k_scope">Scopes</string>
+    <string name="k_barrel">Barrels</string>
+    <string name="k_grip">Grips</string>
+    <string name="k_underbarrel">Underbarrels</string>
+    <string name="k_extra_notes">EXTRA NOTES</string>
+    <string name="k_notes_hint">Enter notes here ..</string>
+    <string name="k_save">SAVE</string>
+
+
+    <string name="k_damage">Damage</string>
+    <string name="k_mobility">Mobility</string>
+    <string name="k_fire_rate">Fire Rate</string>
+    <string name="k_capacity">Capacity</string>
+    <string name="k_no_barrel">No Barrels Available</string>
+    <string name="k_no_underbarrel">No</string>
+
+    <string name="k_primary_gadget">Primary Gadget</string>
+    <string name="k_secondary_gadget">Secondary Gadget</string>
+    <string name="k_operator_tips">Operator Tips</string>
+    <string name="k_operator_combination">Operator Combination</string>
+    <string name="k_operator_counter">Operator Counter</string>
+    <string name="k_submit_tips">Submit Tips</string>
+
+    <string name="k_frag_grenade">Frag Grenade</string>
+    <string name="k_stun_grenade">Stun Grenade</string>
+    <string name="k_claymore">Claymore</string>
+    <string name="k_breaching_charge">Breaching Charge</string>
+    <string name="k_impact_grenade">Impact Grenade</string>
+    <string name="k_deployable_shield">Deployable Shield</string>
+    <string name="k_barbed_wire">Barbed Wire</string>
+    <string name="k_nitro_cell">Nitro Cell</string>
+
+
+    <string name="k_information">Information</string>
+    <string name="k_unit_information">Unit Information</string>
+    <string name="k_unit_attackers">Unit Attackers</string>
+    <string name="k_unit_defenders">Unit Defenders</string>
+
+    <string name="k_weapon_categories">Weapon Categories</string>
+    <string name="k_show_all">SHOW ALL</string>
+    <string name="k_assault_rifle">Assault Rifle</string>
+    <string name="k_submachine_gun">Submachine Gun</string>
+    <string name="k_machine_pistol">Machine Pistol</string>
+    <string name="k_shotgun">Shotgun</string>
+    <string name="k_light_machine_gun">Light Machine Gun</string>
+    <string name="k_pistol">Pistol</string>
+    <string name="k_dmr">DMR</string>
+
+    <string name="k_attackers_speed">Attackers Speed</string>
+    <string name="k_defenders_speed">Defenders Speed</string>
+    <string name="k_"></string>
+
+    <string name="k_camera_locations">Camera Locations</string>
+    <string name="k_house">House</string>
+    <string name="k_bank">Bank</string>
+    <string name="k_skyscraper">Skyscraper</string>
+    <string name="k_theme_park">Theme Park</string>
+    <string name="k_tower">Tower</string>
+    <string name="k_border">Border</string>
+    <string name="k_chalet">Chalet</string>
+    <string name="k_clubhouse">Clubhouse</string>
+    <string name="k_coastline">Coastline</string>
+    <string name="k_oregon">Oregon</string>
+    <string name="k_consulate">Consulate</string>
+    <string name="k_kafe">Kafe Dostoyevsky</string>
+    <string name="k_hereford">Hereford Base</string>
+    <string name="k_plane">Plane</string>
+    <string name="k_yacht">Yacht</string>
+    <string name="k_kanal">Kanal</string>
+    <string name="k_bartlett">Bartlett University</string>
+    <string name="k_favela">Favela</string>
+
+    <string name="k_house_one">1F Lobby</string>
+    <string name="k_house_two">1F Kitchen</string>
+    <string name="k_house_three">Basement Training Room</string>
+    <string name="k_house_four">EXT Side Street</string>
+    <string name="k_house_five">EXT Front Street</string>
+    <string name="k_house_six">Basement Garage</string>
+
+
+    <string name="k_bank_one">Basement Vault Lobby</string>
+    <string name="k_bank_two">1F Office Hallway</string>
+    <string name="k_bank_three">1F Lobby</string>
+    <string name="k_bank_four">2F Skylight Stairwell</string>
+    <string name="k_bank_five">EXT Back Alley</string>
+    <string name="k_bank_six">EXT Garage Ramp</string>
+    <string name="k_bank_seven">EXT Boulevard</string>
+
+    <string name="k_skyscraper_one">1F Restaurant</string>
+    <string name="k_skyscraper_two">2F Hallway</string>
+    <string name="k_skyscraper_three">1F House Lobby</string>
+    <string name="k_skyscraper_four">2F VIP Clearance</string>
+    <string name="k_skyscraper_five">EXT Ventilation Units</string>
+    <string name="k_skyscraper_six">EXT East Garden</string>
+    <string name="k_skyscraper_seven">EXT West Garden</string>
+
+    <string name="k_theme_one">2F Rail Platform</string>
+    <string name="k_theme_two">2F Rail Corridor</string>
+    <string name="k_theme_three">1F Gallery</string>
+    <string name="k_theme_four">1F Joint Corridor</string>
+    <string name="k_theme_five">1F Joint Corridor</string>
+    <string name="k_theme_six">EXT Back Alley</string>
+    <string name="k_theme_seven">EXT Service Entrance</string>
+    <string name="k_theme_eight">EXT Main Entrance</string>
+
+    <string name="k_tower_one">1F Fountain</string>
+    <string name="k_tower_two">1F West Balcony</string>
+    <string name="k_tower_three">1F Traditional Hall</string>
+    <string name="k_tower_four">2F Exhibit Room</string>
+    <string name="k_tower_five">2F Gallery Main</string>
+    <string name="k_tower_six">2F Company Reception</string>
+    <string name="k_tower_seven">2F Center Atrium</string>
+
+    <string name="k_border_one">2F East Stairs</string>
+    <string name="k_border_two">2F Main Hallway</string>
+    <string name="k_border_three">1F Main Lobby</string>
+    <string name="k_border_four">1F Exit Hallway</string>
+    <string name="k_border_five">EXT Parking Lot</string>
+    <string name="k_border_six">EXT East Road</string>
+    <string name="k_border_seven">EXT Parking Lot</string>
+
+    <string name="k_chalet_one">Basement Snowmobile Garage</string>
+    <string name="k_chalet_two">2F Bedroom Hallway</string>
+    <string name="k_chalet_three">2F Bedroom Hallway</string>
+    <string name="k_chalet_four">2F Library Hallway</string>
+    <string name="k_chalet_five">EXT Backyard</string>
+    <string name="k_chalet_six">EXT Frontyard</string>
+
+    <string name="k_club_one">EXT Graffiti Area</string>
+    <string name="k_club_two">2F Bedroom Hallway</string>
+    <string name="k_club_three">Basement Basement Hallway</string>
+    <string name="k_club_four">1F Bar</string>
+    <string name="k_club_five">1F Garage</string>
+    <string name="k_club_six">EXT Parking</string>
+    <string name="k_club_seven">EXT Parking</string>
+
+    <string name="k_coastline_one">2F Aquarium</string>
+    <string name="k_coastline_two">2F Hallway</string>
+    <string name="k_coastline_three">1F Main Lobby</string>
+    <string name="k_coastline_four">1F Hallway</string>
+    <string name="k_coastline_five">EXT Terrace</string>
+    <string name="k_coastline_six">EXT Walkway</string>
+    <string name="k_coastline_seven">EXT Main Entrance</string>
+
+    <string name="k_oregon_one">EXT Parking</string>
+    <string name="k_oregon_two">EXT Construction Site</string>
+    <string name="k_oregon_three">1F Rear Stage</string>
+    <string name="k_oregon_four">1F Main Stairs</string>
+    <string name="k_oregon_five">1F Lobby</string>
+    <string name="k_oregon_six">1F Dining Hall</string>
+    <string name="k_oregon_seven">EXT Junkyard</string>
+
+    <string name="k_consulate_one">Basement Locker Hallway</string>
+    <string name="k_consulate_two">Basement Garage</string>
+    <string name="k_consulate_three">EXT Garage Way</string>
+    <string name="k_consulate_four">2F Main Stairs</string>
+    <string name="k_consulate_five">2F Hallway</string>
+    <string name="k_consulate_six">1F Visa Office</string>
+    <string name="k_consulate_seven">1F Lobby</string>
+    <string name="k_consulate_eight">EXT Police Line</string>
+
+    <string name="k_kafe_one">3F Cocktail Lounge</string>
+    <string name="k_kafe_two">2F Pillar Dining Room</string>
+    <string name="k_kafe_three">1F Bakery</string>
+    <string name="k_kafe_four">1F Storage</string>
+    <string name="k_kafe_five">EXT Park Alley</string>
+    <string name="k_kafe_six">EXT West Main Street</string>
+
+
+    <string name="k_hereford_one">Basement Corridor</string>
+    <string name="k_hereford_two">3F Storage Corridor</string>
+    <string name="k_hereford_three">2F Corridor</string>
+    <string name="k_hereford_four">1F Corridor</string>
+    <string name="k_hereford_five">EXT Shooting Range</string>
+    <string name="k_hereford_six">EXT Bus Back Alley</string>
+
+    <string name="k_plane_one">1F Luggage Hold</string>
+    <string name="k_plane_two">1F Cargo Hold</string>
+    <string name="k_plane_three">2F Press Section A</string>
+    <string name="k_plane_four">3F Cockpit Stairs</string>
+    <string name="k_plane_five">2F Front Hallway</string>
+
+    <string name="k_yacht_one">3F Lounge</string>
+    <string name="k_yacht_two">2F Front Stairs</string>
+    <string name="k_yacht_three">4F Helipad Entrance</string>
+    <string name="k_yacht_four">1F Engine Hallway</string>
+    <string name="k_yacht_five">2F Kitchen Hallway</string>
+    <string name="k_yacht_six">2F Front Stairs</string>
+    <string name="k_yacht_seven">EXT Spa Deck</string>
+    <string name="k_yacht_eight">EXT Front Deck</string>
+
+
+    <string name="k_kanal_one">EXT Construction Site</string>
+    <string name="k_kanal_two">2F Control Center</string>
+    <string name="k_kanal_three">2F Maps Office Hallway</string>
+    <string name="k_kanal_four">1F Boat Supplies Hallway</string>
+    <string name="k_kanal_five">2F Coast Guard Hallway</string>
+    <string name="k_kanal_six">EXT Sailboats</string>
+    <string name="k_kanal_seven">EXT Lockgate</string>
+
+
+    <string name="k_bartlett_one">2F Vista Hallway</string>
+    <string name="k_bartlett_two">2F Compass Hallway</string>
+    <string name="k_bartlett_three">1F Lobby</string>
+    <string name="k_bartlett_four">1F Dining Room</string>
+    <string name="k_bartlett_five">EXT Parking</string>
+    <string name="k_bartlett_six">EXT Front Entrance</string>
+
+    <string name="k_favela_one">3F Back Stairs</string>
+    <string name="k_favela_two">2F Aunt Hall</string>
+    <string name="k_favela_three">EXT Rooftops</string>
+    <string name="k_favela_four">EXT Courtyard</string>
+    <string name="k_favela_five">EXT Football Pitch</string>
+    <string name="k_favela_six">1F Stair Hall</string>
+    <string name="k_favela_seven">1F Laundry Room</string>
+
+
+    <string name="k_maps">Maps</string>
+    <string name="k_map_blueprints">Map Blueprints</string>
+
+    <string name="k_random_attacker">Random Attacker</string>
+    <string name="k_random_defender">Random Defender</string>
+    <string name="k_owned_attackers">Owned Attackers</string>
+    <string name="k_owned_defenders">Owned Defenders</string>
+
+
+    <string name="k_version">Version</string>
+    <string name="k_version_number">1.25</string>
+    <string name="k_personal_note">A Personal Note</string>
+    <string name="k_note_content">This app was developed by a player of Rainbow Six Siege and is in no way related to Ubisoft or their registered trademarks. The developer of this app has no intent to infringe on any copyrights owned by Ubisoft and Rainbow Six Siege game. This project has been hosted open source in Github nad can be accessed from below link. Any contributions to improve the quality of the applications is very much appreciated. \n\nThis app was created to help newcomers and existing players of Rainbow Six Siege to better understand the game and its core gameplay mechanics.</string>
+
+    <string name="k_visit_ubisoft">Visit Ubisoft</string>
+    <string name="k_access_github">Access Github</string>
+    <string name="k_credits">Credits</string>
+    <string name="k_ubisoft">Ubisoft</string>
+    <string name="k_ubisoft_credit">Thanks to Ubisoft, Without them this app would not be possible. Most images and data used in this application are from their website and in game content.</string>
+    <string name="k_r6maps">R6MAPS</string>
+    <string name="k_r6maps_credit">Thanks to www.r6maps.com for the detailed maps available there. Click above link to visit r6maps and check all the maps in higher resolution.</string>
+
+    <string name="k_contact_data">You can contact me via Whatsapp: +918056228755.\n\nYou can also send me a mail at: jeeva.nasa01@gmail.com</string>
+    <string name="k_ok">OK</string>
 
 
     <string name="no_grip">No Grips Available</string>
@@ -814,6 +1036,89 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
     <string name="x707thsmb">The 707th Special Mission Battalion is a special forces unit in the Republic of Korea Army Special Warfare Command.The unit was formed after the Munich massacre, which forced the South Korean government to create a counter-terrorist unit in time for the 1988 Olympics that would be held on South Korean soil.The unit has about 200 men and women organized in two assault companies, one support company, and one all-female company that could be used as bodyguards or for low-visibility operations.\n\nThe 707th SMB has also been called on by the South Korean government to prioritize potential counter-terrorist operations against any possible threats on South Korean soil. The unit is South Korea’s primary counter-terrorist and quick reaction force. The unit\’s soldiers – once distinguished by their black berets (before the standardization of the black beret for all active soldiers) – are tasked with conducting urban counter terrorist missions, and constitute the Army\’s quick-reaction force for emergencies.The battalion\'s nickname is 'White Tiger.'</string>
 
 
+    <!-- SECONDARY GADGETS -->
+
+    <string name="frag_grenade">Frag Grenade is a explosive gadget which detonates seconds after being activated.
+    \n\nFrag Grenades are activated one you equip them in your hand. They will detonate after 5 seconds. If you are holding the grenade till 3.5 seconds, you will be killed by it.
+    \n\nFrag Grenade can be used to destroy Defender Deployable Shield.
+    \n\nFrag Grenade can be used to open unreinforced hatches.
+    \n\nFrag Grenade can be used to destroy many Barbed Wire if they are close to each other.
+    \n\nFrag Grenade can be used to destroy Defender Gadgets if they are in the radius of the explosion.
+    \n\nFrag Grenade will be destroyed by Jager ADS if they come in contact with it.
+    \n\nFrag Grenade can be used to kill a Defender.
+    \n\nFrag Grenade can be cooked before throwing at target. This is useful for killing Defender without giving them time to escape from the grenade.
+    \n\nFrag Grenade will take 5 seconds before detonation.
+    \n\nFrag Grenade explosion can be used to kill Defenders from below the floor. You need good map knowledge. After finding the position of the Defender, Cook and throw the grenade at that position from below the floor targeting the ceiling. If it is a wooden floor, the Defender will be killed or take high damage from it.
+    \n\nFrag Grenades can be used to destroy Frost Welcome Mats.
+    \n\nFrag Grenades can be used to destroy Castle Armor Panels.
+    \n\nFrag Grenades can be used to destroy Bandit Batteries from below the floor. You need good map knowledge for it.
+    \n\nFrag Grenade explosion can be used to create holes in walls and floors. The hole made is not very big though.\n\n</string>
+
+    <string name="smoke_grenade">Smoke Grenade can be used to enter the objective without Defenders seeing you. The smoke from it will cover your body.
+    \n\nSmoke Grenade can be used to plant the Defuser without giving information about the plant location to the Defenders.
+    \n\nSmoke Grenade can used to assist Glaz with his Thermal scope.
+    \n\nSmoke Grenade can be thrown at Mira Black Mirror if any to deny vision through it.
+    \n\nSmoke Grenade can be thrown at any entrances and rotation holes made by Defenders to prevent them from using it.
+    \n\nSmoke Grenade can be thrown behind while pushing forward to cover your flank.\n\n</string>
+
+    <string name="breach_charge">Breaching Charge can be used to destroy unreinforced walls and floors.
+    \n\nBreaching Charge can be used to destroy Castle Armor Panels.
+    \n\nBreaching Charge will destoy any Defender gadget if they are in close proximity to the explosion from it.
+    \n\nBreaching Charge can be used to quick open a barricaded window and hot enter it while rappelling.
+    \n\nBreaching Charge can be used to destroy floors and create new angles to the Defenders below.\n\n</string>
+
+    <string name="stun_grenade">Stun Grenade can be used to blind a Defender. The Defender must look into the flash from the grenade to be blinded by it.
+    \n\nStun Grenade can blind Attackers as well as Defenders.
+    \n\nStun Grenade emits a large flash and a very loud bang. This will blind and deafen the Defenders temporarily.
+    \n\nStunned Defenders cannot see or hear for a period of 5 seconds.
+    \n\nStun Grenades will be destroyed by Jager ADS if in its line of sight.
+    \n\nStun Grenade will blink Ying even with her Goggles.
+    \n\nStun Grenade can be used to flash anyone playing behind the Mira Black mirror.
+    \n\nStun Grenade can be used to flash the Defenders in the room before Fuze uses his Cluster charges. This was Defenders will not be able to detect where the cluster charges are being placed.
+    \n\nStun Grenade need to be thrown for activation. They cannot be cooked like Frag grenades. After throwing, they will activate after a two seconds.
+    \n\nFacing away from the Stun Grenade will prevent its effects on Defenders. When partially facing the flash from Stun grenade, Defenders will be take the effects partially.\n\n</string>
+
+    <string name="claymore">Claymore is very useful to cover your behind.
+    \n\nClaymore emits two laser light on its front, which when in contact with Defenders will explode instanly. This will kill or down the Defender who comes in contact with it.
+    \n\nClaymore placement is very important, It must be placed in such a way the Defenders cannot see the laser.
+    \n\nClaymore can be shot down by the Defenders. It will be destoyed from any explosion.
+    \n\nPlacing Claymore on top of stairs is very effective. When Defenders try to come up the stairs, they will not notice the laser from the Claymore easily.
+    \n\nClaymore are effective when placed near windows and door. This will prevent the Defender who is running out and will kill them.
+    \n\nClaymoe emit a noise when Attackers have deployed them. This can be used to warn Defenders about it.
+    \n\nClaymore laser beam is very small, It can pass through a hole in the wall. This can be used to strategically place a claymore without even giving the Defenders a chance to see it.\n\n</string>
+
+
+    <string name="deployable_shield">Deployable Shield can be used to take cover from bullet fire. It will prevent the bullets from reaching you.
+    \n\nDeployable Shield can be used to prevent entry into the objective by placing it in the doorways. This way the Attackers will be forced to vault over it if they are about to enter the objective.
+    \n\nDeployable Shield can be used with Frost Welcome Mats, This way any Attacker trying to vault over it will be trapped in the Mat.
+    \n\nDeployable Shield can be used to prevent Twitch drone from entering a room. This can be used to save the Mira Black mirror from being opened by it.\n\n</string>
+
+    <string name="impact_grenade">Impact Grenade can be used to create rotations holes in objective.
+    \n\nImpact Grenade can be used to destroy unreinforced walls and floors. Using it on walls will create a perfect hole at the place of impact.
+    \n\nImpact Grenade can be used to inflict damage to Attackers. Any Attacker with low health will be killed by it.
+    \n\nImpact Grenade can be used to create holes in floors. This can be used to cover the floor below from above.
+    \n\nImpact Grenade is very useful when you are roaming. It can be used to create quick rotation holes and escape from Attackers if they are targeting you.
+    \n\nImpact Grenade can be used to open unreinforced hatches.
+    \n\nImpact Grenade will destoy most gadgets if they are in the radius of its explosion.\n\n</string>
+
+    <string name="nitro_cell">Nitro Cell can be used as explosive to kill the Attackers. Any Attacker who come in contact with its explosion will be killed instantly.
+    \n\nNitro Cell can be used to set traps in wooden floors and walls. With some intel from Defenders like Valkyrie Black eyes, Pulse Sensor, Defender Cameras. \n\nOnce the Attackers are nearby the trap, Nitro cell can be detonated to kill them instantly.
+    \n\nNitro cell needs to be activated after throwing to detonate it.
+    \n\nNitro Cell is very effective in preventing Attackers from entering the doors and windows. Throw the nitro cell at doors and windows. If any Attacker tries to come through it, activate it and kill them.
+    \n\nNitro cell can stick to any surface.
+    \n\nNitro cell damage will pass through wooden floors and walls.
+    \n\nNitro cell can be thrown through small holes if aimed perfect.
+    \n\nNitro cell will be destroyed from bullet fire and if exposed to any form of explosion.\n\n</string>
+
+    <string name="barbed_wire">
+\n\nBarbed Wire will slow the movement of Attackers if they are moving on it.
+\n\nBarbed Wire are best placed in door entranced and windows to prevent Attackers from pushing inside the objective.
+\n\nBarbed Wire can be used with Smoke. When Attackers are exposed to Smoke toxic grenades while moving through a Barbed wire, they will take more damage as they cannot move fast.
+\n\nBarbed Wire can be used to prevent Attackers from rushing into the objective.
+\n\nBarbed Wire will make a unique sound if any Attacker is moving thought it.
+Barbed Wire can be used with Bandit Shock Wire. If any Attacker is moving on those shocked Barbed wire, they will take shock damage from it. Any drone in contact with the shock from it will be destroyed.
+\n\nDefenders will not be slowed down by the Barbed wire.\n\n</string>
+
 
     <!-- OPERATOR TIPS -->
 
@@ -1292,10 +1597,10 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nAsh works well with Jackal to track any enemies below the floor and create holes in floors to kill them from above.
 	\n\nAsh can help Thatcher to help him throw EMPs at critical location by creating new lines of sight in floors or walls.
 	\n\nAsh can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
-	\n\nAsh can help Capitao to help him fire arrows at critical location by creating new lines of sight in floors or walls.
+	\n\nAsh can help Capitao to help him fire arrows at critical location by creating new lines of sight in floors or walls.\n\n
     \n\nAsh works well with Buck ,Sledge and Hibana to break the surrounding walls and floors.\n\n</string>
 
-<string name="thermite_combine">Thermite works well with Hibana and they combined can destroy most of the walls and hatches.
+    <string name="thermite_combine">Thermite works well with Hibana and they combined can destroy most of the walls and hatches.
 	\n\nThatcher can help Thermite if the area to be destroyed is jammed by Mute Signal Disruptors or Bandit Shock Wired. Thatcher can remove them with his EMP.
 	\n\nTwitch can help remove the Mute Signal Disruptor or Bandit Shock Wires using her Shock drones.
 	\n\nZofia can help Thermite in certain places and help disorient Bandit via drone hole and prevent him from doing the Bandit trick.
@@ -1303,187 +1608,187 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nThermite can open walls for Glaz to cover from long distance.
 	\n\nSledge, Buck, IQ can help Thermite in certain places to kill Bandit via drone hole with Grenades if he is in close proximity to the drone hole and is active Bandit tricking.\n\n</string>
 
-<string name="twitch_combine">Twitch Drones can be used to distract Defenders while other Attackers are pushing aggressive.
+    <string name="twitch_combine">Twitch Drones can be used to distract Defenders while other Attackers are pushing aggressive.
 	\n\nTwitch works best with Thatcher and IQ at taking out Defender gadgets as a whole.
 	\n\nTwitch can help Hibana in removing Mute Jammers or Bandit Shock Wires on the other side of the wall.
 	\n\nTwitch can help Thermite in removing Mute Jammers or Bandit Shock Wires on the other side of the wall.
 	\n\nTwitch is very useful in removing Jager ADS which destorys projectiles into the room. This is useful when any Attacker is using a projectile into the room and the ADS is preventing them from doing so.\n\n</string>
 
-<string name="montagne_combine">Montagne works with Ash,Thermite and Hibana who can create entry for him.
+    <string name="montagne_combine">Montagne works with Ash,Thermite and Hibana who can create entry for him.
 	\n\nMontagne and other Attacker who have smokes can be combined to perform a methodical Smoke plant with Ying, where all use their smokes and Ying uses her candelas to perform the plant in the confusion. Blitz can cover the Defuser at short range while Glaz covers it at long range.
 	\n\nMontagne can be used with other Attacker to provide front cover for them while they are trying to plant the Defuser.\n\n</string>
 
-<string name="glaz_combine">Thermite, Hibana, Sledge and Buck can create new lines of sight to help Glaz cover from long distance.
+    <string name="glaz_combine">Thermite, Hibana, Sledge and Buck can create new lines of sight to help Glaz cover from long distance.
 	\n\nGlaz and other Attackers who have smoke grenades can be combined to perform a methodical Smoke plant It is very hard to deny. Blitz can cover the Defuser at short range while Glaz covers it at long range.\n\n</string>
 
-<string name="fuze_combine">Fuze works well with Jackal to track any enemies below and fuzing them from above.
+    <string name="fuze_combine">Fuze works well with Jackal to track any enemies below and fuzing them from above.
 	\n\nFuze works well with Montagne to lock Defenders into a room and fuzing them from above.
 	\n\nFuze can be combined with Lion to lock Defenders into a room and fuzing them to kill them all or injure them.
 	\n\nFuze can help cover defuser after plant by pre placing cluster charges above defuser and activating them when Defenders try to defuse.\n\n</string>
 
-<string name="blitz_combine">Blitz can be used to smoke plant the defuser and cover it in short range When combined with Glaz, Montagne and Ying, They can easily plant Defuser.
+    <string name="blitz_combine">Blitz can be used to smoke plant the defuser and cover it in short range When combined with Glaz, Montagne and Ying, They can easily plant Defuser.
 	\n\nBlitz can use his smoke grenades to help Glaz with his thermal scope.\n\n</string>
 
-<string name="iq_combine">IQ can help Thatcher and Thermite in detecting if Bandit is tricking for Thermite.
+    <string name="iq_combine">IQ can help Thatcher and Thermite in detecting if Bandit is tricking for Thermite.
 	\n\nIQ can help Thatcher identify areas where gadgets are placed to throw EMP at.
 	\n\nIQ works well with Hibana and Thermite. She can detect the Bandit Battery and Mute Jammers. Using her gadget she can destroy them from above or below the floor.
 	\n\nIQ can help any Attacker identify any nitro cell traps Defenders have made.
 	\n\nIQ works well with Dokkaebi, When she calls, IQ can detect the phones if Defenders are trying to switch them off.\n\n</string>
 
-<string name="buck_combine">Buck can combine with Thermite, Hibana and Sledge They combined can destroy almost all surfaces and create chaos.
+    <string name="buck_combine">Buck can combine with Thermite, Hibana and Sledge They combined can destroy almost all surfaces and create chaos.
 	\n\nBuck can create new lines of sight for Glaz to cover from a distance.
 	\n\nBuck can also be used to destroy Mira Black Mirror by shooting from below the floor or above the floor. It requires good map knowledge.
 	\n\nBuck can help Thatcher to help him throw EMPs at critical location by creating new lines of sight in floors or walls.
 	\n\nBuck can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
 	\n\nBuck can help Capitao to help him fire arrows at critical location by creating new lines of sight in floors or walls.\n\n</string>
 
-<string name="blackbeard_combine">Blackbeard works well with Shield operators like Fuze, Blitz and Montagne. That is a lot of shields to deal with.
+    <string name="blackbeard_combine">Blackbeard works well with Shield operators like Fuze, Blitz and Montagne. That is a lot of shields to deal with.
 	\n\nBlackbeard is very effective with Ash, Zofia, Thermite, Hibana. They can create holes for Blackbeard to peek into.
 	\n\nBlackbeard is very useful to hold flank angle. It is very difficult to kill a blackbeard when his body is not visible.\n\n</string>
 
-<string name="capitao_combine">Capitao Smoke can be used to help plant Defuser and is best combined with other Attackers who have smoke grenades. With all their smokes Defenders can be made unaware of the Defuser plant location.
+    <string name="capitao_combine">Capitao Smoke can be used to help plant Defuser and is best combined with other Attackers who have smoke grenades. With all their smokes Defenders can be made unaware of the Defuser plant location.
 	\n\nCapitao can use his smoke grenades to help Glaz with his thermal scope.
 	\n\nCapitao can be combined with Buck and Sledge. Buck or Sledge can create new line of sight in floor and Capitao can use it to fire his bolts.
 	\n\nCapitao can be used aggressively to rush the objective with Ash, Hibana and IQ .\n\n</string>
 
-<string name="hibana_combine">Thermite along with Hibana can open holes in walls when under Bandit trick Use X-KAIROS on both walls and place Exothermic charge on one side. Denote them both at same time, this way Bandit cannot prevent any one side from opening.
+    <string name="hibana_combine">Thermite along with Hibana can open holes in walls when under Bandit trick Use X-KAIROS on both walls and place Exothermic charge on one side. Denote them both at same time, this way Bandit cannot prevent any one side from opening.
 	\n\nHibana with Capitao, Ash and IQ can be used aggressively and rush into objective.\n\n</string>
 
-<string name="jackal_combine">Jackal when combined with Dokkaebi is very useful in finding the Roamers.
+    <string name="jackal_combine">Jackal when combined with Dokkaebi is very useful in finding the Roamers.
 	\n\nJackal can be used with Zofia. Find the room in which the roamer is present and use Zodia Concussion grenades in it. The Defender will be disoriented and can be killed easily.
 	\n\nFuze and Jackal can locate the roamer and drive them out of the room using their gadgets. Find the location of the roamer using Jackal and palce Cluster charges in that room.\n\n</string>
 
-<string name="ying_combine">Ying works best with Attackers who have smoke grenades to do a Defuser Plant that is hard to deny. Use Montagne and Blitz to cover for Defuser.
+    <string name="ying_combine">Ying works best with Attackers who have smoke grenades to do a Defuser Plant that is hard to deny. Use Montagne and Blitz to cover for Defuser.
 	\n\nYing works with Fuze, When Ying blinds Defenders, Fuze can detonate the Cluster Charges to kill the unaware Defenders.
 	\n\nSledge, Ash, Zofia and Buck can help Ying to help her throw Candelas at critical location by creating new lines of sight in floors or walls.
 	\n\nThatcher can help Ying in removing Jager ADS before she throws the Candela.\n\n</string>
 
-<string name="zofia_combine">Zofia works well with Buck, Sledge, Hibana and Thermite. They all combined can destroy most of the walls and floors.
+    <string name="zofia_combine">Zofia works well with Buck, Sledge, Hibana and Thermite. They all combined can destroy most of the walls and floors.
 	\n\nZofia can help create new lines of sight for Glaz to cover from long distance.
 	\n\nZofia can help Blackbeard get new angles by opening the soft walls.
 	\n\nZofia can be used to disorient Bandit if Bandit tricking. This is possible if there is a drone hole next to where Bandit is tricking.\n\n</string>
 
-<string name="dokkaebi_combine">Dokkaebi works with IQ to detect phones when Defenders are trying to switch them off.
+    <string name="dokkaebi_combine">Dokkaebi works with IQ to detect phones when Defenders are trying to switch them off.
 	\n\nDokkaebi works well with Attackers like Ash, Hibana, Capitao and IQ. While Dokkaebi calls Defenders, they can rush the objective and kill the Defenders who are trying to switch off their phones.
 	\n\nDokkaebi and Jackal combined can be very effective in finding the roamer and killing them.\n\n</string>
 
-<string name="finka_combine">Finka abililty is very powerful when combined with Attackers having Light Machine Guns and Machine Pistols as their recoils are reduced to large extent when Finka boost is active.
+    <string name="finka_combine">Finka abililty is very powerful when combined with Attackers having Light Machine Guns and Machine Pistols as their recoils are reduced to large extent when Finka boost is active.
 	\n\nFinka can help Attackers recover from Ela Mines by using her ability.
 	\n\nFinka Boost will help all Attackers move through the Barbed wire easily.
 	\n\nFinka boost will help any shield Attacker aim down the sight in a instant. This can be used to instant headshot the Defenders.
 	\n\nFinka can be used well with Attackers having Stun Grenades. Finka boost will recover Attackers from the flash faster.\n\n</string>
 
-<string name="lion_combine">Lion ability works well when the Defuser has been planted. Using his ability will detect Defenders approaching the Defuser.
+    <string name="lion_combine">Lion ability works well when the Defuser has been planted. Using his ability will detect Defenders approaching the Defuser.
 	\n\nLion works well with Jackal to track the position of Roamers and resist their movement.
 	\n\nFuze can be combined with Lion to lock defenders in a room and using Cluster charges in that room to kill them or injure them a lot.
     	\n\nLion works well with Thermite to detect the Bandit if he is Bandit tricking.\n\n</string>
 
-<string name="smoke_combine">Smoke can be combined with Defenders having Barbed wire. Using smoke gas grenades when Attackers are moving through barbed wire will deal them with more damage as they stay more in the toxic smoke.
+    <string name="smoke_combine">Smoke can be combined with Defenders having Barbed wire. Using smoke gas grenades when Attackers are moving through barbed wire will deal them with more damage as they stay more in the toxic smoke.
 	\n\nSmoke works well with Mira. Staying behind the cover of Mira Black Mirrors, Smoke can prevent Attackers from planting defuser by using his Smoke toxic gas grenades over the Defuser spot.\n\n</string>
 
-<string name="mute_combine">Mute works well with Mira. When placed behind wall where Mira Black mirror is present, it will prevent Attacker from opening the wall. This is very effective in preventing Hibana from opening Mira walls.
+    <string name="mute_combine">Mute works well with Mira. When placed behind wall where Mira Black mirror is present, it will prevent Attacker from opening the wall. This is very effective in preventing Hibana from opening Mira walls.
 	\n\nMute works well with Bandit, Mute can be used to waste Thatcher EMP so that Bandit can later Shock wire the wall and Attacker have no way to open the shocked wall.
 	\n\nMute works well with Castle Armor panels. If placed in range of the armor panel, Attackers will not be able to breach the panel because their detonation device will be jammed.\n\n</string>
 
-<string name="castle_combine">Castle can be used with Pulse to detect enemy movements beyond the Armor Panel and take necessary action.
+    <string name="castle_combine">Castle can be used with Pulse to detect enemy movements beyond the Armor Panel and take necessary action.
 	\n\nMira strategies can be used with Castle to protect Mira while she uses her Black Mirror to the advantage of the Defenders.\n\n</string>
 
-<string name="pulse_combine">Pulse can be combines with other nitro cell operators to pre-place them and detonate by communicating with team mates.
+    <string name="pulse_combine">Pulse can be combines with other nitro cell operators to pre-place them and detonate by communicating with team mates.
 	\n\nPulse along with Caveira, Ela, Jager and Vigil can be used for aggressive roaming.
 	\n\nPulse can be combined with Echo. Echo can aid Pulse in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nPulse can provide information about Attackers outside to other Defenders. This can be used for run out kills while Attackers are rapelling.
 	\n\nPulse can be used with Bandit to detect where Thermite is placing his Exothermic charge and help in Bandit trick.\n\n</string>
 
-<string name="doc_combine">Doc works better with Rook to greatly improve the armor characteristics of Defenders.
+    <string name="doc_combine">Doc works better with Rook to greatly improve the armor characteristics of Defenders.
 	\n\nDoc works best with Rook because wearing a rook armor will down the Defender before being killed by Attacker, Doc when timed correctly can save the downed Defender.\n\n</string>
 
-<string name="rook_combine">Rook works best with Doc who can revive Defenders when they are down.
+    <string name="rook_combine">Rook works best with Doc who can revive Defenders when they are down.
 	\n\nRook works best with any operators who can anchor with him in the site.\n\n</string>
 
-<string name="kapkan_combine">Kapkan works well with Roamers and help them know if a Attacker is nearby. Detonation of a EDD device will alert Kapkan about a nearby Attacker. Kapkan can pass this information to the roamers.\n\n</string>
+    <string name="kapkan_combine">Kapkan works well with Roamers and help them know if a Attacker is nearby. Detonation of a EDD device will alert Kapkan about a nearby Attacker. Kapkan can pass this information to the roamers.\n\n</string>
 
-<string name="tachanka_combine">Tachanka can combine with Doc and Rook to hold the objective from the Attackers. They combined can deal high amount of gunfire.
+    <string name="tachanka_combine">Tachanka can combine with Doc and Rook to hold the objective from the Attackers. They combined can deal high amount of gunfire.
 	\n\nTachnka works well with Defender who have shield. Placing deployable shield in front of Tachanka LMG will cover him from gunfire.
 	\n\nTachank works well with Defenders who have Barbed wire. Placing Barbed wire in places where the Tachanka LMG is covering will deny the push of Attackers and make them more prone to gunfire from the LMG.
 	\n\nTachanka works well with Jager, where his ADS will prevent anyone from destroying the shield from distance. ADS will block the incoming grenades targeted at destroying the shield.\n\n</string>
 
-<string name="jager_combine">Jager works well with Defenders who are anchoring a corner and prevent Attackers from using frag grenades at them.
+    <string name="jager_combine">Jager works well with Defenders who are anchoring a corner and prevent Attackers from using frag grenades at them.
 	\n\nJager can be combined with Echo. Echo can aid Jager in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nJager works well with other roamers Ela, Pulse and Caveira and Vigil to prevent Attackers from approaching the objective asn wasting the time of Attackers.\n\n</string>
 
-<string name="bandit_combine">Bandit can be a effective roamer given his high agility. He works well with other roamers like Pulse, Ela, Jager and Caveira.
+    <string name="bandit_combine">Bandit can be a effective roamer given his high agility. He works well with other roamers like Pulse, Ela, Jager and Caveira.
 	\n\nBandit Shock wires can be used with Castle Armor Panels with Barbed wire underneath to deal damage to Attackers who come for breaching the Panels.
 	\n\nBandit can be combined with Echo. Echo can aid Bandit in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nBandit can combine with Mira. Placing a Bandit battery on the reinforced wall will prevent it from being open by Hibana or Thermite.\n\n</string>
 
-<string name="mira_combine">Mira walls can be best covered from hot breachers like Thermite and Hibana by using Bandit Shock Wire on the wall.
+    <string name="mira_combine">Mira walls can be best covered from hot breachers like Thermite and Hibana by using Bandit Shock Wire on the wall.
 	\n\nMira works well with Defenders who have deployable shield. Placing a shield on the door will prevent any Twitch drone from entering the objective to open the Black mirror.
 	\n\nMira works well with Mute who can help in preventing the Mira wall from being open by Hibana or Thermite. Mute Jammers will prevent Hibana or Thermite from activating the charge.\n\n</string>
 
-<string name="valkyrie_combine">Valkyrie works well with Defenders having Nitro cellsBlack Eyes are very useful for tracking Attackers above the floor and killing them with the help of Nitro cell to the floor. This requires good map knowledge to implement.
+    <string name="valkyrie_combine">Valkyrie works well with Defenders having Nitro cellsBlack Eyes are very useful for tracking Attackers above the floor and killing them with the help of Nitro cell to the floor. This requires good map knowledge to implement.
 	\n\nBlack Eyes Cameras can be great source for information for Roamers especially Caveira.
 	\n\nWhen Black Eye cameras are hacked by Dokkaebi, Vigil cannot be seen in it</string>
 
-<string name="caveira_combine">Caveira works best with Valyrie who can help her providing intel about Attacker movement with help of her Black Eye Cameras.
+    <string name="caveira_combine">Caveira works best with Valyrie who can help her providing intel about Attacker movement with help of her Black Eye Cameras.
 	\n\nCaveira works best with Pulse who can provide her with the intel of Attacker movement.
 	\n\nCaveira works well with other roamers like Pulse, Vigil, Ela and Jager. They can waste the time of Attackers.
 	\n\nCaveira can be combined with Echo. Echo can aid Caviera in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nCaveira works well with Lesion, If Gu Mines down any Attacker, Caveira can interrogate the Attacker who is downed.\n\n</string>
 
-<string name="echo_combine">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group. This will render them vulnerable to any roamers who are nearby.
+    <string name="echo_combine">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group. This will render them vulnerable to any roamers who are nearby.
 	\n\nEla and Yokai drone effect cannot be user on the Attacker at same time. Only one effect will be active at a time.
 	\n\nEcho can be very helpful in collecting intel and  assisting Roamers in Attacker movements.\n\n</string>
 
-<string name="frost_combine">Frost works well with Defenders who have deployable shield. Placing frost Mat next to shield will down the Attacker who tries to vault the shield.
+    <string name="frost_combine">Frost works well with Defenders who have deployable shield. Placing frost Mat next to shield will down the Attacker who tries to vault the shield.
 	\n\nSmoke can help in killing Attackers who are trapped in Frost Map by using his smoke gas grenade from longer distance.
 	\n\nFrost works well with Lesion Gu Mines, When placed in close proximity to a Frost Mat, Attackers can be killed instantly.\n\n</string>
 
-<string name="lesion_combine">Lesion works well with Frost, When Gu Mines are placed close to Welcome Mat, it can kill an Attacker instantly. Be careful not to place the Gu Mines very close to Welcome Mat which will disable the effect of Gu Mines.
+    <string name="lesion_combine">Lesion works well with Frost, When Gu Mines are placed close to Welcome Mat, it can kill an Attacker instantly. Be careful not to place the Gu Mines very close to Welcome Mat which will disable the effect of Gu Mines.
 	n\nGu Mines work well with Kapktan EDD, When placed in near proximity to it, it will cause a total damage of 70hp and more.
 	\n\nGu Mines work with Ela traps, This allows the Attacker to be disoriented and poisoned at the same time.
 	\n\nGu Mines can down Attackers if they are not careful which provides opportunity for Caveira to interrogate them.
 	\n\nLesion Gu Mines can be used to detect Attacker Movement above and with little coordination with Nitro cell operators, It can used to blow up Attackers from below.\n\n</string>
 
-<string name="ela_combine">Echo when working with Ela can cause a set of disorientation to group of Attackers who are pushing in same area.
+    <string name="ela_combine">Echo when working with Ela can cause a set of disorientation to group of Attackers who are pushing in same area.
 	\n\nEla can be combined with Echo. Echo can aid Ela in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nDisoriented with Ela or Echo one after other will cancel the previous effect Only one disorientation can be in place at a time.\n\n</string>
 
-<string name="vigil_combine">Vigil works well with roamers like Pulse, Jager, Ela and Caveira. They combined can waste the time of Attackers.
+    <string name="vigil_combine">Vigil works well with roamers like Pulse, Jager, Ela and Caveira. They combined can waste the time of Attackers.
 	\n\nVigil can be combined with Echo. Echo can aid Vigil in the roaming with help of his Yokai drone. Echo can use his Yokai drone to detect enemy movement and relay that information to the roamers.
 	\n\nVigil shotgun can create small hole in Castle Armor Panel, This can be used to kill unwary Attackers.\n\n</string>
 
 
     <!-- OPERATOR COUNTER -->
 
-<string name="sledge_counter">Pulse can be used to detect the movement of Sledge as he moves around breaking stuff.
+    <string name="sledge_counter">Pulse can be used to detect the movement of Sledge as he moves around breaking stuff.
 	\n\nDefenders can reinforce walls and hatches to prevent Sledge from breaking it.
 	\n\nRoamers are very effective in flanking Sledge from behind while he is busy breaking stuff.
 	\n\nValkyrie can spy on Sledge with the help of her Black Eye Cameras.
 	\n\nEcho drone can be used to disorient Sledge and prevent him from breaking floors and walls.\n\n</string>
 
-<string name="thatcher_counter">Jager Active Defense Systems can destroy EMPs when caught in its line of sight while throwing.
+    <string name="thatcher_counter">Jager Active Defense Systems can destroy EMPs when caught in its line of sight while throwing.
 	\n\nEcho drone most times will be very high in ceiling and will not be affected by EMP as their range is short.
 	\n\nEMP do not affect mechanical devices like Mira Black Mirror or Frost Welcome Mat.
 	\n\nPlace Defender gadgets in places where it will not be affected by Thatcher EMPs.
 	\n\nWhen Thatcher throws an EMP, Defenders can easily track his position because the light from EMP will make the angle thrown from easily detectable.\n\n</string>
 
-<string name="ash_counter">CREM breaches can be electrified and are destroyed if they come in contact with Bandit Shock Wired Shields or Barbed Wire.
+    <string name="ash_counter">CREM breaches can be electrified and are destroyed if they come in contact with Bandit Shock Wired Shields or Barbed Wire.
 	\n\nJager Active Defense System will destroy the CREM breaches if in line of sight.
 	\n\nAsh CREM cannot destoy walls if they are reinforced by Defenders.
 	\n\nAsh rushing into the objective can be prevented with the help of Gu Mines, Ela Proximity mines, Frost Welcome Mats,Castle Armor Panels and Kapkan EDDs.\n\n</string>
 
-<string name="thermite_counter">Thermite Exothermic Charges can be jammed by Mute Signal Disruptor.
+    <string name="thermite_counter">Thermite Exothermic Charges can be jammed by Mute Signal Disruptor.
 	\n\nExothermic Charges can be destroyed by Bandit Shock Wires. This counter by Bandit is called the Bandit Trick while he actively places a Shock Wire to the wall while Thermite sets an Exothermic Charge. The Exothermic charge will be destroyed by the Battery.
 	\n\nExothermic Charges show visible sparks on other side of wall to denote its activation and detonation.
 	\n\nPulse can be used to detect the position of placement of Thermite Exothermic charges and help in Bandit trick.
 	\n\nValkyrie can be used to spy Thermite with her Black Eye cameras and help in Bandit trick.
 	\n\nMira can be used on the wall to see where Thermite is placing his Exothermic charges and help in Bandit trick.\n\n</string>
 
-<string name="twitch_counter">Defender Shields blocking entrances eliminate the movement of Twitch Drone into the room. This is a reliable method to protect Mira Black Mirrors.
+    <string name="twitch_counter">Defender Shields blocking entrances eliminate the movement of Twitch Drone into the room. This is a reliable method to protect Mira Black Mirrors.
 	\n\nTwitch Drones get destroyed if it comes in contact with Bandit Shoch Wires.
 	\n\nTwitch Drones are jammed when in contact with Mute Signal Disruptors.\n\n</string>
 
-<string name="montagne_counter">Montagne is vulnerable from behind.
+    <string name="montagne_counter">Montagne is vulnerable from behind.
 	\n\nMontagne is comparatively slower than heavy operators.
 	\n\nMontagne is only covered 80 degrees and not 90 degrees at both sides when his shield is active and is vulnerable a little bit at the sides.
 	\n\nEla Grizmot mines can lower his fully extended shield when in contact.
@@ -1495,19 +1800,19 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nA nitro cell thrown behind Montagne when detonated will down or kill him.
 	\n\nLesion Gu Mines are ideal to prevent Montagne from pushing forward into the objective. Once in contact with a Gu Mine, He is be downed of killed if he does not remove it.\n\n</string>
 
-<string name="glaz_counter">Glaz is very vulnerable in short range as his weapon OTS03 is hard to use in short range.
+    <string name="glaz_counter">Glaz is very vulnerable in short range as his weapon OTS03 is hard to use in short range.
 	\n\nCastle Armor Panels can used to close entrances to objectives and prevent Glaz from peeking from long distance.
 	\n\nReinforcing critical walls will prevent Glaz from breaking it and peeking inside.
 	\n\nJager ADS can destroy Smoke grenades from Glaz and prevent him from using his Thermal Scope.\n\n</string>
 
-<string name="fuze_counter">Mute Signal Disruptor can jam the Cluster charge from being activated.
+    <string name="fuze_counter">Mute Signal Disruptor can jam the Cluster charge from being activated.
 	\n\nThere is a distinct sound made when placing the Cluster Chargess. This audio cue can be used by Defenders to vacate the room or shoot the charge.
 	\n\nJager Active Defense systems can destroy pellets as they come in line of sight to them.
 	\n\nReinforcing walls and hatches will prevent Fuze from placing his Cluster Charges.
 	\n\nFuze when placing his Cluster Charges is very vulnerable and cannot defend himself. Roamers can locate Fuze easily based on where the Cluster charge was deployed.
 	\n\nPulse is very effective in detecting Fuze with his Heartbeat Scanner. Pulse can closely follow Fuze and kill him in cover.\n\n</string>
 
-<string name="blitz_counter">Blitz shield moves away left when melee attacked to the front leaving Blitz open and vulnerable in the front, He must quickly turn right to bring the shield in front of him to prevent any frontal damage.
+    <string name="blitz_counter">Blitz shield moves away left when melee attacked to the front leaving Blitz open and vulnerable in the front, He must quickly turn right to bring the shield in front of him to prevent any frontal damage.
 	\n\nMute Signal Disruptor will jam Blitz Flash Shield if in its radius.
 	\n\nGu Mines are very effective in preventing Blitz from pushing aggressively into objective.
 	\n\nEla Grizmot mines help prevent Blitz from pushing aggressively.
@@ -1517,48 +1822,48 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nCastle Armor panels can be used to deny entry access to Blitz into the objective.
 	\n\nNitro cells on doorways and windows can be used to prevent Blitz from entering them. As Blitz cannot shoot it, If he enters he can be killed easily.\n\n</string>
 
-<string name="iq_counter">IQ can only use her pistol when she scans for Defender gadgets. The pistol is very limited in terms of firing power so she is very vulnerable in that time period.
+    <string name="iq_counter">IQ can only use her pistol when she scans for Defender gadgets. The pistol is very limited in terms of firing power so she is very vulnerable in that time period.
 	\n\nValkyrie Black eyes are very useful in detecting IQ.</string>
 
-<string name="buck_counter">Buck is vulnerable to roaming Defenders while destroying walls and floors if not careful, especially Caveira.
+    <string name="buck_counter">Buck is vulnerable to roaming Defenders while destroying walls and floors if not careful, especially Caveira.
 	\n\nDefenders can reinforce walls and floors to prevent Buck from opening them.
 	\n\nPulse can be used to detect the movement of Buck as he moves around breaking stuff.\n\n</string>
 
-<string name="blackbeard_counter">Vigil shotgun will break the shield of Blackbeard.
+    <string name="blackbeard_counter">Vigil shotgun will break the shield of Blackbeard.
 	\n\nEla submachine gun is very aggressive to deal Blackbeard .
 	\n\nSmoke SMG and Mira Vector are effective weapons to deal Blackbeard.
 	\n\nBlackbeard can be killed easily if shot in legs and body.
 	\n\nNever peek a Blackbeard unless you are confident you can kill him. You are at a great disadvantage by peeking him.
 	\n\nCastle Armor Panels are very useful in preventing Blackbeard from peeking the windows and other angles.\n\n</string>
 
-<string name="capitao_counter">Nitro cell is very effective to use in smoke and deny Defuser plant if Capitao is trying to smoke and plant.
+    <string name="capitao_counter">Nitro cell is very effective to use in smoke and deny Defuser plant if Capitao is trying to smoke and plant.
 	\n\nLesion Gu Mines are effective in preventing Capitao from rushing into the objective.
 	\n\nEla Grizmot mines are effective in preventing Capitao from rushing into the objective.
 	\n\nKapkan traps are effective in denying Capitao the entrance into objective.
 	\n\nFrost Mats are effective in trapping Capitao who rushes into objective.
 	\n\nIf you are cornered with a Asphyxiating Bolt, try to find alternative location and relocate quickly.\n\n</string>
 
-<string name="hibana_counter">Mute Signal Disruptors prevent you from detonating X-KAIROS pellets.
+    <string name="hibana_counter">Mute Signal Disruptors prevent you from detonating X-KAIROS pellets.
 	\n\nX-KAIROS pellets will be destoyed if is in contct with Bandit Shock wire.
 	\n\nX-KAIROS pellets can be destroyed by gunfire or explosives. Defenders can use nitro cell or impact grenade to destroy the pellet in activation and prevent it from opening walls, floors and hatches.\n\n</string>
 
-<string name="jackal_counter">Jackal Eyenox will be disrupted when he is near a Mute Jammer.
+    <string name="jackal_counter">Jackal Eyenox will be disrupted when he is near a Mute Jammer.
 	\n\nJackal works well with Sledge, Buck to track any enemies below the floor and create holes in floors to kill them from above.
 	\n\nCaveira is a direct counter to Jackal, Eventhough she can be tracked by him, When she enters Silent Step, Her location will not be shown like other Defenders.
 	\n\nCaveira, When she is being tracked by Jackal, At the time of ping, If she enables her Silent step, She will not be tracked like other Defenders.
 	\n\nEyenox cannot be turned ON or OFF while holding a hostage.
 	\n\nMute Signal Disruptors will interfere with his Eyenox causing static effect, which almost makes him blind.\n\n</string>
 
-<string name="ying_counter">Jager Active Defense Systems are capable of destoying it when thrown as a whole.
+    <string name="ying_counter">Jager Active Defense Systems are capable of destoying it when thrown as a whole.
 	\n\nBarbed wires will reduce Candela rolling speed.
 	\n\nBandit Shock Wires is capable of destroying Candelas when in contact with.
 	\n\nDefenders looking into the site with the help of Cameras will not be blinded if Candela is in the feed of the camera.\n\n</string>
 
-<string name="zofia_counter">Ela is resistant to Zofia Concussion effects, allowing her to recover twice as fast as other Defenders.
+    <string name="zofia_counter">Ela is resistant to Zofia Concussion effects, allowing her to recover twice as fast as other Defenders.
 	\n\nJager Active Defense System can take out Zofia grenades if they are not detonated when coming into line of sight of the ADS.
 	\n\nDefenders can reinforce walls and floors to prevent Zofia from opening them.\n\n</string>
 
-<string name="dokkaebi_counter">When Logic Bomb calls are activated, Defenders can try to hide and switch it off to prevent it from ringing.
+    <string name="dokkaebi_counter">When Logic Bomb calls are activated, Defenders can try to hide and switch it off to prevent it from ringing.
 	\n\nDoekkabi takes time to do calls or camera hacks, during this time she is very vulnerable and cannot move.
 	\n\nThe Defender phones are destroyable, which must be destroyed by another Defender if one  dies to prevent Dokkaebi from hacking into the Defender Camera Network.
 	\n\nWhen Defender cameras are hacked it displays a logo to show it is hacked for the Defenders, Defenders should shoot the hacked cameras to prevent giving away their location.
@@ -1567,73 +1872,73 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nBandit Shock Wires will destroy Defender phones when in contact.
 	\n\nVigil cannot be seen in hacked camera feed.\n\n</string>
 
-<string name="finka_counter">When under Finka boost Attackers will take more damage from Smoke toxic gas grenades.
+    <string name="finka_counter">When under Finka boost Attackers will take more damage from Smoke toxic gas grenades.
 	\n\nWhen under Finka boost Attackers will be detectable at a longer distance in Pulse Cardiac Sensor.
 	\n\nFinka boost will be cancelled when hit by Echo Yokai drone or Lesion Gu mines.\n\n</string>
 
-<string name="lion_counter">Defenders are given a warning of 3 seconds before the scan takes place to position themselves in a safe place.
+    <string name="lion_counter">Defenders are given a warning of 3 seconds before the scan takes place to position themselves in a safe place.
 	\n\nDefenders can do all actions except position movement and not be detected by the EE-One-D drone.
 	\n\nDefenders can move about freely and do all actions when they are in close proximity to a Mute Jammer.\n\n</string>
 
-<string name="smoke_counter">Thatcher can destroy the gas grenades using his EMP.
+    <string name="smoke_counter">Thatcher can destroy the gas grenades using his EMP.
 	\n\nIQ can detect smoke gas grenades and shoot them.
 	\n\nTwitch can destroy smoke gas grenades with her drones.
 	\n\nHigh speed Attackers are more likely to escape through the smoke taking less damage than Low speed Attackers.\n\n</string>
 
-<string name="mute_counter">Thatcher can destroy Mute Disruptors when in Range.
+    <string name="mute_counter">Thatcher can destroy Mute Disruptors when in Range.
 	\n\nIQ can detect Mute Disruptors and shoot them through floors, windows and doors.
 	\n\nTwitch can destroy them using her drone But if the drone is too close, it will be disrupted too.
 	\n\nWhen drones are jammed by Mute Disruptors, Attackers can destroy the jammer and recover their drones.
 	\n\nRemote detonation devices like Ash CREM, Zofia Impact grenades are not affected by Mute Signal Disruptors.\n\n</string>
 
-<string name="castle_counter">Effective ways to destroy Castle Armor Panels are using Breach charges, Ash CREM, Zofia Impact grenades, Frag grenades.
+    <string name="castle_counter">Effective ways to destroy Castle Armor Panels are using Breach charges, Ash CREM, Zofia Impact grenades, Frag grenades.
 	\n\nAsh, Zofia and Hibana can destroy the Armor Panels from a safe distance.
 	\n\nSledge Breaching Hammer and Thermite charge can take down Armor Panels easily.
 	\n\nGlaz can 12 shot Armor Panel with his sniper to destroy them.
 	\n\nFuze Cluster Charges, Ying Candela and Doekkabi shotgun create holes in Armor Panels for new line of sight.
 	\n\nArmor Panel can be destroyed when melee attacked 12 times.\n\n</string>
 
-<string name="pulse_counter">Thatchers EMP grenade will disable Heartbeat Sensor for a while before it can be reused.
+    <string name="pulse_counter">Thatchers EMP grenade will disable Heartbeat Sensor for a while before it can be reused.
 	\n\nThe sound Heartbeat Sensor emits will get louder as Attackers get close to it.
 	\n\nDokkaebi can call Defenders, thereby giving away the position of Pulse.
 	\n\nJackal is very effective in tracking Pulse footsteps and detecting his current position.
 	\n\nIQ can detect Pulse when he is using the Heartbeat Sensor. IQ can effectively try to locate him and shoot through surfaces.\n\n</string>
 
-<string name="doc_counter">Doc can be prevented from reviving any Defender by quickly killing them after they are downed.
+    <string name="doc_counter">Doc can be prevented from reviving any Defender by quickly killing them after they are downed.
 	\n\nDoc can be prevented from reviving himself by killing him as soon as he is downed.\n\n</string>
 
-<string name="rook_counter">Rook Satchel can be destroyed by Attackers.
+    <string name="rook_counter">Rook Satchel can be destroyed by Attackers.
 	\n\nAttackers can also wear Rook Armor Plates if found.
 	\n\nWearing Rook armor will down the Defender instead of being killed for first time. This can be prevented by shooting them again after being downed.
 	\n\nTwitch Shock drone can be used to kill Defenders who are downed.
 	\n\nCapitao can use his asphyxiating bolts to kill downed Defenders.
 	\n\nAny Attacker who can do any Damage with gadget can kill downed Defenders. Even throwing a flashbang can kill a downed Defender.\n\n</string>
 
-<string name="kapkan_counter">Kapkan traps can be destroyed by Thatcher EMP.
+    <string name="kapkan_counter">Kapkan traps can be destroyed by Thatcher EMP.
 	\n\nTwitch can destroy the Kapkan traps.
 	\n\nAny Attacker gadget when detonates, if the Kapkan trap is in the radius of the explosion will be destroyed.
 	\n\nKapkan traps can be destoyed by normal gunfire.
 	\n\nDrones can be effectively used to follow Kapkan and find where he places his traps.
 	\n\nIQ can detect the Kapkan traps and destroy it via walls and floors.\n\n</string>
 
-<string name="tachanka_counter">Montagne can deal bullets from LMG.
+    <string name="tachanka_counter">Montagne can deal bullets from LMG.
 	\n\nFrag grenades are very effective to kill the Defender who is using the Tachanka LMG.
 	\n\nAsh and Zofia are capable of shooting LMG with their grenades to destroy the front shield making the Defender who uses it vulnerable.
 	\n\nCapitao asphyxiating bolts are very effective to kill Defender who is using the mounted LMG.\n\n</string>
 
-<string name="jager_counter">Stun Grenade and Ying Candela can be used to burn out the ADS to further use Frag grenades to throw at Defenders. Thatcher can destroy the ADS if in radius of the EMP.
+    <string name="jager_counter">Stun Grenade and Ying Candela can be used to burn out the ADS to further use Frag grenades to throw at Defenders. Thatcher can destroy the ADS if in radius of the EMP.
 	\n\nTwitch can destoy the ADS by using her drone .
 	\n\nJager ADS can be destroyed by normal gunfire.
 	\n\nIQ can detect the Jager ADS and destroy it.\n\n</string>
 
-<string name="bandit_counter">Bandit Shock wires can be destroyed  by normal gunfire.
+    <string name="bandit_counter">Bandit Shock wires can be destroyed  by normal gunfire.
 	\n\nThatcher EMP will destroy the Shock wire if in radius.
 	\n\nTwitch can use her drone to destroy Bandit Shock wire.
 	\n\nBandit when tricking for Thermite is very vulnerable from behind.
 	\n\nIQ can detect the Bandit shock wire and destroy it.
 	\n\nBandit Shock wire can be destroyed by Attacker explosion gadgets if it comes in contact with them.\n\n</string>
 
-<string name="mira_counter">Any explosion device when in contact with the Gas canister in Black Mirrors will open it.
+    <string name="mira_counter">Any explosion device when in contact with the Gas canister in Black Mirrors will open it.
 	\n\nTwitch drones can destroy Black Mirrors leaving a hole in middle of the wall Nothing can be done to remove the hole in wall.
 	\n\nBuck, Sledge or Ash can be used to open Mira Black Mirrors from below and above the floor, Be careful in their placements.
 	\n\nNon-reinforced walls cannot be reinforced if a Black Mirror was placed in wall.
@@ -1644,30 +1949,30 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nThermite and Hibana can destroy Mira Black Mirrors Be on the lookout for them.
 	\n\nDouble Mira Black Mirrors with one open and one closed is a common strategy to intimidate Attackers with prefire.\n\n</string>
 
-<string name="valkyrie_counter">Thatcher EMP grenades will destroy Black Eyes.
+    <string name="valkyrie_counter">Thatcher EMP grenades will destroy Black Eyes.
 	\n\nTwitch can destroy Black Eyes with her darts.\n\nIQ is a direct counter to Valkyrie, She can detect any cameras thrown outside and prevent the advantage it has for Defenders.
 	\n\nDokkaebi can hack into Defender camera network including Black Eyes when she hacks a dead Defender phone.
 	\n\nAny explosion device when in contact with the Black Eye camera will destroy it.\n\n</string>
 
-<string name="caveira_counter">Interrogation will take 3 seconds and Caveira is vulnerable in that time.
+    <string name="caveira_counter">Interrogation will take 3 seconds and Caveira is vulnerable in that time.
 	\n\nDokkaebi can call and locate Caveira. Have a rotation route planned if you are pinned down by Attackers.
 	\n\nAlways drone to find out the position of Caveira. She can be very lethal for Attackers.
 	\n\nCaveira is the ultimate roamer, cover you flanks and always be ready to confront her.\n\n</string>
 
-<string name="echo_counter">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group. This will render them vulnerable.
+    <string name="echo_counter">Yokai drone when combined with Ela can produce a series of disorientation to Attackers in group. This will render them vulnerable.
 	\n\nEla and Yokai drone effect on same Attacker will only produce latest effect on the Attacker canceling the previous one.
 	\n\nEcho can be very helpful in collecting intel and  assisting Roamers in Attacker movements.\n\n</string>
 
-<string name="frost_counter">Frost Welcome Mats can destroyed by a melee hit but must be done carefully or it may down you. Hit the part that does not activate the trap.
+    <string name="frost_counter">Frost Welcome Mats can destroyed by a melee hit but must be done carefully or it may down you. Hit the part that does not activate the trap.
 	\n\nFrost Mats can be destroyed by Ash CREM, Zofia Impact grenades, Frag grenades.
 	\n\nFrost Mats can be destroyed by shooting at them.
 	\n\nFrost traps will get destroyed if in radius of a explosion from Attacker gadget.\n\n</string>
 
-<string name="lesion_counter">Gu Mines can be destroyed by Thatcher EMP when in range.
+    <string name="lesion_counter">Gu Mines can be destroyed by Thatcher EMP when in range.
 	\n\nGu mines can be destroyed by Gunfire and any explosion near to it, like Frag grenades, Ash CREM, Zofia Impact grenades and more.
 	\n\nIQ can detect Gu Mines though her Scanner and destroy them.\n\n</string>
 
-<string name="ela_counter">IQ can detect Ela Grizmot Mines and destroy them through surfaces.
+    <string name="ela_counter">IQ can detect Ela Grizmot Mines and destroy them through surfaces.
 	\n\nTwitch can destroy Grizmot Mines by shooting the dart at it.
 	\n\nThatcher can destroy any Grizmot Mines in radius of his EMP.
 	\n\nAny number of Attackers caught in the Grizmot Mines detonation proximity will be disoriented.
@@ -1675,7 +1980,7 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nZofia is less affected by Ela Grizmot mines. The Grizmot mine effect only last for half the time it lasts for other Defenders.
 	\n\nMontagne can be used to clear out the Ela mines from under the cover of his Extended Shield.\n\n</string>
 
-<string name="vigil_counter">Jackal is very effective in tracking Vigil and find him.
+    <string name="vigil_counter">Jackal is very effective in tracking Vigil and find him.
 	\n\nDokkaebi can call Vigil and find his location based on the sound from his phone.
 	\n\nEven when Vigil in cloak, he can be heard in drones and cameras if hacked by Dokkaebi.
 	\n\nIQ can detect Vigil when the ERC7 is active.
@@ -1684,5 +1989,5 @@ pushed herself even harder to peak performance.\n\nShe constantly tweaks and mod
 	\n\nFuze is effective in pushing Vigil out of a room by using his Cluster charges in that room.\n\n</string>
 
 
-    </resources>
+</resources>
 

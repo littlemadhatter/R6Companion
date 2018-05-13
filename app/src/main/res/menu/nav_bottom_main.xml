@@ -4,18 +4,18 @@
         <item
             android:id="@+id/nav_bottom_attackers"
             android:icon="@drawable/ic_attackers"
-            android:title="@string/nav_drawer_attackers" />
+            android:title="@string/k_attackers" />
         <item
             android:id="@+id/nav_bottom_defenders"
             android:icon="@drawable/ic_defenders"
-            android:title="@string/nav_drawer_defenders" />
+            android:title="@string/k_defenders" />
         <item
             android:id="@+id/nav_bottom_units"
             android:icon="@drawable/ic_units"
-            android:title="@string/nav_drawer_units" />
+            android:title="@string/k_units" />
         <item
             android:id="@+id/nav_bottom_weapons"
             android:icon="@drawable/ic_weapons"
-            android:title="@string/nav_drawer_weapons" />
+            android:title="@string/k_weapons" />
     </group>
 </menu>

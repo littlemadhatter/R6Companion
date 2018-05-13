@@ -4,10 +4,10 @@
         <item
             android:id="@+id/nav_bottom_attackers"
             android:icon="@drawable/ic_attackers"
-            android:title="@string/nav_drawer_attackers" />
+            android:title="@string/k_attackers" />
         <item
             android:id="@+id/nav_bottom_defenders"
             android:icon="@drawable/ic_defenders"
-            android:title="@string/nav_drawer_defenders" />
+            android:title="@string/k_defenders" />
     </group>
 </menu>

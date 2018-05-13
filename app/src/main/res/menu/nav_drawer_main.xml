@@ -4,34 +4,34 @@
         <item
             android:id="@+id/nav_drawer_attackers"
             android:icon="@drawable/ic_attackers"
-            android:title="Attackers" />
+            android:title="@string/k_attackers" />
         <item
             android:id="@+id/nav_drawer_defenders"
             android:icon="@drawable/ic_defenders"
-            android:title="Defenders" />
+            android:title="@string/k_defenders" />
         <item
             android:id="@+id/nav_drawer_units"
             android:icon="@drawable/ic_units"
-            android:title="Operator Units" />
+            android:title="@string/k_operator_units" />
         <item
             android:id="@+id/nav_drawer_weapons"
             android:icon="@drawable/ic_weapons"
-            android:title="Operator Weapons" />
+            android:title="@string/k_operator_weapons" />
 
         <item
             android:id="@+id/nav_drawer_speed"
             android:icon="@drawable/ic_speed"
-            android:title="Operator Speed" />
+            android:title="@string/k_operator_speed" />
 
         <item
             android:id="@+id/nav_drawer_cameras"
             android:icon="@drawable/ic_camera"
-            android:title="Camera Locations" />
+            android:title="@string/k_camera_locations" />
 
         <item
             android:id="@+id/nav_drawer_maps"
             android:icon="@drawable/ic_map"
-            android:title="Map Blueprints" />
+            android:title="@string/k_map_blueprints" />
 
 
         <item
@@ -43,6 +43,11 @@
             android:id="@+id/nav_drawer_about"
             android:icon="@drawable/ic_information"
             android:title="About R6 Companion" />
+
+        <item
+            android:id="@+id/nav_drawer_contact"
+            android:icon="@drawable/ic_book_open_variant"
+            android:title="Contact me" />
 
         <item
             android:id="@+id/nav_drawer_bug"

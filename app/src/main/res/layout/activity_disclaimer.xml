@@ -39,14 +39,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Version"
+                    android:text="@string/k_version"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="1.25"
+                    android:text="@string/k_version_number"
                     android:textColor="@color/colorAccent"
                     android:textSize="60sp" />
 
@@ -74,14 +74,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:padding="16dp"
-                    android:text="A Personal Note"
+                    android:text="@string/k_personal_note"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
-                    android:text="This app was developed by a player of Rainbow Six Siege and is in no way related to Ubisoft or their registered trademarks. The developer has no intend to infringe on any copyrights owned by Ubisoft. This project has been hosted open source in Github and can accessed from below link. Any and all contributions to improve the application are appreciated.\n\nThis app was created to help newcomers and existing players to better understand the game and its core mechanics."
+                    android:text="@string/k_note_content"
                     android:textSize="@dimen/text_size_three" />
 
 
@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
-                    android:text="Visit Ubisoft"
+                    android:text="@string/k_visit_ubisoft"
                     android:textSize="@dimen/text_size_two" />
 
                 <ImageView
@@ -145,7 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
-                    android:text="Access Github"
+                    android:text="@string/k_access_github"
                     android:textSize="@dimen/text_size_two" />
 
                 <ImageView
@@ -182,7 +182,7 @@
                     android:layout_marginBottom="32dp"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/text_size_two"
-                    android:text="Credits"/>
+                    android:text="@string/k_credits"/>
 
                 <Button
                     android:layout_width="wrap_content"
@@ -196,14 +196,14 @@
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:paddingTop="4dp"
-                    android:text="Ubisoft"
+                    android:text="@string/k_ubisoft"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thanks to Ubisoft ,Without them this app would not be possible. Most images and data used here are from their website and in-game content."
+                    android:text="@string/k_ubisoft_credit"
                     android:padding="16dp"
                     android:layout_marginBottom="16dp"
                     android:textSize="@dimen/text_size_three"/>
@@ -220,14 +220,14 @@
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:paddingTop="4dp"
-                    android:text="r6maps"
+                    android:text="@string/k_r6maps"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/text_size_two" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thanks to www.r6maps.com for the detailed maps available there. Click above link to visit r6maps and see all the maps in higher details."
+                    android:text="@string/k_r6maps_credit"
                     android:padding="16dp"
                     android:layout_marginBottom="32dp"
                     android:textSize="@dimen/text_size_three"/>

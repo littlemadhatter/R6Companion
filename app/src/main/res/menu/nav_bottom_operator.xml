@@ -4,18 +4,18 @@
         <item
             android:id="@+id/nav_bottom_info"
             android:icon="@drawable/ic_profile"
-            android:title="@string/nav_bottom_info" />
+            android:title="@string/k_info" />
         <item
             android:id="@+id/nav_bottom_primary"
             android:icon="@drawable/ic_primary"
-            android:title="@string/nav_bottom_primary" />
+            android:title="@string/k_primary" />
         <item
             android:id="@+id/nav_bottom_secondary"
             android:icon="@drawable/ic_secondary"
-            android:title="@string/nav_bottom_secondary" />
+            android:title="@string/k_secondary" />
         <item
             android:id="@+id/nav_bottom_gadget"
             android:icon="@drawable/ic_gadget"
-            android:title="@string/nav_bottom_gadget" />
+            android:title="@string/k_gadget" />
     </group>
 </menu>

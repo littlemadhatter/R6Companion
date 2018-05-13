@@ -4,14 +4,14 @@
         <item
             android:id="@+id/nav_bottom_unit_info"
             android:icon="@drawable/ic_profile"
-            android:title="Info" />
+            android:title="@string/k_info" />
         <item
             android:id="@+id/nav_bottom_unit_attacker"
             android:icon="@drawable/ic_attackers"
-            android:title="Attacker" />
+            android:title="@string/k_attackers" />
         <item
             android:id="@+id/nav_bottom_unit_defender"
             android:icon="@drawable/ic_defenders"
-            android:title="Defender" />
+            android:title="@string/k_defenders" />
     </group>
 </menu>

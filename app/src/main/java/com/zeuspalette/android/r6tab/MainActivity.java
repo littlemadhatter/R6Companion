@@ -174,6 +174,23 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(intent);
                                 break;
 
+                            case R.id.nav_drawer_contact:
+
+                                AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this, AlertDialog.THEME_DEVICE_DEFAULT_DARK);
+                                LayoutInflater inflater = getLayoutInflater();
+                                View dialogView = inflater.inflate(R.layout.dialog_text, null);
+                                dialogBuilder.setView(dialogView);
+                                TextView tV = dialogView.findViewById(R.id.dialog);
+                                tV.setText("You can contact me via Whatsapp : +918056228755 \n\n\nYou can also send me a mail at : jeeva.nasa01@gmail.com");
+                                dialogBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int id) {
+
+                                    }
+                                }).show();
+
+                                break;
+
                             case R.id.nav_drawer_bug:
 
 

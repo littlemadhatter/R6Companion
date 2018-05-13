@@ -7120,7 +7120,7 @@ public class WeaponHelper {
 
     public String getUSP40Name() {
 
-        return "Assault Rifle - USP40";
+        return "Handgun - USP40";
     }
 
     public String getUSP40D() {

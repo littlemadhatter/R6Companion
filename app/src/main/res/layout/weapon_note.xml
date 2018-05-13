@@ -35,7 +35,7 @@
             android:background="@color/colorPrimaryDark"
             android:gravity="top|left"
             android:scrollbars="vertical"
-            android:hint="@string/title_help_notes"
+            android:hint="@string/k_notes_hint"
             android:minHeight="50dp"
             android:inputType="textMultiLine|textNoSuggestions"
             android:paddingBottom="16dp"

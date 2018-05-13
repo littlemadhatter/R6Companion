@@ -6,5 +6,5 @@
         android:icon="@drawable/ic_select"
         app:showAsAction="always"
         android:iconTint="@color/colorAccent"
-        android:title="Info" />
+        android:title="@string/k_info" />
 </menu>

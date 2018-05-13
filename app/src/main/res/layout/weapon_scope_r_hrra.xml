@@ -22,7 +22,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingTop="16dp"
-            android:text="@string/title_scope"
+            android:text="@string/k_scope"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_three" />
 
