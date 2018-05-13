@@ -10,14 +10,14 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="@dimen/d8">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:padding="16dp"
-            android:text="Owned Defenders"
+            android:padding="@dimen/d16"
+            android:text="@string/k_owned_defenders"
             android:textSize="@dimen/text_size_three" />
 
         <LinearLayout
@@ -31,12 +31,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/smoke"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -54,12 +54,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/mute"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -77,12 +77,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/castle"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -109,12 +109,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/pulse"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -132,12 +132,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/doc"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -155,12 +155,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/rook"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -187,12 +187,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/kapkan"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -210,12 +210,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/tachanka"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -233,12 +233,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/jager"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -264,12 +264,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/bandit"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -287,12 +287,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/frost"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -310,12 +310,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/valkyrie"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -342,12 +342,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/caveira"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -365,12 +365,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/echo"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -388,12 +388,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/mira"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -420,12 +420,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/lesion"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -443,12 +443,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/ela"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
@@ -466,12 +466,12 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="@dimen/d16">
 
                 <ImageView
                     android:id="@+id/vigil"
-                    android:layout_width="70dp"
-                    android:layout_height="66dp"
+                    android:layout_width="@dimen/icon_randomW"
+                    android:layout_height="@dimen/icon_randomH"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
