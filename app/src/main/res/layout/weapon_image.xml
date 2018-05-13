@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginBottom="8dp"
+    android:layout_marginBottom="@dimen/d8"
     card_view:cardBackgroundColor="@color/colorDarkFour">
 
     <LinearLayout
@@ -19,16 +19,16 @@
             android:id="@+id/weapon_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="@dimen/d8"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_one" />
 
 
         <ImageView
             android:id="@+id/weapon_image"
-            android:layout_width="300dp"
-            android:layout_height="138dp"
-            android:padding="9dp" />
+            android:layout_width="@dimen/weapon_image_W"
+            android:layout_height="@dimen/weapon_image_H"
+            android:padding="@dimen/d8" />
 
 
     </LinearLayout>
