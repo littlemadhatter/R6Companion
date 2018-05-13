@@ -17,10 +17,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingTop="16dp"
+            android:paddingBottom="@dimen/d16"
+            android:paddingLeft="@dimen/d16"
+            android:paddingRight="@dimen/d16"
+            android:paddingTop="@dimen/d16"
             android:text="@string/k_grip"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_three" />
@@ -40,8 +40,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/verticalgrip" />
 
