@@ -1,19 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="h1">20sp</dimen>
-    <dimen name="h2">19sp</dimen>
-    <dimen name="h3">18sp</dimen>
-    <dimen name="h4">17sp</dimen>
-    <dimen name="h5">16sp</dimen>
-    <dimen name="h6">15sp</dimen>
-    <dimen name="p">14sp</dimen>
+    <dimen name="d48">48dp</dimen>
+<dimen name="d32">32dp</dimen>
+<dimen name="d16">16dp</dimen>
+<dimen name="d8">8dp</dimen>
+<dimen name="d4">4dp</dimen>
+<dimen name="d2">2dp</dimen>
 
 
+<dimen name="text_size_one">20sp</dimen>
+<dimen name="text_size_two">18sp</dimen>
+<dimen name="text_size_three">16sp</dimen>
+<dimen name="text_size_four">14sp</dimen>
+<dimen name="text_size_five">12sp</dimen>
+<dimen name="text_size_six">10sp</dimen>
+<dimen name="text_size_big">60sp</dimen>
 
-    <dimen name="text_size_one">20sp</dimen>
-    <dimen name="text_size_two">18sp</dimen>
-    <dimen name="text_size_three">16sp</dimen>
-    <dimen name="text_size_four">14sp</dimen>
-    <dimen name="text_size_five">12sp</dimen>
-    <dimen name="text_size_six">10sp</dimen>
+<!-- RELATIVE DIMENSIONS -->
+
+<dimen name="bottom_nav">56dp</dimen>
+<dimen name="left_drawer">300dp</dimen>
+
+<dimen name="camera_width">280dp</dimen>
+<dimen name="camera_height">157dp</dimen>
+
+<dimen name="credit_linkW">250dp</dimen>
+<dimen name="credit_linkH">99dp</dimen>
+
+
+<dimen name="operator_image">200dp</dimen>
+<dimen name="icon_mainW">60dp</dimen>
+<dimen name="icon_mainH">57dp</dimen>
+
+<dimen name="unit_flagW">50dp</dimen>
+<dimen name="unit_flagH">30dp</dimen>
+<dimen name="unit_iconW">100dp</dimen>
+<dimen name="unit_iconH">100dp</dimen>
+
+<dimen name="weapon_typeW">300dp</dimen>
+<dimen name="weapon_typeH">111dp</dimen>
+
+<dimen name="unit_operator">200dp</dimen>
+<dimen name="unit_iconW">271dp</dimen>
+<dimen name="unit_iconH">271dp</dimen>
+<dimen name="unit_flagW">102dp</dimen>
+<dimen name="unit_flagH">60dp</dimen>
+
+
+<dimen name="info_operator">200dp</dimen>
+<dimen name="info_speedW">210dp</dimen>
+<dimen name="info_speedH">61dp</dimen>
+
+<dimen name="icon_randomW">70dp</dimen>
+<dimen name="icon_randomH">66dp</dimen>
+
+<dimen name="icon_main_randomW">120dp</dimen>
+<dimen name="icon_main_randomH">120dp</dimen>
+<dimen name="icon_mainB_randomW">180dp</dimen>
+<dimen name="icon_mainB_randomH">180dp</dimen>
+<dimen name="random_buttonH">50dp</dimen>
+
+<dimen name="icon_speedW">60dp</dimen>
+<dimen name="icon_speedH">57dp</dimen>
+<dimen name="speed_statW">200dp</dimen>
+<dimen name="speed_statH">61dp</dimen>
+
+<dimen name="header_image">200dp</dimen>
+<dimen name="gadget_imageW">380dp</dimen>
+<dimen name="gadget_imageH">204dp</dimen>
+<dimen name="gadget_sec_imageW">150dp</dimen>
+<dimen name="gadget_sec_imageH">150dp</dimen>
+<dimen name="submit_tip_buttonH">50dp</dimen>
+
+<dimen name="attachment_H">100dp</dimen>
+<dimen name="weapon_image_W">300dp</dimen>
+<dimen name="weapon_image_H">138dp</dimen>
+
+<dimen name="weapon_list_image_W">300dp</dimen>
+<dimen name="weapon_list_image_H">111dp</dimen>
+<dimen name="weapon_list_opW">60dp</dimen>
+<dimen name="weapon_list_opH">57dp</dimen>
+
+
 </resources>
