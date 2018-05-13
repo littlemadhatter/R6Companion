@@ -9,7 +9,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/header_image"
         android:scaleType="centerCrop"
         android:src="@drawable/drawer_bg_chimera"/>
 
