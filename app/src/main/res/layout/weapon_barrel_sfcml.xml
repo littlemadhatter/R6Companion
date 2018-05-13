@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:layout_marginBottom="8dp"
+    android:layout_marginBottom="@dimen/d8"
     card_view:cardBackgroundColor="@color/colorDarkFour">
 
 
@@ -18,10 +18,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingTop="16dp"
+            android:paddingBottom="@dimen/d16"
+            android:paddingLeft="@dimen/d16"
+            android:paddingRight="@dimen/d16"
+            android:paddingTop="@dimen/d16"
             android:text="@string/k_barrel"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_three" />
@@ -41,8 +41,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/flashhider" />
 
@@ -64,8 +64,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/muzzle" />
 
@@ -96,8 +96,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/compensator" />
 
@@ -119,8 +119,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/suppresser" />
 
@@ -151,8 +151,8 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:paddingBottom="4dp"
+                    android:layout_height="@dimen/attachment_H"
+                    android:paddingBottom="@dimen/d4"
                     android:scaleType="centerInside"
                     android:src="@drawable/longbarrel" />
 
