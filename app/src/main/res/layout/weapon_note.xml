@@ -60,7 +60,7 @@
             android:paddingLeft="@dimen/d16"
             android:paddingRight="@dimen/d16"
             android:paddingTop="@dimen/d4"
-            android:text="Save"
+            android:text="@string/k_save"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_size_four" />
 
