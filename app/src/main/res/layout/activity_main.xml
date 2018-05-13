@@ -36,7 +36,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/bottomnavigation_main"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="@dimen/bottom_nav"
             app:itemIconTint="@color/selector_nav_bottom_main"
             android:background="@color/colorDarkFive"
             app:itemTextColor="@color/selector_nav_bottom_main"
@@ -49,7 +49,7 @@
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_drawer_main"
-        android:layout_width="300dp"
+        android:layout_width="@dimen/left_drawer"
         android:layout_height="match_parent"
         app:menu="@menu/nav_drawer_main"
         android:layout_gravity="start"
