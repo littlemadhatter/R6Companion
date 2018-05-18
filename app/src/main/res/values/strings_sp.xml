@@ -78,7 +78,7 @@
 
     <string name="k_secondary_weapon">Secundario Armas</string>
 
-    <string name="k_primary">Primary</string>
+    <string name="k_primary">Primario</string>
 
     <string name="k_secondary">Secundario</string>
 
@@ -112,7 +112,7 @@
 
     <string name="k_capacity">Capacity</string>
 
-    <string name="k_no_barrel">No Barrels Available</string>
+    <string name="k_no_barrel">No Barriles Available</string>
 
     <string name="k_no_underbarrel">No</string>
 
