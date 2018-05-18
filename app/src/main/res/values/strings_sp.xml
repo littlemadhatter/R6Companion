@@ -40,75 +40,75 @@
 
 
 
-    <string name="k_share_text">Gracias por instalar R6 Companion. Esta aplicación siempre será gratis. Toma un momento para compartir y tasa nos so that we can reach out to more people.</string>
+    <string name="k_share_text">Gracias por instalar R6 Companion. Esta aplicación siempre será gratis. Toma un momento para compartir y tasa nos para que podamos alcanzar fuera a mas gente.</string>
 
-    <string name="k_share">SHARE</string>
+    <string name="k_share">COMPARTIR</string>
 
-    <string name="k_rate">RATE</string>
+    <string name="k_rate">TARIFA</string>
 
 
 
-    <string name="k_operator_info">Operator Info</string>
+    <string name="k_operator_info">Operador Info</string>
 
-    <string name="k_name">Name</string>
+    <string name="k_name">Nombre</string>
 
-    <string name="k_birth">Birth</string>
+    <string name="k_birth">Nacimiento</string>
 
-    <string name="k_weight">Weight</string>
+    <string name="k_weight">Peso</string>
 
-    <string name="k_height">Height</string>
+    <string name="k_height">Altura</string>
 
-    <string name="k_background">Background</string>
+    <string name="k_background">Fondo</string>
 
-    <string name="k_profile">Psychological Profile</string>
+    <string name="k_profile">Perfil psicológico</string>
 
-    <string name="k_training">Training</string>
+    <string name="k_training">Formación</string>
 
-    <string name="k_experience">Experience</string>
+    <string name="k_experience">Experiencia</string>
 
-    <string name="k_notes">Notes</string>
+    <string name="k_notes">Notas</string>
 
 
 
     <string name="k_info">Info</string>
 
-    <string name="k_gadget">Gadget</string>
+    <string name="k_gadget">Artilugio</string>
 
-    <string name="k_operator_gadget">Operator Gadget</string>
+    <string name="k_operator_gadget">Operador Artilugio</string>
 
-    <string name="k_secondary_weapon">Secondary Weapon</string>
+    <string name="k_secondary_weapon">Secundario Armas</string>
 
     <string name="k_primary">Primary</string>
 
-    <string name="k_secondary">Secondary</string>
+    <string name="k_secondary">Secundario</string>
 
-    <string name="k_primary_weapon">Primary Weapon</string>
+    <string name="k_primary_weapon">Primario Armas</string>
 
     <string name="k_stats">Stats</string>
 
-    <string name="k_scope">Scopes</string>
+    <string name="k_scope">Alcances</string>
 
-    <string name="k_barrel">Barrels</string>
+    <string name="k_barrel">Barriles</string>
 
     <string name="k_grip">Grips</string>
 
     <string name="k_underbarrel">Underbarrels</string>
 
-    <string name="k_extra_notes">EXTRA NOTES</string>
+    <string name="k_extra_notes">EXTRA NOTAS</string>
 
-    <string name="k_notes_hint">Enter notes here ..</string>
+    <string name="k_notes_hint">Entrar notas aquí ..</string>
 
-    <string name="k_save">SAVE</string>
-
-
+    <string name="k_save">SALVAR</string>
 
 
 
-    <string name="k_damage">Damage</string>
 
-    <string name="k_mobility">Mobility</string>
 
-    <string name="k_fire_rate">Fire Rate</string>
+    <string name="k_damage">Dañar</string>
+
+    <string name="k_mobility">Movilidad</string>
+
+    <string name="k_fire_rate">Velocidad de fuego</string>
 
     <string name="k_capacity">Capacity</string>
 
